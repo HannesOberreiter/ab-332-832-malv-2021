@@ -1,0 +1,44 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+
+*.log
+*.html
+
+
+.DS_Store
+
+# Bookdown
+_bookdown_files/
+_book/ 
+
+# knitr and R markdown default cache directories
+*_cache/
+/cache/
+/libs/
+/Treatment-Costs_files/
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+# R Environment Variables
+.Renviron
+
+# Example code in package build process
+*-Ex.R
+
+# Output files from R CMD build
+/*.tar.gz
+
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+
+
