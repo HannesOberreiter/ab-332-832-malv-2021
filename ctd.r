@@ -4,6 +4,7 @@ library(tidyverse)
 library(glue)
 library(oce)
 library(ggh4x)
+library(ggrepel)
 
 source("functions/functions.R")
 
@@ -209,6 +210,62 @@ p <- ctd_sample %>%
 
 fSaveImages(p, "sample_params", h = 6)
 
+# Water masses
+# Temp Y
+# Salinity X
+
+watermasses <- tribble(
+    ~ext, ~long, ~short, ~temp_low, ~temp_high, ~salinity_low, ~salinity_high,
+    "External", "Atlantic Water", "AW", 3, 5, 34.9, 35,
+    "External", "Arctic Water", "ArW", -2, 0, 34.3, 34.8,
+    "Local", "Surface Water", "SW", 1, 5, 30, 34,
+    "Local", "Local Water", "LW", -2, 1, 32, 35,
+    "Local", "Winter-Cooled Water", "WCW", -2, -0.50, 34.4, 35,
+    "Mixed", "Intermediate Water", "IW", 1.0, 5, 34, 34.7,
+    "Mixed", "Transformed Atlantic Water", "TAW", 1, 3, 34.7, 34.9
+) %>%
+    mutate(
+        long = forcats::fct_relevel(long, "Arctic Water", "Atlantic Water", "Surface Water", "Local Water", "Winter-Cooled Water", "Intermediate Water", "Transformed Atlantic Water")
+    )
+
+#    sample_group = forcats::fct_relevel(sample_group, "deep", "15", "0")
+
+
+p <- ggplot(ctd_sample, aes(y = temp, x = sal)) +
+    geom_rect(
+        data = watermasses %>% filter(ext != "External"),
+        mapping = aes(ymin = temp_low, ymax = temp_high, xmin = salinity_low, xmax = salinity_high, fill = long),
+        inherit.aes = FALSE,
+        alpha = 1
+    ) +
+    geom_rect(
+        data = watermasses %>% filter(ext == "External" | short %in% c("WCW", "TAW")),
+        mapping = aes(ymin = temp_low, ymax = temp_high, xmin = salinity_low, xmax = salinity_high, fill = long),
+        inherit.aes = FALSE,
+        alpha = 1
+    ) +
+    geom_point(
+        aes(shape = location),
+        color = "black",
+        size = 3
+    ) +
+    scale_fill_manual(
+        values = colorBlindBlack8,
+        name = "Water masses"
+    ) +
+    scale_shape_discrete(name = "Locations") +
+    scale_y_continuous(breaks = c(-2:5)) +
+    scale_x_continuous(breaks = c(30:35)) +
+    ggrepel::geom_label_repel(
+        aes(label = paste0(location, " (", sample_group, ")")),
+        color = "black"
+    ) +
+    labs(
+        x = "Salinity [psu]",
+        y = "Temperature [°C]"
+    )
+
+fSaveImages(p, "water_masses", h = 7, w = 10)
 
 # Plot Fluoresence
 # f_gml = Chlorophyl based on fluoresence g/ml
