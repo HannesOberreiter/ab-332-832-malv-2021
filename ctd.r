@@ -158,32 +158,57 @@ ctd_sample <- ctd %>%
     group_by(location, sample_group) %>%
     summarise(
         across(where(is.double), function(x) {
-            mean(x) %>% round(1)
+            mean(x) %>% round(2)
         })
     ) %>%
-    glimpse() %>%
-    mutate(
-        sample_group = forcats::fct_relevel(sample_group, "deep", "15", "0")
-    )
+    glimpse() # %>%
+# mutate(
+#    sample_group = forcats::fct_relevel(sample_group, "deep", "15", "0")
+# )
 
-ctd_sample %>%
+p <- ctd_sample %>%
     select(sample_group, location, sal, temp, opmg_l, f_mg_l) %>%
     pivot_longer(-c("sample_group", "location")) %>%
     group_by(name) %>%
-    mutate(standard_value = (value - mean(value)) / sd(value)) %>%
-    filter(location == "ISA") %>%
+    mutate(
+        error = sqrt(var(value) / length(value)),
+        label = case_when(
+            name == "sal" ~ "Practical Salinity",
+            name == "temp" ~ "Temperature [°C]",
+            name == "f_mg_l" ~ "Chlorophyll [g/ml]",
+            name == "opmg_l" ~ "Oxygen Partial Pressure [g/ml]"
+        )
+    ) %>%
+    # filter(location == "ISA") %>%
     ggplot(
-        aes(y = value, color = sample_group)
+        aes(y = value, x = sample_group, fill = location)
     ) +
-    scale_fill_viridis_c() +
-    geom_bar(show.legend = FALSE) +
-    # geom_label(
-    #    fill = "white"
-    # ) +
+    geom_col(position = "dodge") +
+    geom_errorbar(
+        aes(ymin = value - error, ymax = value + error),
+        width = 0.2,
+        position = position_dodge(width = 0.9)
+    ) +
+    theme_bw() +
+    scale_fill_manual(
+        values = c(
+            "#E69F00", "#56B4E9", "#009E73", "#CC79A7"
+        ),
+        guide = guide_legend("Location")
+    ) +
+    scale_y_continuous(breaks = scales::pretty_breaks()) +
     labs(
-        y = "Watersample Depth [m]",
-        x = "Location"
-    )
+        y = "",
+        x = "Sample Depth [m]"
+    ) +
+    theme(
+        panel.grid = element_blank(),
+        panel.grid.major.y = element_line(linetype = "dotted", color = "gray90")
+    ) +
+    facet_wrap(~label, scale = "free_y")
+
+fSaveImages(p, "sample_params", h = 6)
+
 
 # Plot Fluoresence
 # f_gml = Chlorophyl based on fluoresence g/ml
