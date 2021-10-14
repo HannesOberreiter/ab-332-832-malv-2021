@@ -1,8 +1,9 @@
-# Creating Sample Map with Oceanographic Images
+# Creating Sample Map with Oceanographic Images ----
 library(ggOceanMaps)
 library(tidyverse)
 library(sf)
 
+# Positional Data ----
 samples <- tibble(
     side = c("BAB", "IsA", "IsK", "IsG"),
     lat = c(78.658333, 78.255333, 78.3207, 78.128883),
@@ -12,6 +13,7 @@ samples <- ggOceanMaps::transform_coord(samples, bind = TRUE)
 # samples <- st_as_sf(samples, coords = c("lat", "lon"), crs = 4326)
 # samples <- st_transform(samples, crs = 32633)
 
+# Plotting ----
 p <- basemap(
     limits = c(13.0, 17.5, 78.0, 78.8),
     lon.interval = 0.5,
