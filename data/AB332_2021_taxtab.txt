@@ -1,0 +1,1378 @@
+OTUname	acc	Kingdom	Supergroup	Phylum	Tax1	Tax2	Species	Id	E-val	bit	length
+OTU1	AB120004.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_helveticum	99.50	0.0	732	402
+OTU10	FJ032662.1	Eukaryota	stramenopiles	MASTs	MAST_1	MAST_1a	DH22_2A47	100.00	0.0	752	407
+OTU100	GQ354272.1	Eukaryota	stramenopiles	Dictyochophyceae[silicoflagellates]	Dictyochophyceae[silicoflagellates]	Rhizochromulinales	Rhizochromulina	75.39	2,00E-28	119	256
+OTU1001	AF290083.2	Eukaryota	stramenopiles	MASTs	MAST_2	MAST_2	DH148_5_EKD52	98.03	0.0	704	406
+OTU1002	HQ901764.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Oligohymenophorea	Uronemella	Uronemella_filificum	88.71	1,00E-81	296	248
+OTU1003	EU792979.1	Eukaryota	Alveolata	MALVs	MALV_II_G_group	Guillou_19	Guillou_19	96.61	0.0	636	383
+OTU1004	AY664971.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_NW414.36	Dino_clone_SCM15C21	98.76	0.0	715	402
+OTU1005	EF172942.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	87.16	2,00E-129	455	405
+OTU1006	AB252658.1	Eukaryota	stramenopiles	PX_clade	PX_clade	Sphacelariales	Choristocarpus	89.41	6,00E-149	520	425
+OTU1007	DQ303924.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Protaspis	98.29	0.0	719	410
+OTU1009	EU247834.1	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	Chrysosphaerales	Chrysosaccus	89.90	6,00E-149	520	406
+OTU101	AF133819.1	Eukaryota	stramenopiles	Eustigmatophyceae	Eustigmatophyceae	Eustigmatales	Nannochloropsis	90.46	6,00E-154	536	409
+OTU1010	AJ564772.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	97.74	0.0	688	399
+OTU1013	FJ844428.1	Eukaryota	Alveolata	MALVs	MALV_IV_[Syndinales]	Syndiniales[groupIV]	Syndiniales[groupIV]	97.03	0.0	676	404
+OTU1014	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	98.23	0.0	691	395
+OTU1015	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	95.53	0.0	643	403
+OTU1017	AY954993.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP1195_clade_C	98.48	0.0	697	395
+OTU1018	EF172837.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.6	Guillou_II.6	93.53	1,00E-170	592	402
+OTU1019	AF167155.1	Eukaryota	stramenopiles	Bolidophyceae	Bolidophyceae	Bolidomonas	Bolidomonas	92.86	5,00E-169	586	406
+OTU102	EF172923.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.20	Guillou_II.20	95.05	0.0	630	404
+OTU1020	FN999015.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Oligohymenophorea	Durchoniella_ALS_2010b	Durchoniella_ALS_2010b	91.05	4,00E-150	523	391
+OTU1022	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	94.25	1,00E-175	608	400
+OTU1023	EU039890.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Nassophorea	Nassula	Nassula_sp.	82.66	1,00E-95	342	398
+OTU1027	AY381157.1	Eukaryota	stramenopiles	MASTs	MAST_3	MAST_3	HE000427.20	88.78	9,00E-142	496	410
+OTU1029	EU780626.1	Eukaryota	Alveolata	MALVs	MALV_II_F_group	Guillou_26	Guillou_26	97.25	0.0	678	400
+OTU1033	AM490985.2	Eukaryota	Haptophyceae[prymnesiophytes]	Syracosphaerales_Zygodiscales	Syracosphaerales	Rhabdosphaeraceae	Algirosphaera	99.75	0.0	737	402
+OTU1035	FR846196.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Silicofilosea	Thaumatomastix	99.76	0.0	754	411
+OTU1038	EU818590.1	Eukaryota	Alveolata	MALVs	MALV_II_E_group	Guillou_22	Guillou_22	97.74	0.0	686	399
+OTU1039	AY827955.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gymnodinium_sensu_lato	Gymnodinium_sp.MUCC284	92.56	3,00E-166	577	403
+OTU104	FJ844428.1	Eukaryota	Alveolata	MALVs	MALV_IV_[Syndinales]	Syndiniales[groupIV]	Syndiniales[groupIV]	95.27	0.0	638	402
+OTU1041	EU503538.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Oligohymenophorea	Hyalophysa	Hyalophysa_lwoffi	95.85	4,00E-180	623	386
+OTU1042	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_E_group	Guillou_14_15	Guillou_14_15	84.31	8,00E-108	383	408
+OTU1044	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	95.51	0.0	641	401
+OTU1045	AB295041.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP1545_clade_D	88.25	3,00E-136	477	400
+OTU1046	EF058237.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Peridiniales_incerate_sedis_Pentapharsodinium	Glenodinium	97.51	0.0	688	402
+OTU1047	AF022192.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gonyaulacales	Ceratiaceae_Ceratium	Ceratium	99.50	0.0	732	402
+OTU1048	HM483394.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.5	Guillou_II.5	93.07	1,00E-169	588	404
+OTU1049	DQ025753.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP2099_Arctic	100.00	0.0	715	387
+OTU105	AJ564772.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	95.24	0.0	632	399
+OTU1051	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	95.76	0.0	647	401
+OTU1052	AM491027.2	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Platychrysis	97.76	0.0	693	402
+OTU1053	X85388.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Cymatosirales	Papiliocellulus	91.22	7,00E-158	549	410
+OTU1056	AJ246278.1	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	98.51	0.0	710	402
+OTU1057	EU780604.1	Eukaryota	Alveolata	MALVs	MALV_III_[Syndinales]	Envrion_III.A	Envrion_III.A	91.63	2,00E-159	555	406
+OTU1058	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	97.51	0.0	686	401
+OTU106	AF274254.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Amphidinium	Amphidinium_longum	99.00	0.0	721	402
+OTU1060	HM483394.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	96.52	0.0	665	402
+OTU1061	DQ146405.1	Eukaryota	Alveolata	MALVs	MALV_IV_[Syndinales]	Syndiniales[groupIV]	Syndiniales[groupIV]	100.00	0.0	741	401
+OTU1063	AB017127.3	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Pterosperma	90.35	3,00E-151	527	404
+OTU1064	EF173017.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.6	Guillou_II.6	96.76	0.0	667	401
+OTU1066	HM483394.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	91.34	3,00E-157	547	404
+OTU1068	EU793379.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	94.75	4,00E-180	623	400
+OTU107	AB017127.3	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Pterosperma	96.27	0.0	660	402
+OTU1070	AY541683.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Pelagostrobilidium	Pelagostrobilidium_neptuni	94.43	1,00E-174	604	395
+OTU1071	AM491027.2	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Platychrysis	97.26	0.0	682	402
+OTU1076	EU500144.1	Eukaryota	stramenopiles	Labyrinthulida	Labyrinthulida	Thraustochytriidae	Oblongichytrium_PBS03	89.43	9,00E-147	512	407
+OTU1079	EF172923.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.20	Guillou_II.20	93.30	3,00E-171	593	403
+OTU108	FJ032664.1	Eukaryota	stramenopiles	MASTs	MAST_1	MAST_1c	DH18_4A29	99.75	0.0	739	403
+OTU1080	EU780604.1	Eukaryota	Alveolata	MALVs	MALV_III_[Syndinales]	Environ_III.O	Environ_III.O	89.90	7,00E-148	516	406
+OTU1081	EF173017.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.6	Guillou_II.6	92.29	2,00E-163	568	402
+OTU1082	EF058252.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Woloszynskiaceae	Woloszynskia_halophila_strain_WHTV_S1	99.00	0.0	717	400
+OTU1085	HM483394.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.5	Guillou_II.5	88.42	7,00E-138	483	406
+OTU1086	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	95.04	0.0	632	403
+OTU1088	AY381217.1	Eukaryota	stramenopiles	MASTs	MAST_9	MAST_9	BL010625.31	96.51	0.0	662	401
+OTU109	GQ365798.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	97.24	0.0	676	399
+OTU1090	AF022199.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gonyaulacales	Goniodomataceae_Alexandrium	Alexandrium_ostenfeldii_strain_LSE05	85.22	3,00E-116	411	406
+OTU1091	EF058237.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Peridiniales_incerate_sedis_Pentapharsodinium	Glenodinium	99.00	0.0	721	402
+OTU1093	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	96.96	0.0	664	395
+OTU1094	Y16232.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Prorocentrales	Prorocentraceae_Prorocentrum	Prorocentrum_mexicanum	96.77	0.0	671	403
+OTU1095	AY970653.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Perdiniaceae_Peridinium	Peridinium_aciculiferum_isolate_PAER1	96.77	0.0	671	402
+OTU1097	AJ564772.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	99.75	0.0	732	399
+OTU1098	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	97.97	0.0	686	395
+OTU1099	AY381157.1	Eukaryota	stramenopiles	MASTs	MAST_3	MAST_3	HE000427.20	99.01	0.0	725	404
+OTU11	FN263030.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	96.27	0.0	658	402
+OTU110	AB275066.1	Eukaryota	Choanoflagellates	Choanoflagellida	Crespedida	Crespedida	DSGM66	93.23	1,00E-169	588	399
+OTU1101	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_D_group	Guillou_13_23	Guillou_13_23	84.03	1,00E-105	375	407
+OTU1102	AF363196.2	Eukaryota	stramenopiles	MASTs	MAST_7	MAST_7	ANT12_10	98.50	0.0	708	401
+OTU1104	AY116220.1	Eukaryota	stramenopiles	MASTs	MAST_8	MAST_8	ANT12_26	91.48	1,00E-160	558	411
+OTU1105	AM490983.2	Eukaryota	Haptophyceae[prymnesiophytes]	Syracosphaerales_Zygodiscales	Zygodiscales	Helicosphaeraceae	Helicosphaera	96.77	0.0	671	403
+OTU1106	EF165120	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	unclassified_Chrysophyte	Chrysophyte_clone_MALINA_St320_ES069_E8	87.90	4,00E-135	473	405
+OTU111	DQ186531.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Amphidinium	Amphidinium_cf._rhynchocephalum_UTEX_LB_1946	76.83	2,00E-30	126	246
+OTU1113	EF172987.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	95.02	0.0	632	402
+OTU1114	AB120003.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_rubrum	93.03	1,00E-169	588	402
+OTU1116	AY919816	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	unclassified_Chrysophyte	Chrysophyte_Lake_Georges_clone_LG47_07	95.05	0.0	636	404
+OTU1117	AF274260	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gymnodinium	Gymnodinium_sp.	99.24	0.0	712	394
+OTU1118	DQ314810.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cryothecomonad_NW617.37	95.61	0.0	658	410
+OTU112	FJ888597.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Podolampadaceae_Podolampas	Podolampas	98.76	0.0	715	402
+OTU1124	X73999.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mantoniella	98.49	0.0	701	397
+OTU1126	HM483394.1	Eukaryota	Alveolata	MALVs	MALV_II_G_group	Guillou_24	Guillou_24	88.70	2,00E-139	488	407
+OTU1127	AF399162.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Tintinnids	Tintinnopsis	Tintinnopsis	90.91	9,00E-152	529	396
+OTU1128	DQ779991.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gymnodinium_sensu_largo	Gymnodinium_aureolum	99.50	0.0	726	399
+OTU1129	EU780604.1	Eukaryota	Alveolata	MALVs	MALV_III_[Syndinales]	Envrion_III.A	Envrion_III.A	96.77	0.0	671	403
+OTU113	AY268045.1	Eukaryota	Rhizaria	Sticholonche	Sticholonche	Sticholonchidae	Sticholonche	92.06	6,00E-99	353	252
+OTU1130	HQ912624.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Biddulphiales	Biddulphiopsis	87.80	7,00E-133	466	410
+OTU1132	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	94.79	0.0	627	403
+OTU1135	GU819882.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_Ar1353	Dino_clone_Ar1353d50	87.59	9,00E-132	462	403
+OTU1136	HM483394.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	97.26	0.0	682	402
+OTU1138	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	94.19	2,00E-173	601	396
+OTU1139	FN690451.1	Eukaryota	Choanoflagellates	Choanoflagellida	Acanthoecida	Stephanoecidae	Diaphanoeca_1b_B4_Baltic_Ice	92.94	4,00E-170	590	411
+OTU114	EF527108.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_NOR26.29	Dino_clone_SIF_1G6	99.75	0.0	737	402
+OTU1142	AY881968.1	Eukaryota	stramenopiles	Diatoms	Bacillariophyceae[raphid	pennate_diatoms]	Bacillariales	Nitzschia	98.76	0.0	715	402
+OTU1144	EF172955.1	Eukaryota	Alveolata	MALVs	MALV_II_D_group	Guillou_8	Guillou_8	93.53	7,00E-173	599	402
+OTU1145	AJ506975.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Dinophysiales	Dinophysiaceae_Dinophysis	Dinophysis	99.75	0.0	737	402
+OTU1147	AB246693.1	Eukaryota	Rhizaria	Polycystinea	Polycystinea	Spumellaria	Larcopyle	91.48	2,00E-159	555	411
+OTU1148	DQ514884.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Thalassiosirales	Thalassiosira	99.26	0.0	732	405
+OTU115	FJ032668.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	98.76	0.0	713	402
+OTU1150	DQ303924.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Protaspis	98.54	0.0	725	410
+OTU1151	AF411273.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cryothecomonad_NW617.37	96.34	0.0	673	410
+OTU1152	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mamiella	93.78	2,00E-173	601	402
+OTU1154	EF172987.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.5	Guillou_II.5	90.07	2,00E-149	521	403
+OTU1155	EU500144.1	Eukaryota	stramenopiles	MASTs	MAST_10	MAST_10	hotxp2a1	90.91	3,00E-156	544	407
+OTU116	EF432538.1	Eukaryota	Choanoflagellates	Choanoflagellida	unclassified_Choanoflagellida	unclassified_Choanoflagellida	Choanoflagellida_sp._SL117	95.51	0.0	638	401
+OTU1160	AM490984.2	Eukaryota	Haptophyceae[prymnesiophytes]	Coccosphaerales	Coccosphaerales	Pontosphaeraceae	Scyphosphaera	98.76	0.0	715	402
+OTU1163	DQ779990.2	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_DinoRS24	Brachidinium	85.71	2,00E-119	422	406
+OTU1166	AY381157.1	Eukaryota	stramenopiles	MASTs	MAST_3	MAST_3	HE000427.20	93.84	3,00E-176	610	406
+OTU1168	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	96.52	0.0	664	402
+OTU117	AF411273.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cryothecomonad_NW617.37	97.56	0.0	701	410
+OTU1170	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	97.72	0.0	680	395
+OTU1174	DQ314813.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	unclassified_Cercozoa	Cercozoa_clone_NOR46.15	97.32	0.0	697	410
+OTU1175	AB120001.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_spirale	98.76	0.0	715	402
+OTU118	DQ314810.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cryothecomonad_NW617.37	99.51	0.0	747	410
+OTU1183	AB120002.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_fusiforme	98.76	0.0	715	402
+OTU1184	AF509625.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Dolichomastix	95.49	0.0	638	399
+OTU1186	DQ314810.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cryothecomonad_NW617.37	95.85	0.0	664	410
+OTU1188	AB295041.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Cochlodinium	Cochlodinium_fulvescens	87.56	3,00E-131	460	402
+OTU1189	FJ888597.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gonyaulacales	Goniodomataceae_Alexandrium	Alexandrium_sp._CCMP1911_clone_12	84.94	4,00E-115	407	405
+OTU119	AJ786648.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Parastrombidinopsis	Parastrombidinopsis_shimi	89.47	7,00E-143	499	399
+OTU1193	EU818590.1	Eukaryota	Alveolata	MALVs	MALV_II_E_group	Guillou_22	Guillou_22	91.23	1,00E-155	542	399
+OTU1195	AY954993.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP1195_clade_C	98.99	0.0	712	397
+OTU1196	FJ590769.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Thalassiosirales	Minidiscus	99.01	0.0	726	405
+OTU120	EF165120	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	Chromulinales	Kephyrion_CCMP3057	88.42	2,00E-138	484	406
+OTU1203	FN599060.1	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	99.25	0.0	726	402
+OTU1204	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	93.53	2,00E-172	597	402
+OTU1205	DQ647534.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	unclassified_Cercozoa	Cercozoa_clone_AD6.07	91.76	2,00E-98	351	255
+OTU1207	HM596542.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	85.75	2,00E-119	422	407
+OTU1208	AY541684.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium	Strombidium	98.22	0.0	689	394
+OTU1209	AY665083.1	Eukaryota	Katablepharidophyta	Katablepharidaceae	Katablepharidaceae	unclassified_Katablepharidaceae	Katablepharidophyte_clone_SCM37C29	97.49	0.0	682	399
+OTU121	DQ093369.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Thalassiosirales	Thalassiosira	98.52	0.0	715	406
+OTU1210	AB017127.3	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Pterosperma	96.00	0.0	651	400
+OTU1211	EU371175.1	Eukaryota	Choanoflagellates	Choanoflagellida	Acanthoecida	Stephanoecidae	Diaphanoeca_NPK2_136	94.06	1,00E-174	604	404
+OTU1212	HQ869322.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	unclassified_Cercozoa	Cercozoa_clone_SHBA662	85.71	3,00E-116	411	399
+OTU1218	AY143573.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Strobilidium	Strobilidium_caudatum	92.21	1,00E-160	558	398
+OTU122	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	95.29	0.0	638	403
+OTU1222	EF526932.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cercozoa_clone_SA24H12	98.78	0.0	730	411
+OTU1225	AB183673.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gonyaulacales	Goniodomataceae_Alexandrium	Alexandrium_ostenfeldii_strain_LSE05	86.24	7,00E-123	433	407
+OTU1228	DQ314813.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	unclassified_Cercozoa	Cercozoa_clone_NOR46.15	96.10	0.0	669	410
+OTU123	EU090013.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Chaetocerotales	Chaetoceros	100.00	0.0	743	402
+OTU1235	AM490984.2	Eukaryota	Haptophyceae[prymnesiophytes]	Coccosphaerales	Coccosphaerales	Pontosphaeraceae	Scyphosphaera	95.05	0.0	634	404
+OTU1238	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	98.74	0.0	702	396
+OTU1247	AJ404886.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Pyramimonas	94.80	0.0	627	404
+OTU125	X65149.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Colpodea	Sorogena	Sorogena_stoianovitchae	80.10	3,00E-77	281	392
+OTU1251	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	97.72	0.0	680	395
+OTU1253	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	97.51	0.0	686	401
+OTU1256	DQ314811.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cryothecomonad_NOR46.14	98.76	0.0	717	404
+OTU126	NULL	No	NULL	NULL	NULL	NULL
+OTU1261	FJ032668.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	95.52	0.0	643	402
+OTU1265	EU500144.1	Eukaryota	stramenopiles	Labyrinthulida	Labyrinthulida	Thraustochytriidae	Oblongichytrium_PBS03	89.98	2,00E-149	521	409
+OTU1267	EF140623.1	Eukaryota	stramenopiles	Diatoms	Bacillariophyceae[raphid	pennate_diatoms]	Bacillariales	Fragilariopsis	99.26	0.0	734	406
+OTU1268	HQ829180.1	Eukaryota	Choanoflagellates	Choanoflagellida	Acanthoecida	Stephanoecidae	Stephanoecidae_SL163	87.56	3,00E-131	460	402
+OTU127	FJ032668.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	100.00	0.0	743	402
+OTU128	AB474963	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	Hibberdiales	Chromophyton	90.62	5,00E-154	536	405
+OTU1280	EF526932.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cercozoa_clone_SA24H12	98.53	0.0	719	408
+OTU129	FJ888597.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gonyaulacales	Goniodomataceae_Alexandrium	Alexandrium_sp._CCMP1911_clone_12	85.19	1,00E-116	412	405
+OTU1291	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	97.97	0.0	686	395
+OTU1293	AY116220.1	Eukaryota	stramenopiles	MASTs	MAST_8	MAST_8	ANT12_26	94.15	5,00E-179	619	410
+OTU1298	AY954993.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP1195_clade_C	98.74	0.0	706	397
+OTU13	AF022199.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Lepidodinium	Gymnodiniaceae_Gymnodinium_sensu_lato	Lepidodinium	98.76	0.0	715	402
+OTU130	EF455763.1	Eukaryota	stramenopiles	Pelagophyceae	Pelagophyceae	Pelagomonadales	Pelagomonas	100.00	0.0	752	407
+OTU1308	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	94.79	0.0	627	403
+OTU131	AJ786648.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Strobilidium	Strobilidium_caudatum	89.20	4,00E-140	490	398
+OTU1312	DQ093369.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Thalassiosirales	Thalassiosira	99.75	0.0	743	405
+OTU1318	AB275066.1	Eukaryota	Choanoflagellates	Choanoflagellida	Acanthoecida	Stephanoecidae	Stephanoecidae_SL163	91.29	1,00E-155	542	402
+OTU132	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	98.48	0.0	697	395
+OTU1321	AB120002.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_fusiforme	95.79	0.0	649	404
+OTU1327	AB120004.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_helveticum	98.51	0.0	710	402
+OTU1328	AY541684.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium	Strombidium	99.74	0.0	719	392
+OTU1329	AY541684.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium	Strombidium	98.48	0.0	695	394
+OTU133	AF022196.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Perdiniaceae_Peridinium	Peridinium_umbonatum_strain_UTEX_LB_2255	93.30	3,00E-171	593	403
+OTU1330	AY541684.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium	Strombidium	97.46	0.0	673	394
+OTU1333	AB120003.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_rubrum	94.78	0.0	627	402
+OTU1334	DQ186528.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.5	Guillou_II.5	96.04	0.0	654	404
+OTU1337	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	90.32	3,00E-151	527	403
+OTU134	AM491030.2	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	100.00	0.0	743	402
+OTU1345	FJ626712.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_DinoRS24	Dinophyceae_sp.SA7.9	99.00	0.0	717	400
+OTU135	AY665096.1	Eukaryota	Choanoflagellates	Choanoflagellida	Acanthoecida	Stephanoecidae	Didymoeca_SCM28C135	95.74	0.0	643	399
+OTU1354	AY970653.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Perdiniaceae_Peridinium	Peridinium_aciculiferum_isolate_PAER1	94.58	1,00E-179	621	406
+OTU1356	AF163148.1	Eukaryota	Haptophyceae[prymnesiophytes]	Phaeocystales	Phaeocystales	Phaeocystaceae	Phaeocystis	98.76	0.0	715	402
+OTU1359	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mamiella	93.27	4,00E-170	590	401
+OTU136	FN562437.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Prasinoderma	96.52	0.0	662	402
+OTU1360	EF172987.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	89.05	7,00E-143	499	402
+OTU1365	AY381157.1	Eukaryota	stramenopiles	MASTs	MAST_3	MAST_3	HE000427.20	94.31	2,00E-178	617	404
+OTU1368	FN669511.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_cf.Gutrula	98.26	0.0	704	402
+OTU137	EF526932.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cercozoa_clone_SA24H12	86.75	6,00E-129	453	415
+OTU1372	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Dolichomastix	93.78	2,00E-173	601	402
+OTU1375	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	89.11	7,00E-143	499	404
+OTU1379	AJ246278.1	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	98.01	0.0	699	402
+OTU138	AJ632205.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Thalassiosirales	Skeletonema	97.52	0.0	691	403
+OTU1382	FN562453.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Bathycoccus	99.74	0.0	710	387
+OTU1383	AY954993.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP1195_clade_C	98.99	0.0	712	397
+OTU1384	AY360454.1	Eukaryota	Cryptophyta	Cryptomonadales	Cryptomonadales	Goniomonadaceae	Goniomonas	86.03	3,00E-117	414	401
+OTU139	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	97.47	0.0	673	395
+OTU14	FJ032668.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	98.26	0.0	704	402
+OTU140	AY116220.1	Eukaryota	stramenopiles	MASTs	MAST_8	MAST_8	ANT12_26	93.17	7,00E-173	599	410
+OTU142	AB246693.1	Eukaryota	Rhizaria	Polycystinea	Polycystinea	Spumellaria	Larcopyle	84.58	1,00E-110	392	415
+OTU1427	EF172955.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.6	Guillou_II.6	85.86	3,00E-121	427	403
+OTU143	EU780604.1	Eukaryota	Alveolata	MALVs	MALV_III_[Syndinales]	Envrion_III.A	Envrion_III.A	93.30	3,00E-171	593	403
+OTU1430	HM483394.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	96.53	0.0	665	404
+OTU1437	FN669511.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_cf.Gutrula	98.51	0.0	710	402
+OTU1442	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	96.46	0.0	652	396
+OTU1443	EU793379.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	98.75	0.0	712	400
+OTU1444	AM490987.2	Eukaryota	Haptophyceae[prymnesiophytes]	Syracosphaerales_Zygodiscales	Syracosphaerales	Syracosphaeraceae	Syracosphaera	99.50	0.0	732	402
+OTU1446	AB017127.3	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Dolichomastix	89.90	7,00E-148	516	406
+OTU145	HQ866287.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_Saanich_SGSU510	99.25	0.0	726	402
+OTU1458	HM066998.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_DinoRS24	Brachidinium	94.03	3,00E-176	610	402
+OTU146	DQ120005.1	Eukaryota	Choanoflagellates	Choanoflagellida	Acanthoecida	Stephanoecidae	Didymoeca_NOR46.34	95.74	0.0	643	399
+OTU1462	denovo6	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	99.50	0.0	726	400
+OTU147	AY541684.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium	Strombidium	97.21	0.0	667	394
+OTU1472	Y16232.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Prorocentrales	Prorocentraceae_Prorocentrum	Prorocentrum_mexicanum	95.54	0.0	643	404
+OTU148	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	96.51	0.0	664	401
+OTU149	EU286811.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Prostomatea	Urotricha	Urotricha_sp.	90.24	6,00E-89	320	246
+OTU1494	FJ032668.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	97.01	0.0	676	402
+OTU1495	FJ032659.1	Eukaryota	stramenopiles	Pelagophyceae	Pelagophyceae	unclassified_Pelagophyceae	Pelagophyte_clone_DH114_3A43	98.53	0.0	719	407
+OTU1496	AY954993.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP1195_clade_C	98.49	0.0	701	397
+OTU150	AB295041.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Cochlodinium	Cochlodinium_fulvescens	87.59	3,00E-132	464	403
+OTU1501	AF022199.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Perdiniaceae_Peridinium	Peridinium_polonicum	85.01	2,00E-114	405	407
+OTU1504	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	97.77	0.0	693	403
+OTU1507	EU500144.1	Eukaryota	stramenopiles	MASTs	MAST_10	MAST_10	hotxp2a1	90.46	6,00E-154	536	409
+OTU151	GQ365798.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	97.24	0.0	675	399
+OTU1513	FJ032668.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	97.76	0.0	693	402
+OTU1514	AJ786648.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Parastrombidinopsis	Parastrombidinopsis_shimi	88.94	2,00E-138	484	398
+OTU1516	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	96.46	0.0	652	396
+OTU1517	JQ966994.1	Eukaryota	Cryptophyta	Cryptomonadales	Pyrenomonadales	Geminigeraceae	Teleaulax_gracilis	99.24	0.0	712	395
+OTU152	AF399151.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Tontoniidae	Laboea	Laboea_strobila	100.00	0.0	732	396
+OTU1521	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	94.28	2,00E-177	614	402
+OTU153	AY664971.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_NW414.36	Dino_clone_SCM15C21	98.51	0.0	710	402
+OTU1534	AF274254.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Amphidinium	Amphidinium_longum	99.75	0.0	737	402
+OTU155	AY485521.1	Eukaryota	stramenopiles	Diatoms	Bacillariophyceae[raphid	pennate_diatoms]	Naviculales	Stauroneis	100.00	0.0	749	405
+OTU1554	AY541684.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium	Strombidium	96.45	0.0	651	394
+OTU1555	AY541684.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium	Strombidium	98.22	0.0	689	394
+OTU1556	EF058252.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Woloszynskiaceae	Woloszynskia_halophila_strain_WHTV_S1	98.76	0.0	715	402
+OTU156	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	94.32	7,00E-178	616	405
+OTU1564	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	97.72	0.0	680	395
+OTU1568	AY664971.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_NW414.36	Dino_clone_SCM15C21	98.51	0.0	710	402
+OTU157	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	93.53	7,00E-173	599	402
+OTU1571	AJ246278.1	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	98.76	0.0	715	402
+OTU1574	X77479.1	Eukaryota	Haptophyceae[prymnesiophytes]	Phaeocystales	Phaeocystales	Phaeocystaceae	Phaeocystis	99.26	0.0	726	403
+OTU158	FJ032668.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	84.20	2,00E-108	385	405
+OTU1580	AY116220.1	Eukaryota	stramenopiles	MASTs	MAST_8	MAST_8	ANT12_26	93.17	7,00E-173	599	410
+OTU1581	AY143564.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium_SNB99_2	Strombidium_SNB99_2	98.47	0.0	693	393
+OTU1586	AB120004.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_helveticum	98.26	0.0	704	402
+OTU1588	AM490987.2	Eukaryota	Haptophyceae[prymnesiophytes]	Syracosphaerales_Zygodiscales	Syracosphaerales	Syracosphaeraceae	Syracosphaera	97.76	0.0	693	402
+OTU1589	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mamiella	93.27	4,00E-170	590	401
+OTU159	FJ876971.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_AskenasiaClade	Cyclotrichium	Cyclotrichium	99.23	0.0	701	388
+OTU1593	EF172987.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	92.57	3,00E-166	577	404
+OTU1594	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	96.51	0.0	664	401
+OTU1595	EU780626.1	Eukaryota	Alveolata	MALVs	MALV_II_F_group	Guillou_26	Guillou_26	97.50	0.0	684	400
+OTU16	FJ947040.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Warwowiaceae_Nematodinium	Warnowia_BSL_2009a	98.76	0.0	715	402
+OTU160	AB120003.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_rubrum	98.51	0.0	710	402
+OTU1609	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mamiella	93.77	2,00E-173	601	401
+OTU161	AF363196.2	Eukaryota	stramenopiles	MASTs	MAST_7	MAST_7	ANT12_10	98.00	0.0	697	401
+OTU1610	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	96.46	0.0	652	396
+OTU1611	AY381157.1	Eukaryota	stramenopiles	MASTs	MAST_3	MAST_3	HE000427.20	88.70	1,00E-140	492	407
+OTU1615	AJ404886.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Pyramimonas	94.78	4,00E-180	623	402
+OTU162	AJ004866.1	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Platychrysis	97.52	0.0	689	403
+OTU1623	Y16232.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Prorocentrales	Prorocentraceae_Prorocentrum	Prorocentrum_mexicanum	99.25	0.0	726	402
+OTU163	AB120003.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_rubrum	99.00	0.0	721	402
+OTU1636	DQ025753.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP2099_Arctic	98.73	0.0	699	393
+OTU164	HM805020.1	Eukaryota	stramenopiles	Diatoms	Bacillariophyceae[raphid	pennate_diatoms]	Bacillariales	Bacillaria	99.00	0.0	721	402
+OTU165	KP790160.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Katodinium	98.51	0.0	710	402
+OTU1657	AJ246274.1	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	99.50	0.0	732	402
+OTU166	AF163148.1	Eukaryota	Haptophyceae[prymnesiophytes]	Phaeocystales	Phaeocystales	Phaeocystaceae	Phaeocystis	99.50	0.0	732	402
+OTU1663	AF163148.1	Eukaryota	Haptophyceae[prymnesiophytes]	Phaeocystales	Phaeocystales	Phaeocystaceae	Phaeocystis	98.01	0.0	699	402
+OTU1667	denovo6	Eukaryota	Alveolata	MALVs	MALV_IV_[Syndinales]	Syndiniales[groupIV]	Syndiniales[groupIV]	88.31	3,00E-136	477	402
+OTU167	DQ487196.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Litostomatea	Monodinium	Monodinium_sp.	97.88	4,00E-164	569	330
+OTU1673	AB120001.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_spirale	98.51	0.0	710	402
+OTU1674	DQ779991.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gymnodinium_sensu_largo	Gymnodinium_aureolum	99.00	0.0	721	402
+OTU1676	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	96.70	0.0	654	394
+OTU1678	X77479.1	Eukaryota	Haptophyceae[prymnesiophytes]	Phaeocystales	Phaeocystales	Phaeocystaceae	Phaeocystis	98.01	0.0	699	403
+OTU1679	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mamiella	92.82	9,00E-167	579	404
+OTU168	FJ422993.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Tontoniidae	Pseudotontonia	97.22	0.0	669	395
+OTU1684	AB017127.3	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Pterosperma	97.51	0.0	684	401
+OTU169	EF432541.1	Eukaryota	Choanoflagellates	Choanoflagellida	Acanthoecida	Stephanoecidae	Stephanoecidae_SL163	95.01	0.0	627	401
+OTU1692	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	99.49	0.0	719	395
+OTU1693	AY665083.1	Eukaryota	Katablepharidophyta	Katablepharidaceae	Katablepharidaceae	unclassified_Katablepharidaceae	Katablepharidophyte_clone_SCM37C29	97.74	0.0	686	398
+OTU17	FJ032659.1	Eukaryota	stramenopiles	Pelagophyceae	Pelagophyceae	unclassified_Pelagophyceae	Pelagophyte_clone_DH114_3A43	98.27	0.0	708	404
+OTU170	HQ901764.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Oligohymenophorea	Uronemella	Uronemella_filificum	88.71	1,00E-81	296	248
+OTU1707	AJ404886.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Pyramimonas	98.75	0.0	712	400
+OTU171	AY485482.1	Eukaryota	stramenopiles	Diatoms	Bacillariophyceae[raphid	pennate_diatoms]	Naviculales	Haslea	94.32	2,00E-178	617	405
+OTU1710	AJ404886.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Pyramimonas	94.75	4,00E-180	623	400
+OTU1711	AB120004.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_helveticum	98.26	0.0	704	402
+OTU1716	AJ404886.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Pyramimonas	98.01	0.0	699	402
+OTU172	FJ947040.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Warwowiaceae_Nematodinium	Warnowia_BSL_2009a	98.01	0.0	699	402
+OTU1723	EF172923.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.20	Guillou_II.20	94.28	7,00E-178	616	402
+OTU1726	FN562437.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Prasinoderma	95.25	0.0	630	400
+OTU1731	EF526808.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_NIF_3A1	99.25	0.0	726	402
+OTU174	AF363188.2	Eukaryota	stramenopiles	MASTs	MAST_4	MAST_4	ME1_18	97.03	0.0	680	404
+OTU1744	AB183673.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Protoperidiniaceae_Protoperidinium	Prorocentrum_triestinum_strain_MBIC11147	93.80	1,00E-174	604	403
+OTU1748	HQ866287.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_Saanich_SGSU510	98.76	0.0	715	402
+OTU175	AB241128.1	Eukaryota	Cryptophyta	Pyrenomonadales	Pyrenomonadales	Pyrenomonadaceae	Rhodomonas	97.22	0.0	671	396
+OTU1750	EF173017.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.6	Guillou_II.6	96.01	0.0	651	401
+OTU176	HQ680525.1	Eukaryota	stramenopiles	Diatoms	Bacillariophyceae[raphid	pennate_diatoms]	Cymbellales	Cymbella	100.00	0.0	743	402
+OTU1760	EU793379.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	98.25	0.0	701	400
+OTU1761	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	97.22	0.0	669	395
+OTU177	AF274256.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	85.93	3,00E-121	427	405
+OTU1778	FJ032668.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	98.51	0.0	710	402
+OTU178	HM596542.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Thoracosphaerales	Glenodiniaceae_Peridiniopsis	Peridiniopsis	84.56	1,00E-110	392	408
+OTU1781	AB120002.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_fusiforme	98.26	0.0	704	402
+OTU179	DQ186528.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.5	Guillou_II.5	99.26	0.0	726	403
+OTU18	HQ912569.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Cymatosirales	Arcocellulus	99.75	0.0	743	405
+OTU180	AY268040.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Silicofilosea	Allas	89.64	6,00E-149	520	415
+OTU1807	AF022199.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Lepidodinium	Gymnodiniaceae_Gymnodinium_sensu_lato	Lepidodinium	98.26	0.0	704	402
+OTU1809	X73999.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mantoniella	99.24	0.0	713	395
+OTU1813	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mamiella	92.50	5,00E-164	569	400
+OTU1815	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	98.99	0.0	708	395
+OTU1817	AB120004.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_helveticum	98.51	0.0	710	402
+OTU1819	FJ844428.1	Eukaryota	Alveolata	MALVs	MALV_IV_[Syndinales]	Syndiniales[groupIV]	Syndiniales[groupIV]	95.02	0.0	632	402
+OTU182	EF173006.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.5	Guillou_II.5	92.54	3,00E-166	577	402
+OTU1820	AB120004.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_helveticum	98.26	0.0	704	402
+OTU1837	AF274270	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Peridiniales_incerate_sedis_Pentapharsodinium	Pentapharsodinium_sp._CCMP771_strain_CCMP_771	93.78	1,00E-174	604	402
+OTU184	AF077055.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	86.55	4,00E-125	440	409
+OTU1846	FJ947040.1	Eukaryota	Alveolata	MALVs	MALV_IV_[Syndinales]	Syndiniales[groupIV]	Syndiniales[groupIV]	88.42	7,00E-138	483	406
+OTU185	EF432541.1	Eukaryota	Choanoflagellates	Choanoflagellida	Acanthoecida	Stephanoecidae	Stephanoecidae_SL163	91.23	3,00E-156	544	399
+OTU186	AB430593.1	Eukaryota	stramenopiles	MASTs	MAST_1	MAST_1c	DH18_4A29	88.41	6,00E-139	486	414
+OTU187	HQ912677.1	Eukaryota	stramenopiles	Bolidophyceae	Bolidophyceae	Bolidomonas	Bolidomonas	91.87	3,00E-162	564	406
+OTU188	denovo56	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_incertae_sedis	Amphidomataceae_Amphidoma	Amphidoma_like	98.76	0.0	712	402
+OTU1880	FN999015.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Colpodea	Sorogena	Sorogena_stoianovitchae	81.42	4,00E-85	307	393
+OTU189	AB017127.3	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Pterosperma	98.51	0.0	710	403
+OTU1890	AM490984.2	Eukaryota	Haptophyceae[prymnesiophytes]	Coccosphaerales	Coccosphaerales	Pontosphaeraceae	Scyphosphaera	98.76	0.0	715	402
+OTU1891	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	96.21	0.0	647	396
+OTU1897	EU793379.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	99.00	0.0	717	400
+OTU19	FN669511.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_cf.Gutrula	99.75	0.0	737	402
+OTU190	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	97.27	0.0	682	403
+OTU1903	HM067002.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Brachidiniales	Brachidiniaceae_Karenia	Karenia_bidigitata	98.26	0.0	704	402
+OTU1904	X77479.1	Eukaryota	Haptophyceae[prymnesiophytes]	Phaeocystales	Phaeocystales	Phaeocystaceae	Phaeocystis	97.26	0.0	680	402
+OTU191	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	97.52	0.0	688	403
+OTU1916	AJ246277.1	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	98.76	0.0	715	402
+OTU192	FN599060.1	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	97.51	0.0	686	402
+OTU1924	AJ564773.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	97.23	0.0	669	397
+OTU193	DQ487196.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Litostomatea	Monodinium	Monodinium_sp.	98.79	4,00E-169	586	330
+OTU1933	AY665083.1	Eukaryota	Katablepharidophyta	Katablepharidaceae	Katablepharidaceae	unclassified_Katablepharidaceae	Katablepharidophyte_clone_SCM37C29	98.99	0.0	713	398
+OTU194	DQ060526.1	Eukaryota	Picozoas	environmental_picozoa_clone	environmental_picozoa_clone	Uncultured_Arctic_marine_picozoa_clone	NOR46.24	100.00	0.0	743	402
+OTU1944	EF526808.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_NIF_3A1	99.00	0.0	721	402
+OTU195	EF173006.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.5	Guillou_II.5	94.03	3,00E-176	610	402
+OTU1958	JF826353.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gymnodinium_sensu_largo	Dino_clone_North_Pole_SW0_72	99.49	0.0	717	394
+OTU196	FJ888597.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Podolampadaceae_Podolampas	Podolampas	99.00	0.0	721	402
+OTU1965	FJ032664.1	Eukaryota	stramenopiles	MASTs	MAST_1	MAST_1c	DH18_4A29	95.57	0.0	647	406
+OTU1966	DQ120005.1	Eukaryota	Choanoflagellates	Choanoflagellida	Acanthoecida	Stephanoecidae	Didymoeca_NOR46.34	95.24	0.0	632	399
+OTU1967	JX262491.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_incertae_sedis	Amphidomataceae_Azadinium	Azadinium_spinosum	98.76	0.0	715	402
+OTU197	GQ351701.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Litostomatea	Litonotus	Litonotus	96.35	9,00E-156	542	329
+OTU198	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.6	Guillou_II.6	89.85	7,00E-148	516	404
+OTU1980	DQ025753.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP2099_Arctic	98.73	0.0	702	395
+OTU1981	DQ025753.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP2099_Arctic	98.99	0.0	708	396
+OTU1989	DQ025753.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP2099_Arctic	97.96	0.0	682	393
+OTU199	AB246693.1	Eukaryota	Rhizaria	Polycystinea	Polycystinea	unclassified_Polycystinea	Taxopodida_B	90.17	3,00E-151	527	407
+OTU2	X77479.1	Eukaryota	Haptophyceae[prymnesiophytes]	Phaeocystales	Phaeocystales	Phaeocystaceae	Phaeocystis	98.26	0.0	704	403
+OTU20	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	97.47	0.0	675	396
+OTU200	AY143573.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Tintinnids	Tintinnopsis	Tintinnopsis	90.70	1,00E-150	525	398
+OTU201	AB246693.1	Eukaryota	Rhizaria	Polycystinea	Polycystinea	Spumellaria	Larcopyle	84.78	1,00E-111	396	414
+OTU2015	AY664971.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_NW414.36	Dino_clone_SCM15C21	98.76	0.0	715	402
+OTU2026	EU141942.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Pyramimonas	99.75	0.0	737	402
+OTU2027	AY954993.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP1195_clade_C	98.74	0.0	706	397
+OTU203	FJ032664.1	Eukaryota	stramenopiles	MASTs	MAST_1	MAST_1a	DH22_2A47	91.42	2,00E-159	555	408
+OTU2030	AJ246278.1	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	97.51	0.0	688	402
+OTU2031	X77479.1	Eukaryota	Haptophyceae[prymnesiophytes]	Phaeocystales	Phaeocystales	Phaeocystaceae	Phaeocystis	99.25	0.0	723	401
+OTU2035	Y16232.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Prorocentrales	Prorocentraceae_Prorocentrum	Prorocentrum_mexicanum	99.00	0.0	721	402
+OTU2037	FN669511.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_cf.Gutrula	98.26	0.0	704	402
+OTU2038	FJ888597.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Podolampadaceae_Podolampas	Podolampas	98.01	0.0	699	402
+OTU2039	AY541684.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium	Strombidium	96.95	0.0	662	394
+OTU204	AJ246277.1	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	96.52	0.0	665	402
+OTU2040	AB120002.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_fusiforme	93.80	1,00E-174	604	403
+OTU2041	AF290083.2	Eukaryota	stramenopiles	MASTs	MAST_2	MAST_2	DH148_5_EKD52	98.52	0.0	717	406
+OTU205	AF099183.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Suessiales	Suessiaceae_Polarella	Polarella	99.50	0.0	732	403
+OTU2056	AM490983.2	Eukaryota	Haptophyceae[prymnesiophytes]	Syracosphaerales_Zygodiscales	Zygodiscales	Helicosphaeraceae	Helicosphaera	99.00	0.0	721	402
+OTU206	EF172955.1	Eukaryota	Alveolata	MALVs	MALV_II_D_group	Guillou_8	Guillou_8	91.32	7,00E-158	549	403
+OTU2065	FJ626712.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_DinoRS24	Dinophyceae_sp.SA7.9	94.03	3,00E-176	610	402
+OTU2074	AY143564.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium_SNB99_2	Strombidium_SNB99_2	99.49	0.0	719	395
+OTU2076	X77479.1	Eukaryota	Haptophyceae[prymnesiophytes]	Phaeocystales	Phaeocystales	Phaeocystaceae	Phaeocystis	97.02	0.0	676	403
+OTU2078	AM490984.2	Eukaryota	Haptophyceae[prymnesiophytes]	Coccosphaerales	Coccosphaerales	Pontosphaeraceae	Scyphosphaera	96.02	0.0	654	402
+OTU208	EF173017.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.6	Guillou_II.6	96.26	0.0	656	401
+OTU2089	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	98.23	0.0	691	395
+OTU209	EF058237.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Peridiniales_incerate_sedis_Pentapharsodinium	Glenodinium	98.01	0.0	699	402
+OTU2090	DQ025753.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP2099_Arctic	98.73	0.0	699	393
+OTU2091	AF163148.1	Eukaryota	Haptophyceae[prymnesiophytes]	Phaeocystales	Phaeocystales	Phaeocystaceae	Phaeocystis	98.26	0.0	704	402
+OTU2096	AF363196.2	Eukaryota	stramenopiles	MASTs	MAST_7	MAST_7	ANT12_10	98.98	0.0	706	394
+OTU2099	AF022199.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gonyaulacales	Goniodomataceae_Alexandrium	Alexandrium_monilatum_isolate_JR07	84.90	6,00E-114	403	404
+OTU21	AF274267.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Heterocapsa	Heterocapsa_rotundata	100.00	0.0	743	402
+OTU210	HQ912677.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Biddulphiales	Biddulphia	91.93	3,00E-162	564	409
+OTU2103	EF526808.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_NIF_3A1	99.00	0.0	721	402
+OTU211	denovo6	Eukaryota	Alveolata	MALVs	MALV_IV_[Syndinales]	Syndiniales[groupIV]	Syndiniales[groupIV]	88.81	2,00E-139	488	402
+OTU212	AF274254.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Amphidinium	Amphidinium_longum	94.06	3,00E-176	610	404
+OTU2124	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mamiella	93.48	1,00E-170	592	399
+OTU2125	AJ564772.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	94.50	7,00E-178	616	400
+OTU213	EU793379.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	99.75	0.0	734	400
+OTU2135	DQ779991.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gymnodinium_sensu_largo	Gymnodinium_aureolum	99.25	0.0	726	402
+OTU214	AY485489.1	Eukaryota	stramenopiles	Diatoms	Bacillariophyceae[raphid	pennate_diatoms]	Naviculales	Pleurosigma	100.00	0.0	749	405
+OTU2142	EF172987.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	94.28	7,00E-178	616	402
+OTU2145	AY919816	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	unclassified_Chrysophyte	Chrysophyte_Lake_Georges_clone_LG47_07	99.01	0.0	725	404
+OTU215	AB183673.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Protoperidiniaceae_Protoperidinium	Prorocentrum_triestinum_strain_MBIC11147	98.01	0.0	699	402
+OTU216	DQ186531.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.5	Guillou_II.5	97.27	0.0	684	403
+OTU217	GQ365798.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	95.99	0.0	647	399
+OTU218	EU818590.1	Eukaryota	Alveolata	MALVs	MALV_II_E_group	Guillou_22	Guillou_22	97.24	0.0	675	399
+OTU2182	EF526808.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_NIF_3A1	98.26	0.0	704	403
+OTU2184	FN263030.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	98.26	0.0	702	402
+OTU219	FN263030.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	97.76	0.0	691	402
+OTU2190	AY541684.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium	Strombidium	91.00	9,00E-152	529	400
+OTU2191	AB275066.1	Eukaryota	Choanoflagellates	Choanoflagellida	Crespedida	Crespedida	DSGM66	92.23	7,00E-163	566	399
+OTU22	AJ786648.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Parastrombidinopsis	Parastrombidinopsis_shimi	89.53	7,00E-143	499	401
+OTU220	DQ837534.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gymnodinium_sensu_largo	Gymnodinium_dorsalisulcum	99.00	0.0	721	402
+OTU2208	DQ025753.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP2099_Arctic	99.24	0.0	710	393
+OTU221	AY143564.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium_SNB99_2	Strombidium_SNB99_2	99.49	0.0	719	395
+OTU222	denovo6	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	85.37	1,00E-115	409	410
+OTU223	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	95.29	0.0	638	403
+OTU224	AJ246267.1	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Imantonia	99.75	0.0	737	403
+OTU2246	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	93.32	3,00E-171	593	404
+OTU2247	DQ060525.1	Eukaryota	Picozoas	environmental_picozoa_clone	environmental_picozoa_clone	Uncultured_Arctic_marine_picozoa_clone	NW617.02	98.76	0.0	717	403
+OTU225	FN690573.1	Eukaryota	stramenopiles	Diatoms	Bacillariophyceae[raphid	pennate_diatoms]	unclassified_Bacillariophyceae	Diatom_Baltic_Sea_Ice_clone8_90	99.75	0.0	737	402
+OTU226	EF455780.1	Eukaryota	Apusozoa	Planomonas	Planomonas	Planomonas	Planomonas	89.74	3,00E-82	298	234
+OTU2269	AB120002.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_fusiforme	99.00	0.0	717	400
+OTU2270	DQ025753.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP2099_Arctic	98.99	0.0	708	395
+OTU2271	JQ966994.1	Eukaryota	Cryptophyta	Cryptomonadales	Pyrenomonadales	Geminigeraceae	Teleaulax_gracilis	99.24	0.0	713	395
+OTU2276	AY954993.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP1195_clade_C	98.73	0.0	702	395
+OTU2277	FJ590769.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Thalassiosirales	Minidiscus	98.77	0.0	721	406
+OTU228	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	95.29	0.0	638	403
+OTU2284	EF140623.1	Eukaryota	stramenopiles	Diatoms	Bacillariophyceae[raphid	pennate_diatoms]	Bacillariales	Fragilariopsis	98.28	0.0	710	406
+OTU2285	HQ866287.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_Saanich_SGSU510	98.76	0.0	715	402
+OTU229	denovo6	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	98.75	0.0	710	400
+OTU23	DQ120005.1	Eukaryota	Choanoflagellates	Choanoflagellida	Acanthoecida	Stephanoecidae	Didymoeca_NOR46.34	95.74	0.0	643	399
+OTU230	AJ786648.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Parastrombidinopsis	Parastrombidinopsis_shimi	88.72	3,00E-137	481	399
+OTU231	AJ246278.1	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	99.00	0.0	721	402
+OTU2314	AY665083.1	Eukaryota	Katablepharidophyta	Katablepharidaceae	Katablepharidaceae	unclassified_Katablepharidaceae	Katablepharidophyte_clone_SCM37C29	98.99	0.0	713	398
+OTU2317	EF526808.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_NIF_3A1	96.52	0.0	664	402
+OTU2323	AJ786648.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Parastrombidinopsis	Parastrombidinopsis_shimi	88.72	7,00E-138	483	399
+OTU233	GQ365767.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	98.50	0.0	704	399
+OTU2330	AY664971.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_NW414.36	Dino_clone_SCM15C21	98.51	0.0	710	402
+OTU234	AJ004866.1	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	99.75	0.0	739	402
+OTU2342	HM066998.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_DinoRS24	Brachidinium	98.51	0.0	710	402
+OTU235	EU371175.1	Eukaryota	Choanoflagellates	Choanoflagellida	Acanthoecida	Stephanoecidae	Diaphanoeca_NPK2_136	97.01	0.0	669	402
+OTU2358	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	96.70	0.0	654	394
+OTU236	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	95.27	0.0	638	402
+OTU2360	AJ786648.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Parastrombidinopsis	Parastrombidinopsis_shimi	88.78	7,00E-138	483	401
+OTU2361	AM490984.2	Eukaryota	Haptophyceae[prymnesiophytes]	Coccosphaerales	Coccosphaerales	Pontosphaeraceae	Scyphosphaera	95.27	0.0	638	402
+OTU2365	AY664971.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_NW414.36	Dino_clone_SCM15C21	98.51	0.0	710	402
+OTU2366	EF172987.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	94.53	1,00E-179	621	402
+OTU2368	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mamiella	92.98	2,00E-167	580	399
+OTU237	AJ786648.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Strobilidium	Strobilidium_caudatum	89.78	2,00E-144	505	401
+OTU2377	AB474963	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	Chrysosphaerales	Chrysosaccus	90.17	1,00E-150	525	407
+OTU238	AY143564.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium_SNB99_2	Strombidium_SNB99_2	98.73	0.0	702	395
+OTU2382	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	94.31	7,00E-178	616	404
+OTU2384	AJ402349.1	Eukaryota	Alveolata	MALVs	MALV_III_[Syndinales]	Environ_III.O	Environ_III.O	96.77	0.0	671	402
+OTU239	EU500144.1	Eukaryota	stramenopiles	Labyrinthulida	Labyrinthulida	Thraustochytriidae	Oblongichytrium_PBS03	88.73	9,00E-142	496	408
+OTU2398	DQ025753.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP2099_Arctic	98.73	0.0	697	393
+OTU2399	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	96.20	0.0	647	395
+OTU24	FN562453.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Bathycoccus	100.00	0.0	730	395
+OTU240	DQ314838.1	Eukaryota	Rhizaria	Polycystinea	Polycystinea	Nassellaria	Nassellaria	100.00	0.0	750	406
+OTU2406	FJ590769.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Thalassiosirales	Minidiscus	96.30	0.0	665	405
+OTU2408	AJ246278.1	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	97.26	0.0	682	402
+OTU2410	HQ912569.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Cymatosirales	Arcocellulus	98.52	0.0	715	405
+OTU2414	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	95.53	0.0	643	403
+OTU243	AM490987.2	Eukaryota	Haptophyceae[prymnesiophytes]	Pavlovales	Pavlovales	Pavlovaceae	Pavlova	88.64	6,00E-139	486	405
+OTU244	DQ393786.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Parastrombidinopsis	Parastrombidinopsis_shimi	89.50	3,00E-142	497	400
+OTU2448	AB120002.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_fusiforme	98.51	0.0	710	402
+OTU245	denovo6	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	85.92	6,00E-119	420	412
+OTU2452	X77479.1	Eukaryota	Haptophyceae[prymnesiophytes]	Phaeocystales	Phaeocystales	Phaeocystaceae	Phaeocystis	96.28	0.0	660	403
+OTU2453	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	96.46	0.0	652	396
+OTU2455	X77479.1	Eukaryota	Haptophyceae[prymnesiophytes]	Phaeocystales	Phaeocystales	Phaeocystaceae	Phaeocystis	97.02	0.0	676	403
+OTU246	AF508759.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Halteriidae	Halteria	Halteria	96.22	0.0	649	397
+OTU2465	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	96.20	0.0	647	395
+OTU2468	AY541684.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium	Strombidium	97.72	0.0	678	394
+OTU2469	U37367.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gymnodinium	Gymnodinium_beii	97.52	0.0	688	403
+OTU2474	AB241128.1	Eukaryota	Cryptophyta	Pyrenomonadales	Pyrenomonadales	Pyrenomonadaceae	Rhodomonas	96.46	0.0	652	396
+OTU248	EF526808.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_NIF_3A1	99.00	0.0	721	402
+OTU2483	DQ025753.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP2099_Arctic	98.22	0.0	688	393
+OTU2484	FJ032668.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	95.77	0.0	649	402
+OTU2485	FN562453.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Bathycoccus	98.99	0.0	708	395
+OTU249	AY881968.1	Eukaryota	stramenopiles	Diatoms	Bacillariophyceae[raphid	pennate_diatoms]	Bacillariales	Nitzschia	97.01	0.0	676	402
+OTU2497	EF195735.1	Eukaryota	Cryptophyta	Cryptomonadales	Pyrenomonadales	Geminigeraceae	PlagioselmisTeleaulaxComplex	Teleaulax_amphioxeia	99.49	0.0	719	396
+OTU25	KP790160.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Thoracosphaerales	Oodiniaceae_Pseudopfiesteria	Pseudopfiesteria	83.13	6,00E-59	220	249
+OTU250	FJ590769.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Thalassiosirales	Minidiscus	99.01	0.0	726	405
+OTU253	EF172837.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.6	Guillou_II.6	98.50	0.0	708	401
+OTU254	AY143564.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium_SNB99_2	Strombidium_SNB99_2	97.97	0.0	686	395
+OTU2549	EF173017.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.6	Guillou_II.6	96.26	0.0	656	401
+OTU255	AF290539.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cryothecomonas	97.29	0.0	686	406
+OTU256	denovo6	Eukaryota	Alveolata	MALVs	MALV_IV_[Syndinales]	Syndiniales[groupIV]	Syndiniales[groupIV]	88.81	2,00E-139	488	402
+OTU2563	EF526932.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cercozoa_clone_SA24H12	98.53	0.0	719	408
+OTU2568	AB120002.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_fusiforme	98.76	0.0	715	402
+OTU257	FN263030.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	96.52	0.0	664	402
+OTU2574	X77479.1	Eukaryota	Haptophyceae[prymnesiophytes]	Phaeocystales	Phaeocystales	Phaeocystaceae	Phaeocystis	98.26	0.0	704	403
+OTU258	EF526808.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_NIF_3A1	98.51	0.0	710	402
+OTU2584	AB120004.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_helveticum	98.26	0.0	704	402
+OTU2587	AM490987.2	Eukaryota	Haptophyceae[prymnesiophytes]	Syracosphaerales_Zygodiscales	Syracosphaerales	Syracosphaeraceae	Syracosphaera	97.26	0.0	682	402
+OTU259	GU819882.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_Ar1353	Dino_clone_Ar1353d50	88.64	6,00E-139	486	405
+OTU2592	FN599060.1	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	98.26	0.0	704	402
+OTU2593	DQ314810.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cryothecomonad_NW617.37	98.29	0.0	719	410
+OTU2596	DQ060525.1	Eukaryota	Picozoas	environmental_picozoa_clone	environmental_picozoa_clone	Uncultured_Arctic_marine_picozoa_clone	NW617.02	99.00	0.0	719	401
+OTU26	EF432538.1	Eukaryota	Choanoflagellates	Choanoflagellida	unclassified_Choanoflagellida	unclassified_Choanoflagellida	Choanoflagellida_sp._SL117	92.33	7,00E-163	566	404
+OTU260	GQ365798.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	94.74	1,00E-179	621	399
+OTU2606	AF399151.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Tontoniidae	Laboea	Laboea_strobila	98.99	0.0	710	396
+OTU2607	DQ025753.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP2099_Arctic	97.71	0.0	676	393
+OTU2608	FN562437.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Prasinoderma	95.27	0.0	634	402
+OTU2616	GQ365798.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	94.47	9,00E-177	612	398
+OTU262	DQ303924.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Protaspis	98.54	0.0	725	410
+OTU263	AJ786648.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Parastrombidinopsis	Parastrombidinopsis_shimi	89.75	2,00E-144	505	400
+OTU264	GQ375265.1	Eukaryota	Cryptophyta	Pyrenomonadales	Pyrenomonadales	Chroomonadaceae	Falcomonas	Cryptophyceae_sp._CCMP2293	100.00	0.0	732	396
+OTU265	EF526932.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cercozoa_clone_SA24H12	99.27	0.0	743	412
+OTU266	AB246693.1	Eukaryota	Rhizaria	Polycystinea	Polycystinea	Spumellaria	Larcopyle	84.75	1,00E-111	396	413
+OTU267	EU039908.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Colpodea	Sorogena	Sorogena_stoianovitchae	81.16	2,00E-83	302	398
+OTU2672	DQ025753.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP2099_Arctic	95.20	1,00E-180	625	396
+OTU268	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	100.00	0.0	743	402
+OTU2684	EF526808.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_NIF_3A1	99.00	0.0	721	402
+OTU2687	AY664971.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_NW414.36	Dino_clone_SCM15C21	98.76	0.0	715	402
+OTU269	HQ866287.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_Saanich_SGSU510	98.51	0.0	710	402
+OTU2691	GQ365798.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	96.47	0.0	654	397
+OTU2695	X77479.1	Eukaryota	Haptophyceae[prymnesiophytes]	Phaeocystales	Phaeocystales	Phaeocystaceae	Phaeocystis	98.01	0.0	699	403
+OTU2699	AY954993.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP1195_clade_C	98.73	0.0	702	395
+OTU27	DQ060525.1	Eukaryota	Picozoas	environmental_picozoa_clone	environmental_picozoa_clone	Uncultured_Arctic_marine_picozoa_clone	NW617.02	96.28	0.0	662	403
+OTU270	AJ246278.1	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	99.75	0.0	737	402
+OTU2707	AY954993.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP1195_clade_C	98.74	0.0	704	397
+OTU271	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_D_group	Guillou_8	Guillou_8	91.38	7,00E-158	549	406
+OTU2714	AY954993.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP1195_clade_C	98.73	0.0	702	395
+OTU272	AF363188.2	Eukaryota	stramenopiles	MASTs	MAST_4	MAST_4	ME1_18	97.52	0.0	691	404
+OTU2720	AY541684.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium	Strombidium	97.72	0.0	678	394
+OTU2721	X77479.1	Eukaryota	Haptophyceae[prymnesiophytes]	Phaeocystales	Phaeocystales	Phaeocystaceae	Phaeocystis	98.76	0.0	715	403
+OTU2722	FN562453.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Bathycoccus	97.46	0.0	671	393
+OTU2724	AJ786648.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Parastrombidinopsis	Parastrombidinopsis_shimi	88.78	7,00E-138	483	401
+OTU2725	AY954993.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP1195_clade_C	98.23	0.0	691	395
+OTU273	AY381157.1	Eukaryota	stramenopiles	MASTs	MAST_3	MAST_3	HE000427.20	89.43	1,00E-145	508	407
+OTU2733	FN562453.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Bathycoccus	98.73	0.0	702	395
+OTU2734	EF526808.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_NIF_3A1	99.00	0.0	721	402
+OTU2738	EF058252.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Woloszynskiaceae	Woloszynskia_halophila_strain_WHTV_S1	98.25	0.0	701	400
+OTU2739	EF058252.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Woloszynskiaceae	Woloszynskia_halophila_strain_WHTV_S1	98.76	0.0	715	402
+OTU274	AF167155.1	Eukaryota	stramenopiles	Bolidophyceae	Bolidophyceae	Bolidomonas	Bolidomonas	98.51	0.0	713	404
+OTU2742	AY541684.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium	Strombidium	99.49	0.0	717	394
+OTU2743	X77479.1	Eukaryota	Haptophyceae[prymnesiophytes]	Phaeocystales	Phaeocystales	Phaeocystaceae	Phaeocystis	98.51	0.0	710	403
+OTU2746	DQ837534.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gymnodinium_sensu_largo	Gymnodinium_dorsalisulcum	99.00	0.0	721	402
+OTU2747	EF058252.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Woloszynskiaceae	Woloszynskia_halophila_strain_WHTV_S1	97.51	0.0	688	402
+OTU275	AF139462.1	Eukaryota	Rhodophyta	Bangiophyceae	Bangiophyceae	Rhodochaetales	Rhodochaete	91.16	8,00E-93	333	249
+OTU2752	FJ590769.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Thalassiosirales	Minidiscus	98.26	0.0	706	403
+OTU2753	AY954993.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP1195_clade_C	98.73	0.0	702	395
+OTU276	EF173017.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.6	Guillou_II.6	97.01	0.0	673	401
+OTU2770	EF172923.1	Eukaryota	Alveolata	MALVs	MALV_II_F_group	Guillou_26	Guillou_26	87.34	1,00E-130	459	403
+OTU2778	DQ060525.1	Eukaryota	Picozoas	environmental_picozoa_clone	environmental_picozoa_clone	Uncultured_Arctic_marine_picozoa_clone	NW617.02	98.76	0.0	717	403
+OTU2779	FJ032668.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	97.26	0.0	682	402
+OTU278	DQ393786.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	TintinnidsCodonellopsis	89.75	5,00E-144	503	400
+OTU2785	FJ590769.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Thalassiosirales	Minidiscus	99.26	0.0	732	405
+OTU2786	AY954993.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP1195_clade_C	99.24	0.0	713	395
+OTU279	denovo9	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Brachidiniales	Brachidiniaceae_Karlodinium	Karlodinium	99.25	0.0	721	400
+OTU28	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	97.22	0.0	669	395
+OTU280	JN615412.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_incertae_sedis	Amphidomataceae_Amphidoma	Amphidoma	98.26	0.0	704	403
+OTU2805	HQ866287.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_Saanich_SGSU510	99.25	0.0	726	402
+OTU2807	FJ626712.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_DinoRS24	Dinophyceae_sp.SA7.9	98.76	0.0	715	402
+OTU281	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	93.80	1,00E-174	604	403
+OTU282	AF290540.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Protaspis	98.54	0.0	725	410
+OTU2820	HM483398.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Perdiniales_incertae_sedis_Dubosquodinium	Duboscquodinium	99.00	0.0	721	402
+OTU283	HQ869322.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	unclassified_Cercozoa	Cercozoa_clone_SHBA662	85.82	7,00E-118	416	402
+OTU284	EU780604.1	Eukaryota	Alveolata	MALVs	MALV_III_[Syndinales]	Envrion_III.A	Envrion_III.A	92.84	7,00E-168	582	405
+OTU285	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mamiella	100.00	0.0	737	399
+OTU2854	EF526808.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_NIF_3A1	99.00	0.0	721	402
+OTU286	DQ303924.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Protaspis	97.32	0.0	695	410
+OTU2864	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	94.75	1,00E-179	621	400
+OTU287	GQ365798.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	95.24	0.0	632	399
+OTU2871	GQ365798.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	95.74	0.0	641	399
+OTU288	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	92.31	1,00E-164	571	403
+OTU289	AF363196.2	Eukaryota	stramenopiles	MASTs	MAST_7	MAST_7	ANT12_10	95.27	0.0	636	402
+OTU29	DQ303923.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Ebriidae	Ebria	94.40	0.0	628	411
+OTU290	EF140623.1	Eukaryota	stramenopiles	Diatoms	Bacillariophyceae[raphid	pennate_diatoms]	Bacillariales	Fragilariopsis	98.77	0.0	721	406
+OTU291	EU500144.1	Eukaryota	stramenopiles	MASTs	MAST_10	MAST_10	hotxp2a1	90.46	2,00E-153	534	409
+OTU2914	EF526808.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_NIF_3A1	99.25	0.0	726	402
+OTU2919	GQ365798.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	95.00	0.0	627	400
+OTU292	JN615412.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_incertae_sedis	Amphidomataceae_Amphidoma	Amphidoma	97.02	0.0	676	403
+OTU2925	HM483398.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gymnodinium_sensu_largo	Dino_clone_North_Pole_SW0_72	91.36	3,00E-157	547	405
+OTU293	AB295041.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Cochlodinium	Cochlodinium_fulvescens	87.81	7,00E-133	466	402
+OTU2938	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	98.48	0.0	697	395
+OTU294	DQ314810.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cryothecomonad_NW617.37	96.35	0.0	675	411
+OTU295	HM067002.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	86.21	7,00E-123	433	406
+OTU2959	DQ025753.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP2099_Arctic	99.24	0.0	710	393
+OTU296	DQ060525.1	Eukaryota	Picozoas	environmental_picozoa_clone	environmental_picozoa_clone	Uncultured_Arctic_marine_picozoa_clone	NW617.02	97.52	0.0	689	403
+OTU2962	DQ025753.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP2099_Arctic	98.99	0.0	708	395
+OTU2967	DQ025753.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP1195_clade_C	98.24	0.0	693	397
+OTU297	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	91.81	3,00E-161	560	403
+OTU2979	AJ786648.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Parastrombidinopsis	Parastrombidinopsis_shimi	88.78	7,00E-138	483	401
+OTU298	AY954994.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP1545_clade_D	100.00	0.0	734	397
+OTU2980	AM412774.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Hypotrichea	Amphisiella	Amphisiella_magnigranulosa	95.24	0.0	628	399
+OTU2982	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium	Strombidium	90.05	1,00E-145	508	402
+OTU2987	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	90.55	5,00E-149	520	402
+OTU299	EU818590.1	Eukaryota	Alveolata	MALVs	MALV_II_E_group	Guillou_22	Guillou_22	96.99	0.0	669	399
+OTU2995	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium	Strombidium	97.47	0.0	673	396
+OTU3	AB120002.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_fusiforme	100.00	0.0	743	402
+OTU30	AB295041.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Cochlodinium	Cochlodinium_fulvescens	85.86	1,00E-120	425	403
+OTU300	DQ303923.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Ebriidae	Ebria	94.89	0.0	640	411
+OTU301	DQ314813.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	unclassified_Cercozoa	Cercozoa_clone_NOR46.15	96.10	0.0	669	410
+OTU302	AM490987.2	Eukaryota	Haptophyceae[prymnesiophytes]	Syracosphaerales_Zygodiscales	Syracosphaerales	Syracosphaeraceae	Syracosphaera	99.00	0.0	721	402
+OTU3027	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	96.46	0.0	652	396
+OTU303	AJ402349.1	Eukaryota	Alveolata	MALVs	MALV_III_[Syndinales]	Environ_III.O	Environ_III.O	96.02	0.0	654	402
+OTU3030	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	91.02	2,00E-152	531	401
+OTU3035	AJ246278.1	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	96.52	0.0	664	402
+OTU304	DQ314810.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cryothecomonad_NW617.37	96.10	0.0	669	410
+OTU3043	AY485490.1	Eukaryota	stramenopiles	Diatoms	Bacillariophyceae[raphid	pennate_diatoms]	Bacillariales	Pseudo_nitzschia	99.01	0.0	726	405
+OTU305	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	89.58	3,00E-146	510	403
+OTU3051	AB275066.1	Eukaryota	Choanoflagellates	Choanoflagellida	Crespedida	Crespedida	DSGM66	92.73	3,00E-166	577	399
+OTU3054	GQ365798.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	98.50	0.0	702	399
+OTU306	FN690573.1	Eukaryota	stramenopiles	Diatoms	Bacillariophyceae[raphid	pennate_diatoms]	unclassified_Bacillariophyceae	Diatom_Baltic_Sea_Ice_clone8_90	98.76	0.0	715	402
+OTU307	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	97.77	0.0	693	403
+OTU3071	AY954993.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP1195_clade_C	99.24	0.0	713	395
+OTU308	FJ196076.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Tintinnids	Tintinnopsis	Tintinnopsis	95.44	0.0	628	395
+OTU3082	Y16232.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Prorocentrales	Prorocentraceae_Prorocentrum	Prorocentrum_mexicanum	98.76	0.0	715	402
+OTU3084	X77479.1	Eukaryota	Haptophyceae[prymnesiophytes]	Syracosphaerales_Zygodiscales	Syracosphaerales	Syracosphaeraceae	Syracosphaera	97.52	0.0	688	403
+OTU3086	AJ246277.1	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	98.01	0.0	699	402
+OTU3087	AJ632205.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Thalassiosirales	Skeletonema	98.25	0.0	704	401
+OTU309	EF058237.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Peridiniales_incerate_sedis_Pentapharsodinium	Glenodinium	99.25	0.0	726	402
+OTU31	AY485484.1	Eukaryota	stramenopiles	Diatoms	Bacillariophyceae[raphid	pennate_diatoms]	Naviculales	Navicula	99.50	0.0	732	402
+OTU310	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	98.51	0.0	710	403
+OTU3100	DQ779991.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gymnodinium_sensu_largo	Gymnodinium_aureolum	98.76	0.0	715	402
+OTU3101	AY485490.1	Eukaryota	stramenopiles	Diatoms	Bacillariophyceae[raphid	pennate_diatoms]	Bacillariales	Pseudo_nitzschia	98.77	0.0	719	405
+OTU3105	EF526808.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_NIF_3A1	98.26	0.0	704	402
+OTU311	DQ060525.1	Eukaryota	Picozoas	environmental_picozoa_clone	environmental_picozoa_clone	Uncultured_Arctic_marine_picozoa_clone	NW617.02	98.76	0.0	717	403
+OTU312	Y16232.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Peridiniales_incerate_sedis_Adenoides	Adenoides	78.08	1,00E-66	246	406
+OTU3125	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	96.71	0.0	658	395
+OTU3128	AY954993.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP2099_Arctic	97.74	0.0	682	398
+OTU3129	denovo6	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Katodinium	88.31	3,00E-136	477	402
+OTU313	AJ786648.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Parastrombidinopsis	Parastrombidinopsis_shimi	91.50	3,00E-156	544	400
+OTU3134	JX262491.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_incertae_sedis	Amphidomataceae_Azadinium	Azadinium_spinosum	97.51	0.0	688	402
+OTU3135	AY541684.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium	Strombidium	97.21	0.0	667	394
+OTU3137	M87327.2	Eukaryota	Haptophyceae[prymnesiophytes]	Isochrysidales	Isochrysidales	Noelaerhabdaceae	Emiliania	98.76	0.0	713	402
+OTU3139	AM490987.2	Eukaryota	Haptophyceae[prymnesiophytes]	Syracosphaerales_Zygodiscales	Syracosphaerales	Syracosphaeraceae	Syracosphaera	98.01	0.0	699	402
+OTU314	EF172987.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.6	Guillou_II.6	89.08	3,00E-142	497	403
+OTU3142	X77479.1	Eukaryota	Haptophyceae[prymnesiophytes]	Phaeocystales	Phaeocystales	Phaeocystaceae	Phaeocystis	97.77	0.0	693	403
+OTU315	EF173017.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.6	Guillou_II.6	99.00	0.0	715	399
+OTU3154	AY919816	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	unclassified_Chrysophyte	Chrysophyte_Lake_Georges_clone_LG47_07	97.52	0.0	691	404
+OTU316	GU246574.1	Eukaryota	Rhizaria	Acantharea	Acantharea	Arthracanthida	Acantharian	89.26	2,00E-139	488	391
+OTU3160	DQ025753.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP2099_Arctic	98.99	0.0	708	395
+OTU3161	AB252658.1	Eukaryota	stramenopiles	PX_clade	PX_clade	Sphacelariales	Choristocarpus	89.65	1,00E-150	525	425
+OTU317	EU500144.1	Eukaryota	stramenopiles	MASTs	MAST_10	MAST_10	hotxp2a1	90.17	3,00E-151	527	407
+OTU3175	AJ402349.1	Eukaryota	Alveolata	MALVs	MALV_III_[Syndinales]	Environ_III.O	Environ_III.O	96.00	0.0	651	400
+OTU3178	AJ564772.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	94.46	9,00E-177	612	397
+OTU318	EU780626.1	Eukaryota	Alveolata	MALVs	MALV_II_F_group	Guillou_26	Guillou_26	95.25	0.0	634	400
+OTU3184	DQ514884.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Thalassiosirales	Thalassiosira	99.01	0.0	723	403
+OTU3187	FJ590769.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Thalassiosirales	Minidiscus	96.79	0.0	676	405
+OTU319	AM490987.2	Eukaryota	Haptophyceae[prymnesiophytes]	Syracosphaerales_Zygodiscales	Syracosphaerales	Syracosphaeraceae	Syracosphaera	98.01	0.0	699	402
+OTU32	AY664971.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_NW414.36	Dino_clone_SCM15C21	100.00	0.0	743	402
+OTU3207	denovo6	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Katodinium	88.56	7,00E-138	483	402
+OTU321	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_G_group	Guillou_24	Guillou_24	89.11	7,00E-143	499	404
+OTU322	DQ060525.1	Eukaryota	Picozoas	environmental_picozoa_clone	environmental_picozoa_clone	Uncultured_Arctic_marine_picozoa_clone	NW617.02	93.80	1,00E-174	604	403
+OTU3223	GQ351701.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Litostomatea	Litonotus	Litonotus	96.35	9,00E-156	542	329
+OTU323	FN999015.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Oligohymenophorea	Durchoniella_ALS_2010b	Durchoniella_ALS_2010b	92.31	2,00E-158	551	390
+OTU3236	AB120004.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_helveticum	98.26	0.0	702	402
+OTU324	AY268045.1	Eukaryota	Rhizaria	Sticholonche	Sticholonche	Sticholonchidae	Sticholonche	97.53	0.0	693	405
+OTU325	FJ032659.1	Eukaryota	stramenopiles	Pelagophyceae	Pelagophyceae	unclassified_Pelagophyceae	Pelagophyte_clone_DH114_3A43	99.75	0.0	747	407
+OTU3257	AM490984.2	Eukaryota	Haptophyceae[prymnesiophytes]	Coccosphaerales	Coccosphaerales	Pontosphaeraceae	Scyphosphaera	97.76	0.0	693	402
+OTU326	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	95.31	0.0	638	405
+OTU3269	EF172987.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	99.75	0.0	723	394
+OTU327	GQ365798.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	96.24	0.0	654	399
+OTU3276	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mamiella	93.73	2,00E-172	597	399
+OTU328	DQ314838.1	Eukaryota	Rhizaria	Polycystinea	Polycystinea	Nassellaria	Nassellaria	91.02	9,00E-157	545	412
+OTU3280	AM490984.2	Eukaryota	Haptophyceae[prymnesiophytes]	Coccosphaerales	Coccosphaerales	Pontosphaeraceae	Scyphosphaera	98.01	0.0	699	402
+OTU3284	X77479.1	Eukaryota	Haptophyceae[prymnesiophytes]	Phaeocystales	Phaeocystales	Phaeocystaceae	Phaeocystis	97.52	0.0	688	403
+OTU329	EF526808.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_NIF_3A1	99.50	0.0	732	402
+OTU3294	DQ025753.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP2099_Arctic	99.24	0.0	710	393
+OTU3297	DQ779991.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gymnodinium_sensu_largo	Gymnodinium_aureolum	99.00	0.0	721	402
+OTU33	JF826353.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gymnodinium_sensu_largo	Dino_clone_North_Pole_SW0_72	100.00	0.0	741	401
+OTU330	AY425304.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Pseudoscourfieldia	100.00	0.0	743	402
+OTU331	EU503538.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Oligohymenophorea	Hyalophysa	Hyalophysa_lwoffi	92.33	7,00E-158	549	391
+OTU3310	AB017127.3	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Pterosperma	97.27	0.0	682	403
+OTU3317	AJ404886.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Pyramimonas	99.00	0.0	717	400
+OTU332	AJ246278.1	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	96.52	0.0	664	402
+OTU3322	DQ060525.1	Eukaryota	Picozoas	environmental_picozoa_clone	environmental_picozoa_clone	Uncultured_Arctic_marine_picozoa_clone	NW617.02	96.03	0.0	656	403
+OTU333	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	98.74	0.0	702	396
+OTU3333	AJ402349.1	Eukaryota	Alveolata	MALVs	MALV_III_[Syndinales]	Environ_III.O	Environ_III.O	96.52	0.0	665	402
+OTU334	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	95.51	0.0	641	401
+OTU3343	AJ404886.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Pyramimonas	97.25	0.0	678	400
+OTU3345	FJ032668.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	96.77	0.0	671	402
+OTU3346	EF058252.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Woloszynskiaceae	Woloszynskia_halophila_strain_WHTV_S1	98.00	0.0	695	400
+OTU335	DQ060525.1	Eukaryota	Picozoas	environmental_picozoa_clone	environmental_picozoa_clone	Uncultured_Arctic_marine_picozoa_clone	NW617.02	91.81	3,00E-161	560	403
+OTU336	AF290083.2	Eukaryota	stramenopiles	MASTs	MAST_2	MAST_2	DH148_5_EKD52	98.52	0.0	715	406
+OTU3364	AM494499.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Thoracosphaerales	Thoracosphaeraceae_Scripsiella	Scrippsiella_sp.SCKS_0701	98.73	0.0	702	395
+OTU337	AB601108.1	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	99.75	0.0	736	401
+OTU3370	HQ866287.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_Saanich_SGSU510	98.76	0.0	715	402
+OTU3379	AF274267.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_like	86.42	4,00E-125	440	405
+OTU338	AF509625.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Dolichomastix	95.74	0.0	643	399
+OTU3385	AF274260	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gymnodinium	Gymnodinium_sp.	98.51	0.0	710	402
+OTU3386	FN599060.1	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	98.51	0.0	710	402
+OTU3387	EF526808.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_NIF_3A1	99.00	0.0	721	402
+OTU3388	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	96.51	0.0	664	401
+OTU3389	AF022199.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Lepidodinium	Gymnodiniaceae_Gymnodinium_sensu_lato	Lepidodinium	96.27	0.0	660	402
+OTU339	KP790160.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Katodinium	99.00	0.0	721	402
+OTU3396	JN615412.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Protoperidiniaceae_Protoperidinium	Prorocentrum_triestinum_strain_MBIC11147	90.35	3,00E-151	527	404
+OTU34	AY664971.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_NW414.36	Dino_clone_SCM15C21	98.76	0.0	715	402
+OTU3408	denovo6	Eukaryota	Alveolata	MALVs	MALV_IV_[Syndinales]	Syndiniales[groupIV]	Syndiniales[groupIV]	87.81	7,00E-133	466	402
+OTU341	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	97.97	0.0	686	395
+OTU3415	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	95.77	0.0	649	402
+OTU342	HM067002.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Brachidiniales	Brachidiniaceae_Karenia	Karenia_bidigitata	98.76	0.0	715	402
+OTU343	EF165121	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	Chrysosphaerales	Chrysosaccus	90.86	4,00E-155	540	405
+OTU344	EF172942.1	Eukaryota	Alveolata	MALVs	MALV_II_D_group	Guillou_13_23	Guillou_13_23	92.29	1,00E-164	571	402
+OTU345	denovo58	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Lepidodinium	Gymnodiniaceae_Gymnodinium_sensu_lato	Lepidodinium	98.23	0.0	691	396
+OTU346	DQ314810.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cryothecomonad_NW617.37	95.37	0.0	652	410
+OTU347	AB601108.1	Eukaryota	Haptophyceae[prymnesiophytes]	Pavlovales	Pavlovales	Pavlovaceae	Pavlova	89.05	9,00E-142	496	402
+OTU348	FJ266034.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Lithodesmidales	Ditylum	88.42	7,00E-138	483	406
+OTU3485	EF172987.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	94.28	7,00E-178	616	402
+OTU349	FJ032668.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	98.51	0.0	710	402
+OTU3492	DQ060525.1	Eukaryota	Picozoas	environmental_picozoa_clone	environmental_picozoa_clone	Uncultured_Arctic_marine_picozoa_clone	NW617.02	96.53	0.0	667	403
+OTU350	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	96.78	0.0	671	404
+OTU3503	AB246693.1	Eukaryota	Rhizaria	Polycystinea	Polycystinea	Spumellaria	Larcopyle	94.81	0.0	632	405
+OTU351	HQ912623.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Cymatosirales	Campylosira	95.06	0.0	638	405
+OTU352	EF172968.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	97.76	0.0	693	402
+OTU3526	HM067002.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Brachidiniales	Brachidiniaceae_Karenia	Karenia_bidigitata	98.51	0.0	710	402
+OTU353	FJ032664.1	Eukaryota	stramenopiles	MASTs	MAST_1	MAST_1c	DH18_4A29	96.28	0.0	660	403
+OTU3537	DQ025753.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP2099_Arctic	98.99	0.0	708	395
+OTU3538	denovo44	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Blastodiniales	Blastodiniaceae_Blastodinium	Blastodinium_like	97.50	0.0	680	400
+OTU354	AF290539.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cryothecomonas	98.52	0.0	713	406
+OTU3545	AF290539.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cryothecomonas	96.02	0.0	651	402
+OTU355	AY919816	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	unclassified_Chrysophyte	Chrysophyte_Lake_Georges_clone_LG47_07	91.15	3,00E-157	547	407
+OTU3556	AY498655.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Hypotrichea	Sporadotrichida	Gastrostyla	Gastrostyla_pulchra	89.80	4,00E-145	507	402
+OTU3559	AB183673.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Protoperidiniaceae_Protoperidinium	Prorocentrum_triestinum_strain_MBIC11147	93.05	1,00E-169	588	403
+OTU356	AB365027.1	Eukaryota	stramenopiles	Raphidophyceae	Raphidophyceae	unclassified_Raphidophyceae	Haramonas	92.23	9,00E-167	579	412
+OTU357	FJ032668.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	96.52	0.0	664	402
+OTU3575	AY541684.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium	Strombidium	99.49	0.0	717	394
+OTU358	EU399523.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	TintinnidsCodonellopsis	87.62	4,00E-130	457	404
+OTU3585	DQ120005.1	Eukaryota	Choanoflagellates	Choanoflagellida	Acanthoecida	Stephanoecidae	Didymoeca_NOR46.34	95.24	0.0	632	399
+OTU359	EF173006.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.5	Guillou_II.5	97.27	0.0	682	403
+OTU36	FJ663049.1	Eukaryota	Alveolata	Dinoflagellates	Syndiniophyceae_Coccidiniales	Chytriodiniaceae_Chytriodinium	Chytriodinium	98.00	0.0	697	401
+OTU360	EF492484.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Prorocentrales	Prorocentraceae_Prorocentrum	Prorocentrum_donghaiense	85.50	7,00E-118	416	407
+OTU361	DQ393786.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	TintinnidsCodonellopsis	90.00	1,00E-145	508	400
+OTU3615	AF274262.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Brachidiniales	Brachidiniaceae_Karenia	Karenia_bidigitata	95.78	0.0	649	403
+OTU3619	HQ866287.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_Saanich_SGSU510	99.00	0.0	721	402
+OTU362	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	96.28	0.0	660	403
+OTU363	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	97.27	0.0	682	403
+OTU3630	KP790160.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Katodinium	99.25	0.0	726	402
+OTU364	AJ561113.1	Eukaryota	stramenopiles	Labyrinthulida	Labyrinthulida	Thraustochytriidae	Oblongichytrium_PBS03	88.35	6,00E-139	486	412
+OTU3642	EF058252.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Woloszynskiaceae	Woloszynskia_halophila_strain_WHTV_S1	98.76	0.0	715	402
+OTU365	FN599060.1	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	96.04	0.0	652	404
+OTU3653	GQ365798.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	98.98	0.0	702	392
+OTU366	DQ777746.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Litostomatea	Lacrymaria	Lacrymaria_marina	96.40	7,00E-157	545	333
+OTU3666	FJ626712.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_DinoRS24	Dinophyceae_sp.SA7.9	98.76	0.0	715	402
+OTU367	AY381157.1	Eukaryota	stramenopiles	MASTs	MAST_3	MAST_3	HE000427.20	89.16	2,00E-143	501	415
+OTU368	JN615412.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_incertae_sedis	Amphidomataceae_Amphidoma	Amphidoma	98.51	0.0	710	402
+OTU3688	AJ786648.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Parastrombidinopsis	Parastrombidinopsis_shimi	88.97	2,00E-139	488	399
+OTU369	Y16237.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	83.00	4,00E-101	361	406
+OTU37	DQ060525.1	Eukaryota	Picozoas	environmental_picozoa_clone	environmental_picozoa_clone	Uncultured_Arctic_marine_picozoa_clone	NW617.02	99.01	0.0	721	403
+OTU370	DQ314819.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	unclassified_Cercozoa	Cercozoa_clone_NW617.36	99.76	0.0	752	410
+OTU371	EU818590.1	Eukaryota	Alveolata	MALVs	MALV_II_E_group	Guillou_22	Guillou_22	95.24	0.0	630	399
+OTU372	AF174376	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	Chromulinales	Paraphysomonas	99.50	0.0	736	404
+OTU3723	EF526808.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_NIF_3A1	98.76	0.0	715	402
+OTU374	EF172942.1	Eukaryota	Alveolata	MALVs	MALV_II_F_group	Guillou_26	Guillou_26	89.83	7,00E-148	516	403
+OTU3749	FJ032668.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	97.01	0.0	676	402
+OTU375	HM483394.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	93.28	4,00E-170	590	402
+OTU376	AY885027.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.39	Guillou_II.39	99.00	0.0	719	401
+OTU377	GQ144679.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cryothecomonas	98.76	0.0	719	404
+OTU378	AF139462.1	Eukaryota	Rhodophyta	Goniotrichales	Goniotrichales	Goniotricaceae	Bangiopsis	90.00	2,00E-88	318	250
+OTU379	U37367.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gymnodinium	Gymnodinium_beii	100.00	0.0	743	402
+OTU38	DQ120005.1	Eukaryota	Choanoflagellates	Choanoflagellida	Acanthoecida	Stephanoecidae	Didymoeca_SCM28C135	93.05	7,00E-168	582	403
+OTU380	DQ837534.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gymnodinium_sensu_largo	Gymnodinium_dorsalisulcum	99.25	0.0	726	402
+OTU381	EF172953.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.27	Guillou_II.27	92.54	1,00E-165	575	402
+OTU382	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Varistrombidium	Varistrombidium_kielum	87.94	1,00E-130	459	398
+OTU383	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	88.48	7,00E-138	483	408
+OTU384	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mamiella	93.28	4,00E-170	590	402
+OTU385	EF172968.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	97.26	0.0	680	402
+OTU386	FJ590769.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Thalassiosirales	Minidiscus	99.01	0.0	726	405
+OTU387	AY268043.1	Eukaryota	Centroheliozoa	Acanthocystidae	Acanthocystidae	Pterocystis	Pterocystis	90.71	4,00E-155	540	409
+OTU388	DQ303924.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Protaspis	97.81	0.0	708	411
+OTU389	AY268040.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Silicofilosea	Allas	97.07	0.0	691	410
+OTU39	GQ365798.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	99.50	0.0	726	399
+OTU390	DQ303923.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Ebriidae	Ebria	99.02	0.0	736	410
+OTU391	EF173017.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.6	Guillou_II.6	96.01	0.0	651	401
+OTU392	U37367.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gymnodinium	Gymnodinium_beii	98.76	0.0	715	402
+OTU393	AY143564.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium_SNB99_2	Strombidium_SNB99_2	99.49	0.0	719	395
+OTU394	AY116220.1	Eukaryota	stramenopiles	MASTs	MAST_8	MAST_8	ANT12_26	96.08	0.0	665	408
+OTU395	AB246693.1	Eukaryota	Rhizaria	Polycystinea	Polycystinea	Spumellaria	Larcopyle	99.26	0.0	732	405
+OTU396	AY425306.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Nephroselmis	100.00	0.0	743	402
+OTU397	HQ912569.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Cymatosirales	Papiliocellulus	92.12	5,00E-164	569	406
+OTU399	U37367.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gymnodinium	Gymnodinium_beii	97.51	0.0	688	402
+OTU4	FJ626712.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_DinoRS24	Dinophyceae_sp.SA7.9	100.00	0.0	743	402
+OTU40	FJ590769.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Thalassiosirales	Minidiscus	97.78	0.0	699	405
+OTU402	EF172955.1	Eukaryota	Alveolata	MALVs	MALV_II_D_group	Guillou_8	Guillou_8	91.29	3,00E-157	547	402
+OTU403	EF432538.1	Eukaryota	Choanoflagellates	Choanoflagellida	unclassified_Choanoflagellida	unclassified_Choanoflagellida	Choanoflagellida_sp._SL117	95.76	0.0	643	401
+OTU404	EF172942.1	Eukaryota	Alveolata	MALVs	MALV_II_D_group	Guillou_13_23	Guillou_13_23	97.51	0.0	688	402
+OTU405	AF167155.1	Eukaryota	stramenopiles	Bolidophyceae	Bolidophyceae	Bolidomonas	Bolidomonas	92.10	2,00E-163	568	405
+OTU406	EF526932.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Silicofilosea	Allas	89.32	9,00E-147	512	412
+OTU407	AY664971.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_NW414.36	Dino_clone_SCM15C21	98.76	0.0	715	402
+OTU408	EU780604.1	Eukaryota	Alveolata	MALVs	MALV_III_[Syndinales]	Envrion_III.A	Envrion_III.A	94.79	0.0	627	403
+OTU409	EU780626.1	Eukaryota	Alveolata	MALVs	MALV_II_D_group	Guillou_13_23	Guillou_13_23	88.92	3,00E-141	494	406
+OTU41	AY665083.1	Eukaryota	Katablepharidophyta	Katablepharidaceae	Katablepharidaceae	unclassified_Katablepharidaceae	Katablepharidophyte_clone_SCM37C29	99.75	0.0	732	399
+OTU410	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mamiella	92.79	9,00E-167	579	402
+OTU411	EF172987.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	96.77	0.0	671	402
+OTU412	DQ310209.1	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	unclassified_Chrysophyte	Chrysophyte_clone_ArcticLakeA8E2G5	98.51	0.0	710	404
+OTU413	FJ973363.1	Eukaryota	stramenopiles	Pelagophyceae	Pelagophyceae	Sarcinochrysidales	Ankylochrysis	97.30	0.0	693	408
+OTU414	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	92.06	7,00E-163	566	403
+OTU415	AY665096.1	Eukaryota	Choanoflagellates	Choanoflagellida	Acanthoecida	Stephanoecidae	Didymoeca_SCM28C135	94.99	0.0	627	399
+OTU416	AF290539.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cryothecomonas	98.77	0.0	719	406
+OTU417	EU286811.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Nassophorea	Leptopharynx	Leptopharynx_costatus	82.00	2,00E-88	318	400
+OTU418	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mamiella	92.77	9,00E-167	579	401
+OTU42	AB246693.1	Eukaryota	Rhizaria	Polycystinea	Polycystinea	Spumellaria	Larcopyle	95.06	0.0	638	405
+OTU420	AM502000.1	Eukaryota	stramenopiles	Diatoms	Bacillariophyceae[raphid	pennate_diatoms]	Naviculales	Craticula	97.50	0.0	680	400
+OTU421	AF080098.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gonyaulacales	Goniodomataceae_Alexandrium	Alexandrium_ostenfeldii_strain_LSE05	84.94	2,00E-114	405	405
+OTU423	JF698787.1	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	unclassified_Chrysophyte	Chrysophyte_clone_MALINA_St320_ES069_E8	100.00	0.0	747	404
+OTU424	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	95.76	0.0	647	401
+OTU425	denovo6	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	95.50	0.0	638	400
+OTU426	HM067002.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Brachidiniales	Brachidiniaceae_Karenia	Karenia_bidigitata	98.51	0.0	710	402
+OTU427	HQ869322.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	unclassified_Cercozoa	Cercozoa_clone_SHBA662	100.00	0.0	730	395
+OTU428	AJ402349.1	Eukaryota	Alveolata	MALVs	MALV_III_[Syndinales]	Environ_III.O	Environ_III.O	96.52	0.0	665	402
+OTU429	GQ365798.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	95.49	0.0	638	399
+OTU43	FN263030.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	99.75	0.0	736	401
+OTU430	EF172987.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	99.25	0.0	726	402
+OTU431	AF290540.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Protaspis	95.85	0.0	664	410
+OTU432	FJ032668.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	95.77	0.0	649	402
+OTU433	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	92.82	2,00E-167	580	404
+OTU434	FJ541187.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	85.64	2,00E-119	422	404
+OTU435	AJ404886.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Pyramimonas	98.76	0.0	715	402
+OTU436	EF173017.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.6	Guillou_II.6	92.02	4,00E-160	556	401
+OTU437	GU001637.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Katodinium	83.70	1,00E-105	375	405
+OTU438	DQ314813.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	unclassified_Cercozoa	Cercozoa_clone_NOR46.15	95.85	0.0	664	410
+OTU439	AB252658.1	Eukaryota	stramenopiles	PX_clade	PX_clade	Sphacelariales	Choristocarpus	89.62	1,00E-150	525	424
+OTU44	EU780604.1	Eukaryota	Alveolata	MALVs	MALV_III_[Syndinales]	Envrion_III.A	Envrion_III.A	94.54	1,00E-179	621	403
+OTU440	EU503538.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Oligohymenophorea	Hyalophysa	Hyalophysa_lwoffi	91.79	5,00E-154	536	390
+OTU441	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	95.01	0.0	630	401
+OTU442	Y16232.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Prorocentrales	Prorocentraceae_Prorocentrum	Prorocentrum_mexicanum	98.01	0.0	699	402
+OTU445	EU780626.1	Eukaryota	Alveolata	MALVs	MALV_II_F_group	Guillou_26	Guillou_26	98.25	0.0	701	400
+OTU446	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mamiella	93.03	2,00E-168	584	402
+OTU447	AJ786648.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Parastrombidinopsis	Parastrombidinopsis_shimi	90.50	2,00E-149	521	400
+OTU448	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	93.30	3,00E-171	593	403
+OTU449	FJ888597.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Podolampadaceae_Podolampas	Podolampas	98.01	0.0	699	402
+OTU45	AF363196.2	Eukaryota	stramenopiles	MASTs	MAST_7	MAST_7	ANT12_10	99.75	0.0	736	401
+OTU450	AF300285.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Colpodea	Sorogena	Sorogena_stoianovitchae	88.98	3,00E-82	298	245
+OTU451	EF172837.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.6	Guillou_II.6	93.33	3,00E-171	593	405
+OTU452	AB246693.1	Eukaryota	Rhizaria	Polycystinea	Polycystinea	unclassified_Polycystinea	Taxopodida_B	89.00	7,00E-143	499	409
+OTU453	GU246574.1	Eukaryota	Rhizaria	Acantharea	Acantharea	Sphaenacanthida	Acanthometra	91.14	3,00E-151	527	395
+OTU454	FN599060.1	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	92.82	2,00E-168	584	404
+OTU455	DQ314813.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	unclassified_Cercozoa	Cercozoa_clone_NOR46.15	100.00	0.0	758	410
+OTU456	EU780604.1	Eukaryota	Alveolata	MALVs	MALV_III_[Syndinales]	Envrion_III.A	Envrion_III.A	90.62	7,00E-153	532	405
+OTU457	DQ303924.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Protaspis	96.11	0.0	667	411
+OTU458	AY143564.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium_SNB99_2	Strombidium_SNB99_2	97.97	0.0	684	395
+OTU459	DQ514884.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Thalassiosirales	Thalassiosira	97.53	0.0	691	405
+OTU46	AF290083.2	Eukaryota	stramenopiles	MASTs	MAST_2	MAST_2	DH148_5_EKD52	99.75	0.0	745	406
+OTU461	EU039890.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Nassophorea	Nassula	Nassula_sp.	81.95	6,00E-89	320	399
+OTU462	FN599060.1	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	95.30	0.0	640	404
+OTU463	AJ786648.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Parastrombidinopsis	Parastrombidinopsis_shimi	90.73	1,00E-150	525	399
+OTU464	AJ786648.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Parastrombidinopsis	Parastrombidinopsis_shimi	90.98	2,00E-152	531	399
+OTU465	AY664971.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	85.22	3,00E-116	411	406
+OTU466	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	95.04	0.0	632	403
+OTU467	JX262491.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_incertae_sedis	Amphidomataceae_Azadinium	Azadinium_spinosum	99.00	0.0	721	402
+OTU468	AY919816	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	unclassified_Chrysophyte	Chrysophyte_CCMP2296	92.84	2,00E-168	584	405
+OTU469	AY381157.1	Eukaryota	stramenopiles	unclassified_stramenopile	unclassified_stramenopile	unclassified_stramenopile	Developayella	83.65	1,00E-105	375	416
+OTU47	X73999.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mantoniella	100.00	0.0	734	397
+OTU470	AJ786648.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Parastrombidinopsis	Parastrombidinopsis_shimi	89.22	4,00E-140	490	399
+OTU471	EU286810.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Nassophorea	Nassula	Nassula_sp.	88.00	2,00E-79	289	250
+OTU472	HM483394.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	91.04	3,00E-156	544	402
+OTU473	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	92.04	2,00E-162	564	402
+OTU474	FN562441.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Pyramimonas	93.78	5,00E-174	603	402
+OTU476	AB246693.1	Eukaryota	Rhizaria	Polycystinea	Polycystinea	Spumellaria	Larcopyle	96.06	0.0	660	406
+OTU477	denovo6	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	85.92	2,00E-118	418	412
+OTU478	EU024992.1	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	Chromulinales	Kephyrion_CCMP3057	88.59	6,00E-139	486	412
+OTU479	X77479.1	Eukaryota	Haptophyceae[prymnesiophytes]	Phaeocystales	Phaeocystales	Phaeocystaceae	Phaeocystis	97.26	0.0	678	401
+OTU480	EF526829.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_NA1_3B12	Dino_clone_NA1_3B12	100.00	0.0	743	402
+OTU481	AF174376	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	Chromulinales	Paraphysomonas	94.80	0.0	628	404
+OTU482	AJ561116.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	unclassified_Cercozoa	Pseudopirsonia	94.70	1,00E-115	409	264
+OTU483	HQ912645.1	Eukaryota	stramenopiles	Diatoms	Bacillariophyceae[raphid	pennate_diatoms]	Bacillariales	Cylindrotheca	96.05	0.0	654	405
+OTU484	AF167155.1	Eukaryota	stramenopiles	Bolidophyceae	Bolidophyceae	Bolidomonas	Bolidomonas	94.83	0.0	630	406
+OTU485	EF526808.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_NIF_3A1	99.50	0.0	728	400
+OTU486	EF172923.1	Eukaryota	Alveolata	MALVs	MALV_II_F_group	Guillou_26	Guillou_26	87.41	6,00E-129	453	397
+OTU487	AY381157.1	Eukaryota	stramenopiles	MASTs	MAST_3	MAST_3	HE000427.20	92.87	5,00E-169	586	407
+OTU488	AY143564.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium_SNB99_2	Strombidium_SNB99_2	99.24	0.0	713	395
+OTU489	EF172923.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.20	Guillou_II.20	97.01	0.0	676	402
+OTU49	EF432538.1	Eukaryota	Choanoflagellates	Choanoflagellida	unclassified_Choanoflagellida	unclassified_Choanoflagellida	Choanoflagellida_sp._SL117	94.78	1,00E-179	621	402
+OTU490	FJ824121.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Protaspis	91.75	5,00E-164	569	412
+OTU491	AY268045.1	Eukaryota	Rhizaria	Sticholonche	Sticholonche	Sticholonchidae	Sticholonche	82.17	1,00E-95	342	415
+OTU492	HQ866287.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_Saanich_SGSU510	99.25	0.0	726	402
+OTU493	EU247838.1	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	unclassified_Chrysophyte	Chrysophyte_Lake_Georges_clone_LG47_07	90.20	4,00E-150	523	408
+OTU494	EF526932.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cercozoa_clone_SA24H12	98.30	0.0	721	412
+OTU495	EF165120	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	Chromulinales	Kephyrion_CCMP3057	88.70	4,00E-140	490	407
+OTU497	EF044311.1	Eukaryota	stramenopiles	Eustigmatophyceae	Eustigmatophyceae	Pseudotetraedriella	Pseudotetraedriella	91.53	3,00E-161	560	413
+OTU498	AY268045.1	Eukaryota	Rhizaria	Sticholonche	Sticholonche	Sticholonchidae	Sticholonche	91.67	3,00E-97	348	252
+OTU499	FM164374.1	Eukaryota	stramenopiles	Diatoms	Fragilariophyceae[araphid	pennate_diatoms]	Fragilariales	Synedropsis	95.80	0.0	647	405
+OTU5	AF274260	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gymnodinium	Gymnodinium_sp.	99.75	0.0	737	402
+OTU50	DQ060526.1	Eukaryota	Picozoas	environmental_picozoa_clone	environmental_picozoa_clone	Uncultured_Arctic_marine_picozoa_clone	NW617.02	90.42	3,00E-151	527	407
+OTU500	EF172987.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	93.03	1,00E-169	588	402
+OTU501	HM749944.1	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	unclassified_Chrysophyte	Chrysophyte_clone_BLACKSEA_cl_42	97.52	0.0	691	404
+OTU502	AM491030.2	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	97.27	0.0	682	403
+OTU503	AF274270	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Peridiniales_incerate_sedis_Pentapharsodinium	Pentapharsodinium_sp._CCMP771_strain_CCMP_771	98.51	0.0	710	402
+OTU504	AF022199.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Lepidodinium	Gymnodiniaceae_Gymnodinium_sensu_lato	Lepidodinium	99.00	0.0	721	402
+OTU505	denovo44	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Blastodiniales	Blastodiniaceae_Blastodinium	Blastodinium_like	97.00	0.0	669	400
+OTU506	EU780604.1	Eukaryota	Alveolata	MALVs	MALV_III_[Syndinales]	Envrion_III.A	Envrion_III.A	92.06	7,00E-163	566	403
+OTU507	AJ786648.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Parastrombidinopsis	Parastrombidinopsis_shimi	91.98	1,00E-159	555	399
+OTU508	DQ779990.2	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_NW414.36	Dino_clone_SCM15C21	85.01	2,00E-114	405	407
+OTU509	AB252658.1	Eukaryota	stramenopiles	PX_clade	PX_clade	Sphacelariales	Choristocarpus	89.39	6,00E-149	520	424
+OTU51	AJ404886.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Pyramimonas	95.77	0.0	649	402
+OTU510	EF172987.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	87.81	2,00E-134	472	402
+OTU511	HM483394.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	93.80	1,00E-174	604	403
+OTU512	AJ246278.1	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	98.26	0.0	702	402
+OTU513	EF172955.1	Eukaryota	Alveolata	MALVs	MALV_II_D_group	Guillou_8	Guillou_8	99.50	0.0	732	402
+OTU514	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	94.01	1,00E-175	608	401
+OTU515	U97111.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Oligohymenophorea	Uronemella	Uronemella_filificum	82.76	6,00E-94	337	406
+OTU516	EF173006.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.5	Guillou_II.5	96.28	0.0	660	403
+OTU517	HQ869322.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	unclassified_Cercozoa	Cercozoa_clone_SHBA662	96.02	4,00E-115	407	251
+OTU518	AF300285.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Colpodea	Sorogena	Sorogena_stoianovitchae	82.49	7,00E-93	333	394
+OTU519	FJ947040.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Warwowiaceae_Nematodinium	Warnowia_BSL_2009a	98.76	0.0	715	402
+OTU52	JQ966994.1	Eukaryota	Cryptophyta	Cryptomonadales	Pyrenomonadales	Geminigeraceae	Teleaulax_gracilis	100.00	0.0	732	396
+OTU520	AJ561116.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	unclassified_Cercozoa	Pseudopirsonia	88.86	2,00E-143	501	413
+OTU521	EF526932.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cercozoa_clone_SA24H12	86.27	1,00E-125	442	415
+OTU522	EU780604.1	Eukaryota	Alveolata	MALVs	MALV_III_[Syndinales]	Envrion_III.A	Envrion_III.A	95.04	0.0	632	403
+OTU523	GU246584.1	Eukaryota	Rhizaria	Polycystinea	Polycystinea	unclassified_Polycystinea	Taxopodida_A	92.38	9,00E-167	579	407
+OTU524	EU024992.1	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	Chromulinales	Kephyrion_CCMP3057	88.89	3,00E-141	494	414
+OTU525	HM066998.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_DinoRS24	Brachidinium	99.25	0.0	726	402
+OTU526	JX627341.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Protoperidiniaceae_Islandinium	Islandinium_minutum_isolate_2	100.00	0.0	741	401
+OTU527	EF172987.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	91.54	2,00E-159	555	402
+OTU528	AY485490.1	Eukaryota	stramenopiles	Diatoms	Bacillariophyceae[raphid	pennate_diatoms]	Bacillariales	Pseudo_nitzschia	99.75	0.0	743	405
+OTU529	AB474963	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	Chromulinales	Chrysamoeba	90.20	3,00E-151	527	408
+OTU53	AY541684.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium	Strombidium	99.49	0.0	717	394
+OTU530	AB017127.3	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Pterosperma	97.51	0.0	688	402
+OTU531	EU780604.1	Eukaryota	Alveolata	MALVs	MALV_III_[Syndinales]	Envrion_III.A	Envrion_III.A	95.04	0.0	632	403
+OTU532	DQ393786.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Parastrombidinopsis	Parastrombidinopsis_shimi	88.86	3,00E-137	481	404
+OTU533	EU500144.1	Eukaryota	stramenopiles	MASTs	MAST_9	MAST_9	BL010625.31	86.59	1,00E-125	442	410
+OTU534	X77479.1	Eukaryota	Haptophyceae[prymnesiophytes]	Phaeocystales	Phaeocystales	Phaeocystaceae	Phaeocystis	97.99	0.0	693	399
+OTU535	DQ186528.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.5	Guillou_II.5	94.80	0.0	627	404
+OTU536	U73230.1	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	Chromulinales	Chrysamoeba	89.46	4,00E-145	507	408
+OTU537	FN999015.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Colpodea	Sorogena	Sorogena_stoianovitchae	80.92	1,00E-81	296	393
+OTU538	EU024991.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_AskenasiaClade	Askenasia	Askenasia	90.56	1,00E-145	508	392
+OTU539	AB295041.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_clone_AN0630L10	89.34	6,00E-84	303	244
+OTU54	EF432538.1	Eukaryota	Choanoflagellates	Choanoflagellida	unclassified_Choanoflagellida	unclassified_Choanoflagellida	Choanoflagellida_sp._SL117	91.87	1,00E-160	558	406
+OTU540	EU780626.1	Eukaryota	Alveolata	MALVs	MALV_II_F_group	Guillou_26	Guillou_26	86.31	3,00E-122	431	409
+OTU541	AY381157.1	Eukaryota	stramenopiles	MASTs	MAST_3	MAST_3	HE000427.20	97.77	0.0	697	404
+OTU542	EF172953.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.27	Guillou_II.27	99.25	0.0	725	401
+OTU543	FJ844428.1	Eukaryota	Alveolata	MALVs	MALV_IV_[Syndinales]	Syndiniales[groupIV]	Syndiniales[groupIV]	91.11	3,00E-156	544	405
+OTU545	DQ025753.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP2099_Arctic	99.24	0.0	710	393
+OTU546	AM491027.2	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Platychrysis	98.76	0.0	715	402
+OTU547	AY881968.1	Eukaryota	stramenopiles	Diatoms	Bacillariophyceae[raphid	pennate_diatoms]	Bacillariales	Nitzschia	96.53	0.0	665	403
+OTU548	EF172931.1	Eukaryota	Alveolata	MALVs	MALV_II_E_group	Guillou_14_15	Guillou_14_15	99.25	0.0	726	402
+OTU549	AF080098.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	87.25	4,00E-130	457	408
+OTU55	FJ947040.1	Eukaryota	Alveolata	MALVs	MALV_IV_[Syndinales]	Syndiniales[groupIV]	Syndiniales[groupIV]	87.68	7,00E-133	466	406
+OTU550	AB430593.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Cymatosirales	Papiliocellulus	82.85	2,00E-99	355	414
+OTU551	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	98.51	0.0	710	403
+OTU552	AY329635.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Ostreococcus	99.22	0.0	699	387
+OTU553	DQ777746.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Litostomatea	Lacrymaria	Lacrymaria_marina	95.47	7,00E-152	529	331
+OTU554	AY381157.1	Eukaryota	stramenopiles	MASTs	MAST_3	MAST_3	HE000427.20	93.64	1,00E-174	604	409
+OTU555	JF730832.1	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	unclassified_Chrysophyte	Chrysophyte_clone_ArcticLakeA8E2G5	96.04	0.0	658	404
+OTU556	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mamiella	93.52	9,00E-172	595	401
+OTU557	AB017127.3	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Pterosperma	90.59	9,00E-152	529	404
+OTU558	EU780626.1	Eukaryota	Alveolata	MALVs	MALV_II_F_group	Guillou_26	Guillou_26	96.76	0.0	667	401
+OTU559	EF172942.1	Eukaryota	Alveolata	MALVs	MALV_II_D_group	Guillou_13_23	Guillou_13_23	90.57	7,00E-153	532	403
+OTU56	AM490987.2	Eukaryota	Haptophyceae[prymnesiophytes]	Syracosphaerales_Zygodiscales	Syracosphaerales	Syracosphaeraceae	Syracosphaera	99.25	0.0	726	402
+OTU560	FJ626712.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	85.61	2,00E-119	422	403
+OTU561	GU246584.1	Eukaryota	Rhizaria	Polycystinea	Polycystinea	unclassified_Polycystinea	Taxopodida_A	96.57	0.0	675	408
+OTU562	AB120004.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_helveticum	100.00	4,00E-170	590	319
+OTU563	AF509625.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Dolichomastix	92.98	7,00E-168	582	399
+OTU565	HQ866287.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_Saanich_SGSU510	97.51	0.0	688	402
+OTU566	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	96.54	0.0	665	405
+OTU567	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	94.78	0.0	627	402
+OTU568	DQ779990.2	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Heterocapsaceae_Heterocapsa	Heterocapsa	Heterocapsa_pygmaea	85.96	3,00E-121	427	406
+OTU569	AY268043.1	Eukaryota	Centroheliozoa	Acanthocystidae	Acanthocystidae	Pterocystis	Pterocystis	91.89	3,00E-162	564	407
+OTU570	EF172955.1	Eukaryota	Alveolata	MALVs	MALV_II_D_group	Guillou_8	Guillou_8	91.56	2,00E-159	555	403
+OTU571	X71140.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Oligohymenophorea	Lembadion	Lembadion_bullinum	84.65	2,00E-63	235	241
+OTU572	AB017127.3	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Pterosperma	98.51	0.0	710	402
+OTU573	FJ196076.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Tintinnids	Tintinnopsis	Tintinnopsis	96.20	0.0	645	395
+OTU574	AY443017.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Amphidinium	Amphidinium_longum	91.85	3,00E-161	560	405
+OTU575	AB295041.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	93.50	9,00E-172	595	400
+OTU576	FJ870103.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Oligohymenophorea	Cinetochilum	Cinetochilum	94.88	1,00E-175	608	391
+OTU577	AF167155.1	Eukaryota	stramenopiles	Bolidophyceae	Bolidophyceae	Bolidomonas	Bolidomonas	91.13	9,00E-157	545	406
+OTU578	AY665083.1	Eukaryota	Katablepharidophyta	Katablepharidaceae	Katablepharidaceae	unclassified_Katablepharidaceae	Katablepharidophyte_clone_SCM37C29	96.99	0.0	671	399
+OTU579	AB231617.1	Eukaryota	Katablepharidophyta	Katablepharidaceae	Katablepharidaceae	Katablepharis	Katablepharis	98.74	0.0	708	398
+OTU580	EU780604.1	Eukaryota	Alveolata	MALVs	MALV_III_[Syndinales]	Envrion_III.A	Envrion_III.A	94.29	7,00E-178	616	403
+OTU581	EF172955.1	Eukaryota	Alveolata	MALVs	MALV_II_D_group	Guillou_8	Guillou_8	92.82	7,00E-168	582	404
+OTU583	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mamiella	93.53	9,00E-172	595	402
+OTU584	AF274271.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	86.70	3,00E-126	444	406
+OTU585	AY143560.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Tintinnids	Tintinnopsis	Tintinnopsis_fimbriata	96.70	0.0	656	394
+OTU586	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	96.01	0.0	652	401
+OTU587	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	95.04	0.0	632	403
+OTU588	DQ314810.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cryothecomonad_NW617.37	97.30	0.0	691	407
+OTU589	HM067002.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Brachidiniales	Brachidiniaceae_Karenia	Karenia_bidigitata	99.25	0.0	726	402
+OTU59	AM491021.2	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	99.50	0.0	732	402
+OTU590	EF172923.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.20	Guillou_II.20	95.27	0.0	638	402
+OTU591	AY527062.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Colpodea	Sagittaria	Sagittaria_sp.	85.23	3,00E-117	414	413
+OTU592	EU500144.1	Eukaryota	stramenopiles	Labyrinthulida	Labyrinthulida	Thraustochytriidae	Oblongichytrium_PBS03	88.45	2,00E-139	488	407
+OTU593	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	96.53	0.0	665	403
+OTU594	AB275066.1	Eukaryota	Choanoflagellates	Choanoflagellida	Crespedida	Crespedida	DSGM66	91.07	5,00E-154	536	403
+OTU595	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mamiella	94.28	9,00E-177	612	402
+OTU597	FJ032664.1	Eukaryota	stramenopiles	unclassified_stramenopile	unclassified_stramenopile	unclassified_stramenopile	Pirsonia	90.78	4,00E-155	540	412
+OTU598	DQ314813.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	unclassified_Cercozoa	Cercozoa_clone_NOR46.15	96.59	0.0	680	410
+OTU599	AF497794.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Pyramimonas	92.57	3,00E-166	577	404
+OTU6	AY954993.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP1195_clade_C	100.00	0.0	734	397
+OTU60	HM067002.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Brachidiniales	Brachidiniaceae_Karenia	Karenia_bidigitata	99.50	0.0	732	402
+OTU600	AB183673.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Protoperidiniaceae_Protoperidinium	Prorocentrum_triestinum_strain_MBIC11147	99.00	0.0	721	402
+OTU601	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	97.02	0.0	676	403
+OTU602	EF172942.1	Eukaryota	Alveolata	MALVs	MALV_II_D_group	Guillou_13_23	Guillou_13_23	92.54	3,00E-166	577	402
+OTU603	AJ238660.1	Eukaryota	stramenopiles	Oomycetes	Oomycetes	Saprolegniales	Leptolegnia	84.13	6,00E-109	387	416
+OTU604	GU819882.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_AB5	Dino_clone_AB5F14RM14E08	99.50	0.0	730	401
+OTU605	GQ365798.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	95.75	0.0	643	400
+OTU606	AB120004.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_helveticum	95.52	0.0	643	402
+OTU607	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	96.26	0.0	658	401
+OTU608	AM491030.2	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	98.76	0.0	715	402
+OTU609	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	97.26	0.0	680	401
+OTU61	AY541684.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium	Strombidium	97.72	0.0	678	394
+OTU610	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	91.04	1,00E-155	542	402
+OTU611	GU246584.1	Eukaryota	Rhizaria	Polycystinea	Polycystinea	unclassified_Polycystinea	Taxopodida_A	100.00	0.0	752	407
+OTU612	AJ786648.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Parastrombidinopsis	Parastrombidinopsis_shimi	91.41	1,00E-155	542	396
+OTU613	EF526808.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_spirale	91.81	3,00E-161	560	403
+OTU614	AM491021.2	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	96.77	0.0	671	402
+OTU615	AB178585.1	Eukaryota	Rhizaria	Acantharea	Acantharea	Chaunacanthida	Chaunacanthid	85.86	9,00E-117	412	396
+OTU616	HQ869322.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	unclassified_Cercozoa	Cercozoa_clone_SHBA662	90.77	9,00E-152	529	401
+OTU617	EU793379.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	97.75	0.0	689	400
+OTU618	AY541684.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium	Strombidium	99.24	0.0	712	394
+OTU619	HM483398.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Perdiniales_incertae_sedis_Dubosquodinium	Duboscquodinium	92.10	2,00E-162	564	405
+OTU620	AF274254.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Amphidinium	Amphidinium_longum	98.76	0.0	715	402
+OTU621	KP790160.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Katodinium	99.75	0.0	737	402
+OTU622	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	92.31	1,00E-164	571	403
+OTU623	EU780604.1	Eukaryota	Alveolata	MALVs	MALV_III_[Syndinales]	Envrion_III.A	Envrion_III.A	98.26	0.0	704	403
+OTU624	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	92.10	2,00E-162	564	405
+OTU625	AB252658.1	Eukaryota	stramenopiles	PX_clade	PX_clade	Sphacelariales	Choristocarpus	88.71	6,00E-144	503	425
+OTU626	FJ947040.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Warwowiaceae_Nematodinium	Warnowia_BSL_2009a	98.75	0.0	712	400
+OTU627	AJ004866.1	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	97.77	0.0	695	403
+OTU628	AF274271.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gonyaulacales	Goniodomataceae_Alexandrium	Alexandrium_ostenfeldii_strain_LSE05	84.90	6,00E-114	403	404
+OTU629	EU780626.1	Eukaryota	Alveolata	MALVs	MALV_II_D_group	Guillou_8	Guillou_8	93.78	5,00E-174	603	402
+OTU63	EU371175.1	Eukaryota	Choanoflagellates	Choanoflagellida	Acanthoecida	Stephanoecidae	Diaphanoeca_NPK2_136	98.51	0.0	704	402
+OTU630	FJ541187.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Protoperidiniaceae_Protoperidinium	Prorocentrum_triestinum_strain_MBIC11147	92.04	1,00E-160	558	402
+OTU631	EF173017.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.6	Guillou_II.6	95.50	0.0	638	400
+OTU632	AY381157.1	Eukaryota	stramenopiles	MASTs	MAST_3	MAST_3	HE000427.20	92.91	4,00E-170	590	409
+OTU633	AB246693.1	Eukaryota	Rhizaria	Polycystinea	Polycystinea	Spumellaria	Larcopyle	94.58	0.0	627	406
+OTU634	EF172953.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.27	Guillou_II.27	91.29	3,00E-157	547	402
+OTU635	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	95.29	0.0	638	403
+OTU636	DQ647534.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	unclassified_Cercozoa	Cercozoa_clone_AD6.07	99.76	0.0	752	410
+OTU638	DQ303924.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Protaspis	97.80	0.0	708	410
+OTU639	EF173006.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.5	Guillou_II.5	94.55	1,00E-179	621	404
+OTU64	HQ866287.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_Saanich_SGSU510	98.76	0.0	715	402
+OTU640	AY527062.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	unclassified_Cercozoa	Pseudopirsonia	89.02	7,00E-143	499	410
+OTU641	DQ303923.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Ebriidae	Ebria	94.16	4,00E-180	623	411
+OTU642	EF172987.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.39	Guillou_II.39	88.59	2,00E-139	488	403
+OTU643	GQ365767.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	95.00	0.0	627	400
+OTU644	AF290540.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Protaspis	97.08	0.0	691	411
+OTU645	EU247837.1	Eukaryota	stramenopiles	Pelagophyceae	Pelagophyceae	unclassified_Pelagophyceae	Pelagophyte_CCMP2097	96.07	0.0	664	407
+OTU646	AJ246261.1	Eukaryota	Haptophyceae[prymnesiophytes]	Coccolithales	Coccolithales	Coccolithaceae	Coccolithus	100.00	0.0	745	403
+OTU647	AM490984.2	Eukaryota	Haptophyceae[prymnesiophytes]	Pavlovales	Pavlovales	Pavlovaceae	Pavlova	89.66	9,00E-147	512	406
+OTU649	AY360454.1	Eukaryota	stramenopiles	MASTs	MAST_2	MAST_2	DH148_5_EKD52	94.00	1,00E-15	76.8	50
+OTU65	AF290539.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cryothecomonas	96.80	0.0	675	406
+OTU650	FJ971824.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_Ar1353	Dino_clone_Ar1353d50	99.73	0.0	671	366
+OTU651	AF274271.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gonyaulacales	Goniodomataceae_Pyrodinium	Pyrodinium_bahamense_var._compressum_isolate_PYRO	86.88	3,00E-126	444	404
+OTU652	AY268040.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Silicofilosea	Allas	98.05	0.0	713	410
+OTU653	HQ869322.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	unclassified_Cercozoa	Cercozoa_clone_SHBA662	90.82	9,00E-152	529	403
+OTU654	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	92.29	5,00E-164	569	402
+OTU655	EU286810.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Nassophorea	Nassula	Nassula_sp.	87.95	2,00E-79	289	249
+OTU656	AY245692.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Brachidiniales	Brachidiniaceae_Karlodinium	Karlodinium	99.25	0.0	726	402
+OTU657	FM164374.1	Eukaryota	stramenopiles	Diatoms	Fragilariophyceae[araphid	pennate_diatoms]	Fragilariales	Synedropsis	98.76	0.0	713	403
+OTU659	AB430593.1	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	Chromulinales	Ochromonas	88.11	3,00E-136	477	412
+OTU66	denovo40	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_Saanich_SGSU510	99.25	0.0	719	400
+OTU660	AB474963	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	Chrysosphaerales	Chrysosaccus	90.42	3,00E-152	531	407
+OTU661	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	98.23	0.0	691	395
+OTU662	GQ365798.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	96.49	0.0	660	399
+OTU663	GQ375266.1	Eukaryota	stramenopiles	Diatoms	Bacillariophyceae[raphid	pennate_diatoms]	Naviculales	Naviculales_sp._CCMP2297	99.75	0.0	725	396
+OTU664	AF118443.1	Eukaryota	stramenopiles	Pelagophyceae	Pelagophyceae	Aureococcus	Aureococcus	100.00	0.0	752	407
+OTU665	AJ561116.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	unclassified_Cercozoa	Pseudopirsonia	89.16	2,00E-144	505	415
+OTU666	X85389.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Hemiaulales	Eucampia	99.26	0.0	730	404
+OTU667	HM483394.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	90.64	7,00E-153	532	406
+OTU668	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	92.82	7,00E-168	582	404
+OTU669	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	93.52	2,00E-172	597	401
+OTU67	AJ632205.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Thalassiosirales	Skeletonema	99.01	0.0	725	403
+OTU670	AY381157.1	Eukaryota	stramenopiles	MASTs	MAST_3	MAST_3	HE000427.20	92.72	5,00E-169	586	412
+OTU671	GU246584.1	Eukaryota	Rhizaria	Polycystinea	Polycystinea	unclassified_Polycystinea	Taxopodida_A	91.24	2,00E-158	551	411
+OTU672	EF172987.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	87.19	2,00E-129	455	406
+OTU673	EF173006.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.5	Guillou_II.5	93.55	7,00E-173	599	403
+OTU674	AM490984.2	Eukaryota	Haptophyceae[prymnesiophytes]	Coccosphaerales	Coccosphaerales	Pontosphaeraceae	Scyphosphaera	98.76	0.0	715	402
+OTU675	Y16232.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Prorocentrales	Prorocentraceae_Prorocentrum	Prorocentrum_mexicanum	98.51	0.0	710	402
+OTU676	EU024981.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Prostomatea	Urotricha	Urotricha_sp.	97.18	0.0	660	390
+OTU678	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mamiella	93.03	2,00E-168	584	402
+OTU679	EF172955.1	Eukaryota	Alveolata	MALVs	MALV_II_D_group	Guillou_8	Guillou_8	92.82	7,00E-168	582	404
+OTU68	GQ365798.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	94.50	7,00E-178	616	400
+OTU680	AB120002.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_fusiforme	98.51	0.0	710	402
+OTU681	EF172837.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.20	Guillou_II.20	91.83	3,00E-161	560	404
+OTU682	AB430593.1	Eukaryota	stramenopiles	Eustigmatophyceae	Eustigmatophyceae	Pseudotetraedriella	Pseudotetraedriella	88.32	7,00E-138	483	411
+OTU683	AY340591.1	Eukaryota	Alveolata	Ellobiopsidae	Ellobiopsidae	Ellobiopsidae	Thalassomyces_JDS_2003	100.00	0.0	725	392
+OTU684	HQ912645.1	Eukaryota	stramenopiles	Diatoms	Bacillariophyceae[raphid	pennate_diatoms]	Bacillariales	Cylindrotheca	99.75	0.0	737	402
+OTU685	HQ866287.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_Saanich_SGSU510	97.76	0.0	693	402
+OTU686	EF172987.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	88.15	1,00E-135	475	405
+OTU687	HM483394.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.6	Guillou_II.6	90.69	7,00E-153	532	408
+OTU688	AF022199.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	84.16	6,00E-109	387	404
+OTU689	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	92.79	2,00E-167	580	402
+OTU69	AF163148.1	Eukaryota	Haptophyceae[prymnesiophytes]	Phaeocystales	Phaeocystales	Phaeocystaceae	Phaeocystis	96.52	0.0	665	402
+OTU690	AY381157.1	Eukaryota	stramenopiles	MASTs	MAST_3	MAST_3	HE000427.20	94.59	0.0	627	407
+OTU691	EF172968.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	97.01	0.0	676	402
+OTU692	U14386.1	Eukaryota	stramenopiles	Pelagophyceae	Pelagophyceae	Pelagomonadales	Pelagococcus	100.00	0.0	752	407
+OTU693	AY485446.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Chaetocerotales	Chaetoceros	96.04	0.0	656	404
+OTU694	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	90.27	1,00E-150	525	401
+OTU695	FJ824121.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Protaspis	91.48	3,00E-162	564	411
+OTU696	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	97.01	0.0	675	401
+OTU697	EU024981.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Prostomatea	Urotricha	Urotricha_sp.	95.13	7,00E-178	616	390
+OTU698	DQ025753.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP2099_Arctic	99.24	0.0	710	393
+OTU699	EF172968.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	92.82	7,00E-168	582	404
+OTU7	DQ025753.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP2099_Arctic	100.00	0.0	730	395
+OTU700	AF167155.1	Eukaryota	stramenopiles	Bolidophyceae	Bolidophyceae	Bolidomonas	Bolidomonas	92.12	2,00E-163	568	406
+OTU701	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mamiella	94.01	4,00E-175	606	401
+OTU702	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	95.78	0.0	649	403
+OTU704	EF173017.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.6	Guillou_II.6	95.26	0.0	634	401
+OTU705	AF174376	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	Chromulinales	Paraphysomonas	98.02	0.0	702	404
+OTU706	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	95.52	0.0	641	402
+OTU707	AB183673.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Protoperidiniaceae_Protoperidinium	Prorocentrum_triestinum_strain_MBIC11147	88.75	2,00E-139	488	409
+OTU708	EU247837.1	Eukaryota	stramenopiles	Pelagophyceae	Pelagophyceae	unclassified_Pelagophyceae	Pelagophyte_CCMP2097	100.00	0.0	752	407
+OTU709	EU818590.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	86.82	4,00E-125	440	402
+OTU71	AJ535176.1	Eukaryota	stramenopiles	Diatoms	Coscinodiscophyceae[centric_diatoms]	Leptocylindrales	Leptocylindrus	99.51	0.0	741	407
+OTU711	DQ060525.1	Eukaryota	Picozoas	environmental_picozoa_clone	environmental_picozoa_clone	Uncultured_Arctic_marine_picozoa_clone	NW617.02	97.52	0.0	689	403
+OTU712	AF139462.1	Eukaryota	Rhodophyta	Bangiophyceae	Bangiophyceae	Rhodochaetales	Rhodochaete	90.80	1,00E-91	329	250
+OTU713	AF290077.2	Eukaryota	Alveolata	MALVs	MALV_II_D_group	Guillou_13_23	Guillou_13_23	89.83	7,00E-148	516	403
+OTU714	AY551272.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	85.93	4,00E-120	424	405
+OTU715	EF165120	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	Chromulinales	Kephyrion_CCMP3057	88.92	9,00E-142	496	406
+OTU716	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	92.59	3,00E-166	577	405
+OTU717	EU500144.1	Eukaryota	stramenopiles	Labyrinthulida	Labyrinthulida	Thraustochytriidae	Oblongichytrium_PBS03	88.86	1,00E-140	492	413
+OTU718	EF526808.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	87.96	2,00E-134	472	407
+OTU719	JF730832.1	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	Chromulinales	Kephyrion_CCMP3057	86.65	4,00E-125	440	412
+OTU72	denovo6	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	86.03	1,00E-120	425	408
+OTU720	Z22878.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Colpodea	Buraria	Buraria_sp.	81.75	3,00E-87	315	400
+OTU721	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mamiella	94.51	2,00E-178	617	401
+OTU722	X85401.2	Eukaryota	stramenopiles	Diatoms	Coscinodiscophyceae[centric_diatoms]	Coscinodiscales	Actinocyclus	99.26	0.0	730	404
+OTU723	EF526808.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_NIF_3A1	98.01	0.0	699	402
+OTU724	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Dolichomastix	90.10	7,00E-148	516	404
+OTU725	AF274260	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gymnodinium	Gymnodinium_sp.	98.51	0.0	710	402
+OTU726	AB295041.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	94.00	4,00E-175	606	400
+OTU727	EF486866.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Nassophorea	Nassula	Nassula_sp.	81.09	8,00E-83	300	402
+OTU728	EU780649.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Dinophysiales	Dinophysiaceae_Dinophysis	Ornithocercus	93.56	2,00E-172	597	404
+OTU729	EF172955.1	Eukaryota	Alveolata	MALVs	MALV_II_D_group	Guillou_8	Guillou_8	91.79	1,00E-160	558	402
+OTU73	DQ120005.1	Eukaryota	Choanoflagellates	Choanoflagellida	Acanthoecida	Stephanoecidae	Didymoeca_NOR46.34	100.00	0.0	737	399
+OTU730	GU819882.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_AB5	Dino_clone_AB5F14RM14E08	98.25	0.0	702	401
+OTU731	AM490984.2	Eukaryota	Haptophyceae[prymnesiophytes]	Coccosphaerales	Coccosphaerales	Pontosphaeraceae	Scyphosphaera	97.26	0.0	682	402
+OTU732	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	94.06	3,00E-176	610	404
+OTU733	AY541683.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Pelagostrobilidium	Pelagostrobilidium_neptuni	91.65	3,00E-156	544	395
+OTU734	AJ628250.2	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Strombidinopsis	Strombidinopsis_jeokjo	96.96	0.0	664	395
+OTU735	EF172955.1	Eukaryota	Alveolata	MALVs	MALV_II_D_group	Guillou_8	Guillou_8	91.81	3,00E-161	560	403
+OTU736	GU246584.1	Eukaryota	Rhizaria	Polycystinea	Polycystinea	unclassified_Polycystinea	Taxopodida_A	91.20	2,00E-158	551	409
+OTU737	HQ912677.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Biddulphiales	Biddulphia	90.53	6,00E-154	536	412
+OTU738	AY954993.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP1195_clade_C	99.24	0.0	713	395
+OTU739	KP790160.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Katodinium	96.52	0.0	665	402
+OTU74	EF195735.1	Eukaryota	Cryptophyta	Cryptomonadales	Pyrenomonadales	Geminigeraceae	PlagioselmisTeleaulaxComplex	Teleaulax_amphioxeia	100.00	0.0	732	396
+OTU740	AY381157.1	Eukaryota	stramenopiles	MASTs	MAST_3	MAST_3	HE000427.20	90.00	2,00E-149	521	410
+OTU742	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mamiella	93.52	9,00E-172	595	401
+OTU743	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	97.26	0.0	680	401
+OTU744	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	92.77	2,00E-167	580	401
+OTU745	EF432541.1	Eukaryota	Choanoflagellates	Choanoflagellida	Acanthoecida	Stephanoecidae	Stephanoecidae_SL163	90.86	3,00E-152	531	405
+OTU746	KP790160.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Katodinium	99.00	0.0	721	402
+OTU747	AM491027.2	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Platychrysis	97.51	0.0	688	402
+OTU748	DQ779984.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Cochlodinium	Cochlodinium_polykrikoides	96.27	0.0	660	402
+OTU749	HQ912569.1	Eukaryota	stramenopiles	Diatoms	Coscinodiscophyceae[centric_diatoms]	Rhizosolenid	Guinardia	86.00	3,00E-122	431	407
+OTU75	U14388.1	Eukaryota	stramenopiles	MASTs	MAST_10	MAST_10	hotxp2a1	89.60	1,00E-40	159	125
+OTU750	denovo6	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	86.10	1,00E-120	425	410
+OTU751	AB120001.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_clone_AN0680L16	88.31	9,00E-137	479	402
+OTU753	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	95.78	0.0	649	403
+OTU754	EF526808.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_NIF_3A1	99.25	0.0	726	402
+OTU755	AB120001.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_spirale	98.26	0.0	704	402
+OTU757	GQ365798.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	94.50	2,00E-177	614	400
+OTU758	AJ561116.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	unclassified_Cercozoa	Pseudopirsonia	88.86	7,00E-143	499	413
+OTU759	FN263030.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	95.52	0.0	641	402
+OTU76	AJ404886.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Pyramimonas	98.26	0.0	704	402
+OTU760	AB474963	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	Chromulinales	Paraphysomonas	90.42	3,00E-152	531	407
+OTU761	AF509625.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Dolichomastix	93.73	7,00E-173	599	399
+OTU763	AB120004.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Brachidiniales	Brachidiniaceae_Karenia	Karenia_bidigitata	95.31	0.0	638	405
+OTU764	GU001637.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Katodinium	83.99	3,00E-107	381	406
+OTU765	HM805020.1	Eukaryota	stramenopiles	Diatoms	Bacillariophyceae[raphid	pennate_diatoms]	Bacillariales	Bacillaria	97.02	0.0	676	403
+OTU767	AF290077.2	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.25	Guillou_II.25	91.83	3,00E-161	560	404
+OTU768	EU780626.1	Eukaryota	Alveolata	MALVs	MALV_II_F_group	Guillou_26	Guillou_26	97.00	0.0	671	400
+OTU77	FJ032664.1	Eukaryota	stramenopiles	MASTs	MAST_1	MAST_1c	DH18_4A29	96.28	0.0	660	403
+OTU770	AM491021.2	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	98.01	0.0	699	402
+OTU771	AF077055.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	86.14	7,00E-123	433	404
+OTU772	EF172955.1	Eukaryota	Alveolata	MALVs	MALV_II_D_group	Guillou_8	Guillou_8	95.27	0.0	638	402
+OTU773	HQ912624.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Hemiaulales	Hemiaulus	93.58	5,00E-174	603	405
+OTU774	AF363188.2	Eukaryota	stramenopiles	MASTs	MAST_4	MAST_4	ME1_18	100.00	0.0	747	404
+OTU775	EU780604.1	Eukaryota	Alveolata	MALVs	MALV_III_[Syndinales]	Envrion_III.A	Envrion_III.A	98.76	0.0	717	403
+OTU776	AB275066.1	Eukaryota	Choanoflagellates	Choanoflagellida	Crespedida	Crespedida	DSGM66	90.52	1,00E-150	525	401
+OTU777	EU793379.1	Eukaryota	Alveolata	MALVs	MALV_I_[Duboscquellida]	unclassified_MALV_1	unclassified_MALV_1	96.50	0.0	662	400
+OTU778	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	97.22	0.0	669	395
+OTU779	DQ393786.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Strobilidium	Strobilidium_caudatum	89.05	5,00E-139	486	402
+OTU78	U37367.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gymnodinium	Gymnodinium_beii	98.26	0.0	704	403
+OTU780	GU001637.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Peridiniales_incerate_sedis_Pentapharsodinium	Peridinium_umbonatum	97.76	0.0	693	402
+OTU781	FJ663049.1	Eukaryota	Alveolata	Dinoflagellates	Syndiniophyceae_Coccidiniales	Chytriodiniaceae_Chytriodinium	Chytriodinium	98.25	0.0	702	401
+OTU782	HQ866287.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_Saanich_SGSU510	97.51	0.0	688	402
+OTU783	EF432541.1	Eukaryota	Choanoflagellates	Choanoflagellida	Acanthoecida	Acanthoecidae	Unclassified_Acanthoecidae	88.15	2,00E-133	468	405
+OTU784	DQ314810.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cryothecomonad_NW617.37	91.38	4,00E-160	556	406
+OTU785	EF172968.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	100.00	0.0	743	402
+OTU786	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_E_group	Guillou_14_15	Guillou_14_15	83.74	2,00E-104	372	406
+OTU789	EU141942.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Pyramimonas	99.00	0.0	719	402
+OTU79	AJ404886.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Pyramimonas	100.00	0.0	743	402
+OTU790	AF167155.1	Eukaryota	stramenopiles	Bolidophyceae	Bolidophyceae	Bolidomonas	Bolidomonas	99.50	0.0	736	404
+OTU791	FN999015.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Oligohymenophorea	Durchoniella_ALS_2010b	Durchoniella_ALS_2010b	92.33	2,00E-158	551	391
+OTU792	AB430593.1	Eukaryota	stramenopiles	MASTs	MAST_1	MAST_1c	DH18_4A29	86.06	3,00E-122	431	409
+OTU794	HQ866287.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_Saanich_SGSU510	99.50	0.0	732	402
+OTU795	EF173006.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.5	Guillou_II.5	86.49	7,00E-123	433	407
+OTU797	HQ912624.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Hemiaulales	Hemiaulus	92.87	5,00E-169	586	407
+OTU798	AF274270	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Peridiniales_incerate_sedis_Pentapharsodinium	Pentapharsodinium_sp._CCMP771_strain_CCMP_771	98.76	0.0	715	402
+OTU799	HM067002.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Brachidiniales	Brachidiniaceae_Karenia	Karenia_bidigitata	99.00	0.0	721	402
+OTU8	EF058252.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Woloszynskiaceae	Woloszynskia_halophila_strain_WHTV_S1	100.00	0.0	743	402
+OTU80	DQ647534.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	unclassified_Cercozoa	Cercozoa_clone_AD6.07	91.76	2,00E-98	351	255
+OTU800	FJ032659.1	Eukaryota	stramenopiles	Pelagophyceae	Pelagophyceae	unclassified_Pelagophyceae	Pelagophyte_clone_DH114_3A43	97.30	0.0	691	407
+OTU801	AF168627.1	Eukaryota	Rhodophyta	Goniotrichales	Goniotrichales	Goniotricaceae	Bangiopsis	89.33	1,00E-85	309	253
+OTU802	X77479.1	Eukaryota	Haptophyceae[prymnesiophytes]	Phaeocystales	Phaeocystales	Phaeocystaceae	Phaeocystis	99.01	0.0	721	403
+OTU803	EF172987.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	96.77	0.0	671	402
+OTU804	NULL	No	NULL	NULL	NULL	NULL
+OTU805	HQ869322.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	unclassified_Cercozoa	Cercozoa_clone_SHBA662	90.98	2,00E-152	531	399
+OTU806	AB246693.1	Eukaryota	Rhizaria	Sticholonche	Sticholonche	Sticholonchidae	Sticholonche	90.00	2,00E-149	521	410
+OTU807	AB178585.1	Eukaryota	Rhizaria	Acantharea	Acantharea	Chaunacanthida	Chaunacanthid	86.93	2,00E-123	435	398
+OTU808	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	96.02	0.0	652	402
+OTU809	JF730832.1	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	unclassified_Chrysophyte	Chrysophyte_clone_ArcticLakeA8E2G5	96.53	0.0	669	404
+OTU81	HQ866287.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_Saanich_SGSU510	97.76	0.0	693	402
+OTU810	U73230.1	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	unclassified_Chrysophyte	Chrysophyte_CCMP2296	93.09	4,00E-170	590	405
+OTU811	U14386.1	Eukaryota	stramenopiles	Pelagophyceae	Pelagophyceae	Pelagomonadales	Pelagococcus	97.54	0.0	697	407
+OTU812	AY381157.1	Eukaryota	stramenopiles	MASTs	MAST_3	MAST_3	HE000427.20	94.35	1,00E-179	621	407
+OTU813	GU246568.1	Eukaryota	Rhizaria	Acantharea	Acantharea	Sphaenacanthida	Acanthometra	84.42	1,00E-105	375	398
+OTU814	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	93.77	5,00E-174	603	401
+OTU815	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	96.54	0.0	665	405
+OTU816	HQ866287.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	KareniaProro_group	Dino_clone_Saanich_SGSU510	98.51	0.0	710	402
+OTU817	denovo6	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	85.12	6,00E-114	403	410
+OTU818	FN999015.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Oligohymenophorea	Durchoniella_ALS_2010b	Durchoniella_ALS_2010b	92.33	2,00E-158	551	391
+OTU819	JF730832.1	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	Chromulinales	Kephyrion_CCMP3057	86.37	2,00E-123	435	411
+OTU82	DQ121426.1	Eukaryota	stramenopiles	MASTs	MAST_1	MAST_1b	CD8.08	99.75	0.0	734	401
+OTU820	EF172987.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	94.53	1,00E-179	621	402
+OTU821	EU500144.1	Eukaryota	stramenopiles	MASTs	MAST_10	MAST_10	hotxp2a1	90.91	3,00E-156	544	407
+OTU822	AF411273.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	unclassified_Cercozoa	Cercozoan_WHOI_LI1_4	99.51	0.0	743	409
+OTU823	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium	Strombidium_apolatum	87.53	7,00E-128	449	401
+OTU825	denovo6	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	95.01	0.0	627	401
+OTU826	AF063242.1	Eukaryota	Rhizaria	Acantharea	Acantharea	Chaunacanthida	Chaunacanthid	86.93	6,00E-124	436	398
+OTU827	AY381157.1	Eukaryota	stramenopiles	MASTs	MAST_3	MAST_3	HE000427.20	96.78	0.0	675	404
+OTU829	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	89.58	3,00E-146	510	403
+OTU83	DQ060525.1	Eukaryota	Picozoas	environmental_picozoa_clone	environmental_picozoa_clone	Uncultured_Arctic_marine_picozoa_clone	NW617.02	93.35	3,00E-171	593	406
+OTU830	AF472555.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	87.19	6,00E-129	453	406
+OTU831	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	94.28	2,00E-177	614	402
+OTU833	denovo6	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	95.75	0.0	643	400
+OTU834	AB178585.1	Eukaryota	Rhizaria	Acantharea	Acantharea	Chaunacanthida	Chaunacanthid	86.11	2,00E-118	418	396
+OTU835	EF172955.1	Eukaryota	Alveolata	MALVs	MALV_II_D_group	Guillou_8	Guillou_8	92.08	7,00E-163	566	404
+OTU836	AF399162.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Tintinnids	Favella	Favella_ehrenbergii	97.71	0.0	676	393
+OTU837	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	93.09	1,00E-169	588	405
+OTU838	EF172923.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.20	Guillou_II.20	92.59	1,00E-165	575	405
+OTU84	M87327.2	Eukaryota	Haptophyceae[prymnesiophytes]	Isochrysidales	Isochrysidales	Noelaerhabdaceae	Emiliania	100.00	0.0	741	401
+OTU840	HQ912569.1	Eukaryota	stramenopiles	Bolidophyceae	Bolidophyceae	Bolidomonas	Bolidomonas	86.49	1,00E-125	442	407
+OTU841	AY143573.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Strobilidium	Strobilidium_caudatum	93.94	9,00E-172	595	396
+OTU842	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mamiella	91.58	2,00E-158	551	404
+OTU843	AF290077.2	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.25	Guillou_II.25	92.56	3,00E-166	577	403
+OTU844	AF472555.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gymnodinium	Uncultured_Gymnodinium	80.60	1,00E-80	292	402
+OTU845	AY381157.1	Eukaryota	stramenopiles	MASTs	MAST_3	MAST_3	HE000427.20	94.38	4,00E-180	623	409
+OTU846	AF508765.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Strobilidium	Strobilidium_caudatum	89.03	2,00E-139	488	401
+OTU847	EF172955.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.5	Guillou_II.5	87.56	3,00E-132	464	402
+OTU848	EU247837.1	Eukaryota	stramenopiles	Pelagophyceae	Pelagophyceae	unclassified_Pelagophyceae	Pelagophyte_CCMP2097	97.54	0.0	697	407
+OTU849	AF290539.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cryothecomonas	98.52	0.0	713	406
+OTU85	EU500144.1	Eukaryota	stramenopiles	Labyrinthulida	Labyrinthulida	Thraustochytriidae	Oblongichytrium_PBS03	89.68	2,00E-148	518	407
+OTU850	EF173006.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.5	Guillou_II.5	97.76	0.0	693	402
+OTU853	AJ564772.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	96.49	0.0	658	399
+OTU854	DQ314810.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cryothecomonad_NW617.37	93.61	4,00E-175	606	407
+OTU855	EU500144.1	Eukaryota	stramenopiles	MASTs	MAST_10	MAST_10	hotxp2a1	92.18	1,00E-165	575	409
+OTU856	HM066998.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_DinoRS24	Brachidinium	98.51	0.0	710	402
+OTU857	HQ869322.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	unclassified_Cercozoa	Pseudopirsonia	85.57	1,00E-116	412	402
+OTU858	AY254857.1	Eukaryota	stramenopiles	Dictyochophyceae[silicoflagellates]	Dictyochophyceae[silicoflagellates]	Florenciellales	Florenciella	100.00	0.0	754	408
+OTU859	HQ869322.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cercozoa_clone_SA24H12	85.93	3,00E-117	414	405
+OTU86	AB295041.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Cochlodinium	Cochlodinium_fulvescens	86.63	1,00E-125	442	404
+OTU860	EF172923.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.20	Guillou_II.20	98.51	0.0	710	402
+OTU861	AY749601.1	Eukaryota	Centroheliozoa	Acanthocystidae	Acanthocystidae	Pterocystis	Pterocystis	91.50	1,00E-160	558	412
+OTU862	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Strombidium	Strombidium	90.52	5,00E-149	520	401
+OTU863	AJ402338.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	97.28	0.0	686	404
+OTU864	AY116220.1	Eukaryota	stramenopiles	MASTs	MAST_8	MAST_8	ANT12_26	92.68	2,00E-169	588	410
+OTU865	EF172987.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	93.78	2,00E-172	597	402
+OTU866	DQ779991.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gymnodinium_sensu_largo	Gymnodinium_aureolum	99.25	0.0	726	402
+OTU867	AF063242.1	Eukaryota	Rhizaria	Acantharea	Acantharea	Symphyacanthida	Symphyacanthid	86.90	6,00E-124	436	397
+OTU868	DQ314811.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cryothecomonad_NOR46.14	98.76	0.0	719	404
+OTU869	GQ365798.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	94.01	1,00E-174	604	401
+OTU87	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	96.53	0.0	665	403
+OTU870	EF172987.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	88.40	3,00E-137	481	405
+OTU871	EF172931.1	Eukaryota	Alveolata	MALVs	MALV_II_E_group	Guillou_14_15	Guillou_14_15	93.30	3,00E-171	593	403
+OTU873	AJ246278.1	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	98.51	0.0	710	402
+OTU874	AB081517.1	Eukaryota	stramenopiles	Dictyochophyceae[silicoflagellates]	Dictyochophyceae[silicoflagellates]	Pedinellales	Pedinellales_CCMP2098	95.65	0.0	662	414
+OTU875	AF509625.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mamiella	89.53	5,00E-144	503	401
+OTU876	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	93.27	1,00E-170	592	401
+OTU877	U14385.1	Eukaryota	stramenopiles	Dictyochophyceae[silicoflagellates]	Dictyochophyceae[silicoflagellates]	Dictyochales	Dictyocha	100.00	0.0	756	409
+OTU878	EF172942.1	Eukaryota	Alveolata	MALVs	MALV_II_F_group	Guillou_26	Guillou_26	88.34	7,00E-138	483	403
+OTU879	HM483394.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	98.26	0.0	704	402
+OTU88	DQ060525.1	Eukaryota	Picozoas	environmental_picozoa_clone	environmental_picozoa_clone	Uncultured_Arctic_marine_picozoa_clone	NW617.02	93.83	1,00E-174	604	405
+OTU880	AB295041.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_clone_AN0630L10	89.53	4,00E-145	507	401
+OTU881	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mamiella	93.78	2,00E-173	601	402
+OTU882	AY485489.1	Eukaryota	stramenopiles	Diatoms	Bacillariophyceae[raphid	pennate_diatoms]	Naviculales	Pleurosigma	98.52	0.0	715	405
+OTU883	AY103189.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Oligohymenophorea	Mesanophrys	Mesanophrys_carcini	94.10	3,00E-171	593	390
+OTU884	EU247834.1	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	unclassified_Chrysophyte	Chrysophyte_Lake_Georges_clone_LG47_07	85.54	6,00E-119	420	408
+OTU885	AB246693.1	Eukaryota	Rhizaria	Polycystinea	Polycystinea	Spumellaria	Larcopyle	93.83	3,00E-176	610	405
+OTU886	EF172923.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.20	Guillou_II.20	91.54	2,00E-159	555	402
+OTU887	AY268045.1	Eukaryota	Rhizaria	Sticholonche	Sticholonche	Sticholonchidae	Sticholonche	82.61	2,00E-98	351	414
+OTU888	AB295041.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Cochlodinium	Cochlodinium_fulvescens	87.10	6,00E-129	453	403
+OTU889	DQ060525.1	Eukaryota	Picozoas	environmental_picozoa_clone	environmental_picozoa_clone	Uncultured_Arctic_marine_picozoa_clone	NW617.02	99.26	0.0	728	403
+OTU89	AJ564773.1	Eukaryota	Telonemia	Telonemida	Telonemida	Telonema	Telonema	98.25	0.0	695	399
+OTU890	EU247836.1	Eukaryota	stramenopiles	Dictyochophyceae[silicoflagellates]	Dictyochophyceae[silicoflagellates]	Pedinellales	Pedinellales_CCMP2098	92.14	3,00E-167	580	420
+OTU891	AB246693.1	Eukaryota	Rhizaria	Polycystinea	Polycystinea	Spumellaria	Larcopyle	84.50	4,00E-110	390	413
+OTU892	AY881968.1	Eukaryota	stramenopiles	Diatoms	Bacillariophyceae[raphid	pennate_diatoms]	Bacillariales	Nitzschia	97.51	0.0	688	402
+OTU893	AF063242.1	Eukaryota	Rhizaria	Acantharea	Acantharea	Symphyacanthida	Symphyacanthid	88.03	9,00E-132	462	401
+OTU894	GU246584.1	Eukaryota	Rhizaria	Polycystinea	Polycystinea	unclassified_Polycystinea	Taxopodida_A	90.95	9,00E-157	545	409
+OTU895	AY485468.1	Eukaryota	stramenopiles	Diatoms	Bacillariophyceae[raphid	pennate_diatoms]	Entomoneidaceae	Entomoneis	98.22	0.0	688	393
+OTU896	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mamiella	93.02	2,00E-168	584	401
+OTU897	DQ303924.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Protaspis	95.38	0.0	651	411
+OTU898	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mamiella	93.77	2,00E-173	601	401
+OTU899	DQ314810.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cryothecomonad_NW617.37	92.87	4,00E-170	590	407
+OTU9	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	94.55	1,00E-179	621	404
+OTU90	FJ947040.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Warwowiaceae_Nematodinium	Warnowia_BSL_2009a	99.00	0.0	721	402
+OTU900	EF172955.1	Eukaryota	Alveolata	MALVs	MALV_II_D_group	Guillou_8	Guillou_8	92.04	7,00E-163	566	402
+OTU901	Y16232.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Prorocentrales	Prorocentraceae_Prorocentrum	Prorocentrum_mexicanum	97.76	0.0	691	402
+OTU902	AB284159.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Protoperidiniaceae_Protoperidinium	Protoperidinium_bipes	99.75	0.0	737	402
+OTU903	JF730878.1	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	Chromulinales	Kephyrion_CCMP3057	95.05	0.0	636	404
+OTU904	HQ912569.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Cymatosirales	Papiliocellulus	88.75	1,00E-140	492	409
+OTU905	EF526932.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cercozoa_clone_SA24H12	96.35	0.0	675	411
+OTU906	denovo6	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	88.11	6,00E-134	470	412
+OTU907	EF172931.1	Eukaryota	Alveolata	MALVs	MALV_II_E_group	Guillou_14_15	Guillou_14_15	94.03	3,00E-176	610	402
+OTU908	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mamiella	93.77	2,00E-173	601	401
+OTU909	AB081517.1	Eukaryota	stramenopiles	Dictyochophyceae[silicoflagellates]	Dictyochophyceae[silicoflagellates]	Pedinellales	Pedinellales_CCMP2098	97.58	0.0	706	414
+OTU91	DQ025753.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Micromonas_CCMP2099_Arctic	98.73	0.0	702	395
+OTU910	EF172955.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	89.58	3,00E-146	510	403
+OTU912	AF018158.1	Eukaryota	Rhizaria	Acantharea	Acantharea	Chaunacanthida	Chaunacanthid	86.36	1,00E-120	425	396
+OTU913	GU246584.1	Eukaryota	Rhizaria	Polycystinea	Polycystinea	unclassified_Polycystinea	Taxopodida_B	92.33	4,00E-165	573	404
+OTU914	GQ354272.1	Eukaryota	stramenopiles	Labyrinthulida	Labyrinthulida	Thraustochytriidae	Oblongichytrium_PBS03	94.36	4,00E-180	623	408
+OTU915	AJ786648.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Parastrombidinopsis	Parastrombidinopsis_shimi	89.47	7,00E-143	499	399
+OTU916	EF172942.1	Eukaryota	Alveolata	MALVs	MALV_II_D_group	Guillou_13_23	Guillou_13_23	85.64	2,00E-118	418	404
+OTU917	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	92.02	2,00E-162	564	401
+OTU918	AF022199.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Lepidodinium	Gymnodiniaceae_Gymnodinium_sensu_lato	Lepidodinium	99.25	0.0	725	402
+OTU919	HQ901764.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Oligohymenophorea	Uronemella	Uronemella_filificum	88.71	1,00E-81	296	248
+OTU92	DQ314811.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cryothecomonad_NOR46.14	100.00	0.0	747	404
+OTU920	denovo6	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	85.57	1,00E-116	412	409
+OTU921	AJ561116.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	unclassified_Cercozoa	Pseudopirsonia	87.95	3,00E-136	477	415
+OTU922	FJ541187.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	85.15	3,00E-116	411	404
+OTU923	FJ947036.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_clone_AN0630L10	89.19	7,00E-143	499	407
+OTU926	EF173006.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.5	Guillou_II.5	94.06	3,00E-176	610	404
+OTU927	denovo6	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	82.13	1,00E-91	329	414
+OTU928	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	97.26	0.0	680	401
+OTU929	AF143943.1	Eukaryota	Cryptophyta	Cryptomonadales	Cryptomonadales	Goniomonadaceae	Goniomonas	87.50	2,00E-129	455	400
+OTU930	AB252658.1	Eukaryota	stramenopiles	PX_clade	PX_clade	Sphacelariales	Choristocarpus	89.18	3,00E-147	514	425
+OTU931	DQ060526.1	Eukaryota	Picozoas	environmental_picozoa_clone	environmental_picozoa_clone	Uncultured_Arctic_marine_picozoa_clone	NOR46.24	92.80	9,00E-167	579	403
+OTU932	AM490987.2	Eukaryota	Haptophyceae[prymnesiophytes]	Syracosphaerales_Zygodiscales	Syracosphaerales	Syracosphaeraceae	Syracosphaera	96.27	0.0	660	402
+OTU933	AF472555.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	84.48	1,00E-110	392	406
+OTU934	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	94.03	1,00E-175	608	402
+OTU935	FN669511.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Prorocentrales	Prorocentraceae_Prorocentrum	Prorocentrum_panamensis_strain_PPAN06	79.90	2,00E-79	289	408
+OTU936	JQ966994.1	Eukaryota	Cryptophyta	Pyrenomonadales	Pyrenomonadales	Geminigeraceae	Geminigera	98.99	0.0	706	396
+OTU937	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_E_group	Guillou_22	Guillou_22	93.30	3,00E-171	593	403
+OTU938	EF172955.1	Eukaryota	Alveolata	MALVs	MALV_II_D_group	Guillou_8	Guillou_8	90.07	2,00E-149	521	403
+OTU939	AB288381.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Colpodea	Sorogena	Sorogena_stoianovitchae	84.84	4,00E-66	244	244
+OTU94	AF382825.1	Eukaryota	Rhizaria	Polycystinea	Polycystinea	unclassified_Polycystinea	Taxopodida_B	100.00	0.0	749	405
+OTU940	HM805020.1	Eukaryota	stramenopiles	Diatoms	Bacillariophyceae[raphid	pennate_diatoms]	Bacillariales	Bacillaria	97.76	0.0	691	402
+OTU941	AB120002.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Gymnodiniales	Gymnodiniaceae_Gyrodinium	Gyrodinium_fusiforme	99.49	0.0	721	396
+OTU942	EF172942.1	Eukaryota	Alveolata	MALVs	MALV_II_D_group	Guillou_13_23	Guillou_13_23	96.52	0.0	665	402
+OTU944	EF172953.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.27	Guillou_II.27	84.11	1,00E-106	379	409
+OTU945	GU819882.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_GPP	Environ_group_Ar1353	Dino_clone_Ar1353d50	86.82	3,00E-127	448	402
+OTU946	EU818590.1	Eukaryota	Alveolata	MALVs	MALV_II_E_group	Guillou_22	Guillou_22	90.00	3,00E-147	514	400
+OTU947	DQ303924.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Ebriidae	Ebria	92.98	1,00E-170	592	413
+OTU949	AY381157.1	Eukaryota	stramenopiles	MASTs	MAST_3	MAST_3	HE000427.20	99.26	0.0	730	404
+OTU950	AF290539.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cryothecomonas	99.01	0.0	726	406
+OTU952	DQ303924.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Protaspis	95.13	0.0	645	411
+OTU953	AY919816	Eukaryota	stramenopiles	Chrysophyceae[golden_algae]	Chrysophyceae[golden_algae]	unclassified_Chrysophyte	Chrysophyte_Lake_Georges_clone_LG47_07	86.55	1,00E-125	442	409
+OTU954	DQ186528.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.5	Guillou_II.5	94.80	0.0	627	404
+OTU955	EF172955.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.6	Guillou_II.6	87.41	1,00E-130	459	405
+OTU956	HQ869322.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Silicofilosea	Allas	90.00	3,00E-146	510	400
+OTU957	EF172968.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	96.02	0.0	654	402
+OTU959	AJ786648.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	Parastrombidinopsis	Parastrombidinopsis_shimi	91.21	1,00E-154	538	398
+OTU96	denovo44	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Blastodiniales	Blastodiniaceae_Blastodinium	Blastodinium_like	98.75	0.0	708	400
+OTU960	AF022199.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Peridiniales	Protoperidiniaceae_Protoperidinium	Prorocentrum_triestinum_strain_MBIC11147	82.96	4,00E-101	361	405
+OTU961	EU500144.1	Eukaryota	stramenopiles	Labyrinthulida	Labyrinthulida	Thraustochytriidae	Oblongichytrium_PBS03	88.26	2,00E-138	484	409
+OTU962	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	96.26	0.0	658	401
+OTU965	FJ844428.1	Eukaryota	Alveolata	MALVs	MALV_IV_[Syndinales]	Syndiniales[groupIV]	Syndiniales[groupIV]	100.00	0.0	743	402
+OTU966	denovo6	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	86.59	6,00E-124	436	410
+OTU967	AB017127.3	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Prasinophyceae	Pterosperma	98.01	0.0	699	403
+OTU968	AF290539.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cryothecomonas	97.78	0.0	697	406
+OTU969	JX912166.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Prorocentrales	Prorocentraceae_Prorocentrum	Proorocentrum_like	80.94	3,00E-87	315	404
+OTU97	FJ590769.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Thalassiosirales	Minidiscus	99.26	0.0	732	405
+OTU970	X85388.1	Eukaryota	stramenopiles	Diatoms	Mediophyceae[mixed_new_class]	Cymatosirales	Papiliocellulus	91.87	7,00E-163	566	406
+OTU971	EF172942.1	Eukaryota	Alveolata	MALVs	MALV_II_D_group	Guillou_13_23	Guillou_13_23	99.25	0.0	726	402
+OTU972	denovo6	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	85.68	1,00E-116	412	412
+OTU973	EF172953.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.27	Guillou_II.27	95.52	0.0	641	402
+OTU974	EU090013.1	Eukaryota	stramenopiles	Diatoms	Fragilariophyceae[araphid	pennate_diatoms]	Thalassionemales	Thalassionema	84.07	3,00E-107	381	408
+OTU976	HM483394.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.5	Guillou_II.5	90.07	2,00E-149	521	403
+OTU978	EU780626.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.5	Guillou_II.5	89.83	3,00E-147	514	403
+OTU979	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	91.32	7,00E-158	549	403
+OTU98	FN599060.1	Eukaryota	Haptophyceae[prymnesiophytes]	Prymnesiales	Prymnesiales	Prymnesiaceae	Chrysochromulina	99.50	0.0	732	402
+OTU981	AJ786648.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Choreotrichida	TintinnidsCodonellopsis	89.83	2,00E-144	505	403
+OTU982	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	97.22	0.0	669	395
+OTU983	EU500144.1	Eukaryota	stramenopiles	MASTs	MAST_10	MAST_10	hotxp2a1	99.51	0.0	739	406
+OTU984	EF173014.1	Eukaryota	Alveolata	MALVs	MALV_II_C_group	Guillou_9_11	Guillou_9_11	94.79	0.0	627	403
+OTU985	FJ541187.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Uncultured_Arctic_clade	Uncultured_Arctic_clade	uncultured_Arctic_clade1	86.80	3,00E-126	444	409
+OTU986	AF472553.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.1	Guillou_II.1	95.26	0.0	636	401
+OTU989	DQ314819.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	unclassified_Cercozoa	Cercozoa_clone_NW617.36	97.32	0.0	695	410
+OTU99	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	97.72	0.0	680	395
+OTU990	GQ354272.1	Eukaryota	stramenopiles	Labyrinthulida	Labyrinthulida	Thraustochytriidae	Oblongichytrium_PBS03	91.42	1,00E-160	558	408
+OTU992	HM596542.1	Eukaryota	Alveolata	Dinoflagellates	Dinophyceae_Thoracosphaerales	Glenodiniaceae_Peridiniopsis	Peridiniopsis	84.07	3,00E-107	381	408
+OTU993	EF526932.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Cercozoa_clone_SA24H12	92.48	5,00E-169	586	412
+OTU994	AY381157.1	Eukaryota	stramenopiles	MASTs	MAST_3	MAST_3	HE000427.20	98.02	0.0	702	404
+OTU995	FN562450.1	Eukaryota	Viridiplantae_Chlorophyta	Chlorophyta[green_algae]	Chlorophyta[green_algae]	Mamiellophyceae	Mamiella	93.53	9,00E-172	595	402
+OTU996	FJ422988.1	Eukaryota	Alveolata	Ciliophora	Intramacronucleata_Spirotrichea	Oligotrichea	Oligotrichida	Strombidiidae	Novistrombidium	Novistrombidium	96.97	0.0	664	396
+OTU997	FJ824121.1	Eukaryota	Rhizaria	Cercozoa	Cercozoa	Cryomonadida	Protaspis	92.72	1,00E-170	592	412
+OTU998	EF172798.1	Eukaryota	Alveolata	MALVs	MALV_II_B_group	Guillou_II.7_36	Guillou_II.7_36	91.11	3,00E-156	544	405
+OTU999	AF472555.1	Eukaryota	Alveolata	MALVs	MALV_II_[Amoebophrya]	Guillou_II.3_4	Guillou_II.3_4	86.95	3,00E-127	448	406
