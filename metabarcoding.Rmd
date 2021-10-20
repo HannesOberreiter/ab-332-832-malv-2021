@@ -1,0 +1,161 @@
+---
+title: 'Metabarcoding - AB332'
+output: html_notebook
+---
+
+# Metabarcoding Script
+
+```{r}
+library(tidyverse)
+library(lubridate)
+library(here)
+library(glue)
+library(vegan)
+library(zCompositions)
+
+source("functions/functions.R")
+```
+
+## Data Informations
+
+The data is 3 year from the Isa time series (2011-2014) processed through USearch with clustering at 99%,
+arbitrarily removing any OTU with less than 50 reads in the total dataset and removing OTUs assigned to Streptophyta, Metazoa and Fungi.
+Rarefied to 5398 reads per sample. Taxonomic assignment with PR2 using blast. Only DNA from 25m is included.
+
+## Loading data
+
+```{r}
+data_meta <- readr::read_tsv("data/AB332metadata_v3.txt") %>%
+    glimpse()
+data_taxa <- readr::read_tsv("data/AB332_2021_taxtab.txt") %>%
+    glimpse()
+data_otu <- readr::read_tsv("data/AB332_otutab_reduc3.txt") %>%
+    column_to_rownames(var = "OTUNumber") %>%
+    # for vegan package
+    t()
+```
+
+## Normalize counts
+
+We have different sample reads:
+
+```{r}
+rarecurve(data_otu, step = 100, xlab = "Number of reads", ylab = "Richness", col = "blue")
+```
+
+This is to make our reads comparable between sample dates. We could use the standard rarefaction method.
+```{r}
+minimum_reads <- min(rowSums(data_otu))
+data_otu_raref <- rrarefy(data_otu, minimum_reads)
+data_otu_raref <- data_otu_raref[, -(which(colSums(data_otu_raref) == 0))]
+```
+
+## Data wrangling
+
+Generating a nice tibble which contains all the information and the normalized counts.
+
+```{r}
+data_df <- as_tibble(data_otu_raref, rownames = NA) %>%
+    rownames_to_column(var = "Sample_Name") %>%
+    pivot_longer(-Sample_Name, names_to = "OTUname") %>%
+    left_join(data_taxa, by = c("OTUname")) %>%
+    left_join(data_meta %>% dplyr::select(-date), by = c("Sample_Name")) %>%
+    glimpse()
+
+data_df <- data_df %>%
+    separate(Sample_Name, into = c("Station", "Date"), sep = "_", remove = FALSE) %>%
+    mutate(
+        date = lubridate::as_date(Date)
+    ) %>%
+    glimpse()
+```
+
+## Taxa Distribution
+
+```{r}
+data_grouped <- data_df %>%
+    filter(value != 0) %>%
+    group_by(Sample_Name, date, Phylum) %>%
+    summarise(
+        seasons = first(seasons),
+        value = sum(value),
+        .groups = "drop"
+    ) %>%
+    glimpse()
+```
+
+
+```{r}
+data_filtered <- data_grouped %>%
+    group_by(Sample_Name) %>%
+    mutate(value_sum = sum(value)) %>%
+    ungroup() %>%
+    mutate(value_p = value / value_sum) %>%
+    filter(value != 0) %>%
+    mutate(
+        label = case_when(
+            Phylum == "MALVs" ~ Phylum,
+            value_p >= 0.05 ~ ifelse(is.na(Phylum), "Unknown", Phylum),
+            TRUE ~ "< 5% relative abundance"
+        )
+    ) %>%
+    glimpse()
+```
+
+
+```{r}
+# Custom Colors for MALVs
+n <- unique(data_filtered$label)
+color_values <- scales::hue_pal()(length(n))
+names(color_values) <- n
+color_values["MALVs"] <- "black"
+# Custom Axis Colors
+helper <- data_filtered %>%
+    group_by(date) %>%
+    summarise(seasons = first(seasons)) %>%
+    pull(seasons)
+color_axis <- case_when(
+    helper == "winter" ~ "#0072B2",
+    helper == "spring" ~ "#E69F00",
+    helper == "summer" ~ "#D55E00",
+    helper == "autumn" ~ "#009E73",
+)
+
+p <- data_filtered %>%
+    mutate(
+        year = year(date),
+        year = ifelse(year %in% c("2011", "2012"), "2011-2012", year)
+    ) %>%
+    ggplot(aes(x = as.character(date), y = value_p, fill = label)) +
+    geom_col(width = 1) +
+    # scale_x_date(
+    #    date_breaks = "1 month",
+    #    date_labels = "%m"
+    # ) +
+    scale_x_discrete(
+        label = ~ substring(.x, first = 6)
+    ) +
+    scale_fill_manual(
+        values = color_values
+    ) +
+    scale_y_continuous(
+        breaks = scales::pretty_breaks(),
+        label = scales::label_percent()
+    ) +
+    facet_wrap(~year, scales = "free_x", ncol = 1) +
+    labs(
+        y = "Relative abundance [%]",
+        x = "Month",
+        fill = "Phylum"
+    ) +
+    theme(
+        legend.position = "bottom",
+        axis.text.x = element_text(
+            angle = 40,
+            hjust = 1,
+            size = 8,
+            color = color_axis
+        )
+    )
+fSaveImages(p, "abundance", h = 18, w = 9)
+```
