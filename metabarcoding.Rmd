@@ -197,7 +197,7 @@ p1 <- data_malvs %>%
     stat_summary(
         fun = mean, geom = "point", show.legend = FALSE, color = colorBlindBlack8[[8]], shape = 18, size = 4
     ) +
-    geom_text(aes(y = 1), check_overlap = TRUE) +
+    geom_text(aes(y = 0.45), check_overlap = TRUE) +
     labs(
         y = "Relative abundance [%]",
         x = "Seasons",
@@ -207,7 +207,7 @@ p1 <- data_malvs %>%
     ) +
     scale_y_continuous(
         breaks = scales::pretty_breaks(),
-        label = scales::label_percent()
+        label = scales::label_percent(accuracy = 1)
     ) +
     theme(
         panel.grid.major.y = element_line()
@@ -217,8 +217,8 @@ p2 <- data_malvs %>%
     drop_na(watermass) %>%
     ggplot(aes(x = as.character(watermass), y = value_p, label = glue("n = {watermass_n}"))) +
     ggforce::geom_sina(
+        aes(color = seasons),
         show.legend = FALSE,
-        color = colorBlindBlack8[1],
         alpha = 0.5,
         scale = "count"
     ) +
@@ -226,14 +226,17 @@ p2 <- data_malvs %>%
     stat_summary(
         fun = mean, geom = "point", show.legend = F, color = colorBlindBlack8[[8]], shape = 18, size = 4
     ) +
-    geom_text(aes(y = 1), check_overlap = TRUE) +
+    geom_text(aes(y = 0.45), check_overlap = TRUE) +
+    scale_color_manual(
+        values = color_seasons
+    ) +
     labs(
         x = "Water masses",
         y = ""
     ) +
     scale_y_continuous(
         breaks = scales::pretty_breaks(),
-        label = scales::label_percent()
+        label = scales::label_percent(accuracy = 1)
     ) +
     theme(
         panel.grid.major.y = element_line()
