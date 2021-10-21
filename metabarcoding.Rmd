@@ -124,12 +124,6 @@ color_values["< 5%"] <- "gray50"
 color_values <- color_values[stringr::str_order(names(color_values))]
 # Custom Axis Colors
 color_seasons <- c("Winter" = "#0072B2", "Spring" = "#E69F00", "Summer" = "#D55E00", "Autumn" = "#009E73")
-helper <- data_filtered %>%
-    group_by(date) %>%
-    summarise(seasons = first(seasons)) %>%
-    pull(seasons)
-color_axis <- color_seasons[helper]
-
 
 p <- data_filtered %>%
     mutate(
@@ -139,16 +133,37 @@ p <- data_filtered %>%
     ) %>%
     ggplot(aes(x = as.character(date), y = value_p, fill = label)) +
     geom_col(width = 1) +
-    geom_text(aes(y = 1, label = watermass), check.overlap = TRUE, nudge_y = 0.1) +
+    geom_text(
+        aes(y = 1, label = watermass, color = seasons),
+        check_overlap = TRUE,
+        nudge_y = 0.1,
+        show.legend = FALSE
+    ) +
+    geom_text(
+        aes(y = 1, label = substring(seasons, 1, 2), color = seasons),
+        check_overlap = TRUE,
+        nudge_y = 0.15,
+        show.legend = FALSE
+    ) +
+    # ggplot2::annotate(
+    #     "text",
+    #     y = 1.1,
+    #     x = 0,
+    #     label = "WM:"
+    # ) +
     # scale_x_date(
     #    date_breaks = "1 month",
     #    date_labels = "%m"
     # ) +
+    ggplot2::coord_cartesian(clip = FALSE) +
     scale_x_discrete(
         label = ~ substring(.x, first = 6)
     ) +
     scale_fill_manual(
         values = color_values
+    ) +
+    scale_color_manual(
+        values = color_seasons
     ) +
     scale_y_continuous(
         breaks = scales::pretty_breaks(),
@@ -165,11 +180,10 @@ p <- data_filtered %>%
         axis.text.x = element_text(
             angle = 40,
             hjust = 1,
-            size = 8,
-            color = color_axis
+            size = 8
         )
     )
-fSaveImages(p, "abundance", h = 18, w = 9)
+fSaveImages(p, "abundance", h = 18, w = 13)
 ```
 
 ### MALVs Detail
