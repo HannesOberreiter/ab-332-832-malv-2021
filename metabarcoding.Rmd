@@ -6,12 +6,18 @@ output: html_notebook
 # Metabarcoding Script
 
 ```{r}
+# Main Wrangling Packages includes ggplot
 library(tidyverse)
 library(lubridate)
-library(here)
 library(glue)
+# Helper Packages
+library(here)
+# Vegan for Indixes and zCompositions for normalizing
 library(vegan)
 library(zCompositions)
+# Plot Helper
+library(ggforce)
+library(patchwork)
 
 source("functions/functions.R")
 ```
@@ -70,13 +76,16 @@ data_df <- data_df %>%
     glimpse()
 ```
 
-## Taxa Distribution
+## Exploration
+
+We are only interested in Phylum? As this is were MALVs are in this dataset.
 
 ```{r}
 data_grouped <- data_df %>%
     filter(value != 0) %>%
     group_by(Sample_Name, date, Phylum) %>%
     summarise(
+        watermass = first(watermass),
         seasons = first(seasons),
         value = sum(value),
         .groups = "drop"
@@ -84,6 +93,7 @@ data_grouped <- data_df %>%
     glimpse()
 ```
 
+Generate relative counts and group everything under 5% relative abundance for better visibility except for our MALVs.
 
 ```{r}
 data_filtered <- data_grouped %>%
@@ -96,38 +106,39 @@ data_filtered <- data_grouped %>%
         label = case_when(
             Phylum == "MALVs" ~ Phylum,
             value_p >= 0.05 ~ ifelse(is.na(Phylum), "Unknown", Phylum),
-            TRUE ~ "< 5% relative abundance"
+            TRUE ~ "< 5%"
         )
     ) %>%
     glimpse()
 ```
 
-
+Plotting the total composition:
 ```{r}
 # Custom Colors for MALVs
 n <- unique(data_filtered$label)
 color_values <- scales::hue_pal()(length(n))
 names(color_values) <- n
 color_values["MALVs"] <- "black"
+color_values["< 5%"] <- "gray50"
+color_values <- color_values[stringr::str_order(names(color_values))]
 # Custom Axis Colors
+color_seasons <- c("winter" = "#0072B2", "spring" = "#E69F00", "summer" = "#D55E00", "autumn" = "#009E73")
 helper <- data_filtered %>%
     group_by(date) %>%
     summarise(seasons = first(seasons)) %>%
     pull(seasons)
-color_axis <- case_when(
-    helper == "winter" ~ "#0072B2",
-    helper == "spring" ~ "#E69F00",
-    helper == "summer" ~ "#D55E00",
-    helper == "autumn" ~ "#009E73",
-)
+color_axis <- color_seasons[helper]
+
 
 p <- data_filtered %>%
     mutate(
         year = year(date),
-        year = ifelse(year %in% c("2011", "2012"), "2011-2012", year)
+        year = ifelse(year %in% c("2011", "2012"), "2011-2012", year),
+        label = forcats::fct_relevel(label, "MALVs", after = Inf)
     ) %>%
     ggplot(aes(x = as.character(date), y = value_p, fill = label)) +
     geom_col(width = 1) +
+    geom_text(aes(y = 1, label = watermass), check.overlap = TRUE, nudge_y = 0.1) +
     # scale_x_date(
     #    date_breaks = "1 month",
     #    date_labels = "%m"
@@ -149,7 +160,7 @@ p <- data_filtered %>%
         fill = "Phylum"
     ) +
     theme(
-        legend.position = "bottom",
+        legend.position = "right",
         axis.text.x = element_text(
             angle = 40,
             hjust = 1,
@@ -159,3 +170,69 @@ p <- data_filtered %>%
     )
 fSaveImages(p, "abundance", h = 18, w = 9)
 ```
+
+### MALVs Detail
+```{r}
+data_malvs <- data_filtered %>%
+    filter(label == "MALVs") %>%
+    add_count(seasons, name = "seasons_n") %>%
+    add_count(watermass, name = "watermass_n") %>%
+    glimpse()
+```
+
+```{r}
+p1 <- data_malvs %>%
+    mutate(seasons = stringr::str_to_title(seasons)) %>%
+    ggplot(aes(x = seasons, y = value_p, label = glue("n = {seasons_n}"))) +
+    ggforce::geom_sina(
+        show.legend = FALSE,
+        color = colorBlindBlack8[1],
+        alpha = 0.5,
+        scale = "count"
+    ) +
+    geom_boxplot(outlier.alpha = 0, show.legend = F, alpha = 0) +
+    stat_summary(
+        fun = mean, geom = "point", show.legend = F, color = colorBlindBlack8[[8]], shape = 18, size = 4
+    ) +
+    geom_text(aes(y = 1), check_overlap = TRUE) +
+    labs(
+        y = "Relative abundance [%]",
+        x = "Seasons",
+    ) +
+    scale_y_continuous(
+        breaks = scales::pretty_breaks(),
+        label = scales::label_percent()
+    ) +
+    theme(
+        panel.grid.major.y = element_line()
+    )
+
+p2 <- data_malvs %>%
+    drop_na(watermass) %>%
+    ggplot(aes(x = as.character(watermass), y = value_p, label = glue("n = {watermass_n}"))) +
+    ggforce::geom_sina(
+        show.legend = FALSE,
+        color = colorBlindBlack8[1],
+        alpha = 0.5,
+        scale = "count"
+    ) +
+    geom_boxplot(outlier.alpha = 0, show.legend = F, alpha = 0) +
+    stat_summary(
+        fun = mean, geom = "point", show.legend = F, color = colorBlindBlack8[[8]], shape = 18, size = 4
+    ) +
+    geom_text(aes(y = 1), check_overlap = TRUE) +
+    labs(
+        x = "Water masses",
+        y = ""
+    ) +
+    scale_y_continuous(
+        breaks = scales::pretty_breaks(),
+        label = scales::label_percent()
+    ) +
+    theme(
+        panel.grid.major.y = element_line()
+    )
+
+fSaveImages(p1 + p2, "Season_Watermass", w = 10)
+```
+
