@@ -107,7 +107,8 @@ data_filtered <- data_grouped %>%
             Phylum == "MALVs" ~ Phylum,
             value_p >= 0.05 ~ ifelse(is.na(Phylum), "Unknown", Phylum),
             TRUE ~ "< 5%"
-        )
+        ),
+        seasons = stringr::str_to_title(seasons)
     ) %>%
     glimpse()
 ```
@@ -122,7 +123,7 @@ color_values["MALVs"] <- "black"
 color_values["< 5%"] <- "gray50"
 color_values <- color_values[stringr::str_order(names(color_values))]
 # Custom Axis Colors
-color_seasons <- c("winter" = "#0072B2", "spring" = "#E69F00", "summer" = "#D55E00", "autumn" = "#009E73")
+color_seasons <- c("Winter" = "#0072B2", "Spring" = "#E69F00", "Summer" = "#D55E00", "Autumn" = "#009E73")
 helper <- data_filtered %>%
     group_by(date) %>%
     summarise(seasons = first(seasons)) %>%
@@ -182,7 +183,9 @@ data_malvs <- data_filtered %>%
 
 ```{r}
 p1 <- data_malvs %>%
-    mutate(seasons = stringr::str_to_title(seasons)) %>%
+    dplyr::mutate(
+        seasons = forcats::fct_relevel(seasons, "Winter", "Spring", "Summer", "Autumn")
+    ) %>%
     ggplot(aes(x = seasons, y = value_p, label = glue("n = {seasons_n}"))) +
     ggforce::geom_sina(
         show.legend = FALSE,
@@ -190,14 +193,17 @@ p1 <- data_malvs %>%
         alpha = 0.5,
         scale = "count"
     ) +
-    geom_boxplot(outlier.alpha = 0, show.legend = F, alpha = 0) +
+    geom_boxplot(aes(color = seasons), outlier.alpha = 0, show.legend = FALSE, alpha = 0) +
     stat_summary(
-        fun = mean, geom = "point", show.legend = F, color = colorBlindBlack8[[8]], shape = 18, size = 4
+        fun = mean, geom = "point", show.legend = FALSE, color = colorBlindBlack8[[8]], shape = 18, size = 4
     ) +
     geom_text(aes(y = 1), check_overlap = TRUE) +
     labs(
         y = "Relative abundance [%]",
         x = "Seasons",
+    ) +
+    scale_color_manual(
+        values = color_seasons
     ) +
     scale_y_continuous(
         breaks = scales::pretty_breaks(),
@@ -233,6 +239,6 @@ p2 <- data_malvs %>%
         panel.grid.major.y = element_line()
     )
 
-fSaveImages(p1 + p2, "Season_Watermass", w = 10)
+fSaveImages(p1 + p2 + patchwork::plot_annotation(tag_levels = "A"), "malv_season_watermasses", w = 10)
 ```
 
