@@ -49,11 +49,28 @@ We have different sample reads:
 rarecurve(data_otu, step = 100, xlab = "Number of reads", ylab = "Richness", col = "blue")
 ```
 
-This is to make our reads comparable between sample dates. We could use the standard rarefaction method.
+This is to make our reads comparable between sample dates. We could use the standard rarefaction method, because our MALV will not be lost as they are in higher abundance.
+
 ```{r}
 minimum_reads <- min(rowSums(data_otu))
 data_otu_raref <- rrarefy(data_otu, minimum_reads)
 data_otu_raref <- data_otu_raref[, -(which(colSums(data_otu_raref) == 0))]
+```
+
+## Impute Missing values
+
+```{r}
+library(imputeTS)
+data_meta <- data_meta %>%
+    mutate(
+        season_nr = as_factor(season_nr),
+        watermass = as_factor(watermass),
+        data = lubridate::as_date(date)
+    ) %>%
+    mutate(
+        across(where(is.numeric), imputeTS::na_interpolation, option = "spline")
+    ) %>%
+    glimpse()
 ```
 
 ## Data wrangling
@@ -121,15 +138,22 @@ color_values <- scales::hue_pal()(length(n))
 names(color_values) <- n
 color_values["MALVs"] <- "black"
 color_values["< 5%"] <- "gray50"
+color_values["Unknown"] <- "gray70"
+
 color_values <- color_values[stringr::str_order(names(color_values))]
 # Custom Axis Colors
 color_seasons <- c("Winter" = "#0072B2", "Spring" = "#E69F00", "Summer" = "#D55E00", "Autumn" = "#009E73")
+
+data_filtered <- data_filtered %>%
+    mutate(
+        label = forcats::fct_relevel(label, "< 5%", "Unknown", after = 0L),
+        label = forcats::fct_relevel(label, "MALVs", after = Inf)
+    )
 
 p <- data_filtered %>%
     mutate(
         year = year(date),
         year = ifelse(year %in% c("2011", "2012"), "2011-2012", year),
-        label = forcats::fct_relevel(label, "MALVs", after = Inf)
     ) %>%
     ggplot(aes(x = as.character(date), y = value_p, fill = label)) +
     geom_col(width = 1) +
@@ -193,6 +217,54 @@ data_malvs <- data_filtered %>%
     add_count(seasons, name = "seasons_n") %>%
     add_count(watermass, name = "watermass_n") %>%
     glimpse()
+```
+
+Types of MALVs
+```{r}
+data_malvs_tax <- data_df %>%
+    filter(value != 0 & Phylum == "MALVs") %>%
+    group_by(data) %>%
+    mutate(value_sum = sum(value)) %>%
+    ungroup() %>%
+    group_by(date, Tax1) %>%
+    summarise(
+        seasons = first(seasons) %>% stringr::str_to_title(),
+        value_p = sum(value) / first(value_sum),
+        Tax1 = stringr::str_replace_all(first(Tax1), "_", " ") %>% stringr::str_remove_all("group")
+    ) %>%
+    glimpse()
+
+p <- data_malvs_tax %>%
+    ggplot(aes(x = as.character(date), y = value_p, fill = Tax1)) +
+    geom_col(color = "black") +
+    geom_text(
+        aes(y = 1, label = substring(seasons, 1, 2), color = seasons),
+        check_overlap = FALSE,
+        nudge_y = 0.1,
+        show.legend = FALSE,
+        size = 1.5
+    ) +
+    scale_fill_manual(
+        values = colorBlindBlack8,
+    ) +
+    scale_y_continuous(
+        breaks = scales::pretty_breaks(),
+        labels = scales::label_percent()
+    ) +
+    scale_x_discrete(
+        # label = ~ substring(.x, first = 6)
+    ) +
+    labs(
+        y = "Relative Abundance MALV [%]",
+        x = "Dates",
+        fill = "Taxa"
+    ) +
+    theme(
+        legend.position = "bottom",
+        axis.text.x = element_text(angle = 40, hjust = 1, size = 5)
+    )
+
+fSaveImages(p, "malvs_taxa", w = 10)
 ```
 
 ```{r}
