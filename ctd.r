@@ -1,14 +1,13 @@
-# CTD Data Analysis
+# CTD Data Analysis ----
 library(here)
 library(tidyverse)
 library(glue)
-library(oce)
 library(ggh4x)
+library(oce)
 library(ggrepel)
-
 source("functions/functions.R")
 
-# Meta Data
+# Meta Data ----
 files <- tribble(
     ~"short", ~"deep", ~"file",
     "BAB", 150, "BAB_AB332_5th_Oct_2021",
@@ -17,7 +16,7 @@ files <- tribble(
     "ISK", 250, "ISK_Ab332_6th_oct_2021"
 )
 
-# Loading Files
+# Loading Files -----
 data <- list()
 for (i in seq_len(nrow(files))) {
     row <- files[i, ]
@@ -30,7 +29,7 @@ for (i in seq_len(nrow(files))) {
 }
 data <- bind_rows(data)
 
-# Data Wranling
+# Data Wranling ----
 ctd <- data %>%
     group_by(location) %>%
     mutate(
