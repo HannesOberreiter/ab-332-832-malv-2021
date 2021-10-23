@@ -83,8 +83,14 @@ data_meta <- data_meta %>%
 Generating a nice tibble which contains all the information and the normalized counts.
 
 ```{r}
+data_df_raref <- as_tibble(data_otu_raref, rownames = NA) %>%
+    rownames_to_column(var = "Sample_Name") %>%
+    pivot_longer(-Sample_Name, names_to = "OTUname") %>%
+    left_join(data_taxa, by = c("OTUname")) %>%
+    left_join(data_meta %>% dplyr::select(-date), by = c("Sample_Name")) %>%
+    glimpse()
+
 data_df <- as_tibble(data_otu, rownames = NA) %>%
-    # rownames_to_column(var = "Sample_Name") %>%
     dplyr::rename("OTUname" = "OTUNumber") %>%
     pivot_longer(-OTUname, names_to = "Sample_Name") %>%
     left_join(data_taxa, by = c("OTUname")) %>%
@@ -336,4 +342,42 @@ p2 <- data_malvs %>%
 
 fSaveImages(p1 + p2 + patchwork::plot_annotation(tag_levels = "A"), "malv_season_watermasses", w = 10)
 ```
+
+#### PermANOVA
+
+Using bray curtis distance on rarefied OTU table.
+
+```{r}
+data_meta %>% glimpse()
+nrow(data_meta)
+nrow(data_otu_raref)
+nrow(data_otu_raref[which(is.na(data_meta$watermass)), ])
+# Thats for the whole composition
+(r <-
+    vegan::adonis2(
+        data_otu_raref[which(!is.na(data_meta$watermass)), ] ~ seasons * watermass + year,
+        data = data_meta %>% drop_na(watermass),
+        method = "bray",
+        perm = 100
+    )
+)
+
+data_malvs_drop <- data_malvs %>%
+    drop_na(watermass) %>%
+    mutate(
+        year = year(date),
+    )
+
+# Thats for only MALV
+(r_m <-
+    vegan::adonis2(
+        data_malvs_drop$value_p ~ seasons * watermass + year,
+        data = data_malvs_drop,
+        perm = 1000
+    )
+)
+
+broom::tidy(r_m) %>% knitr::kable()
+```
+
 
