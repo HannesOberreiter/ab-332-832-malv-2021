@@ -20,7 +20,7 @@ files <- tribble(
 data <- list()
 for (i in seq_len(nrow(files))) {
     row <- files[i, ]
-    data[[i]] <- read_tsv(glue("data/{row$file}.txt"), skip = 3, locale = locale(encoding = "ISO-8859-1")) %>%
+    data[[i]] <- read_tsv(glue("data/{row$file}.txt"), skip = 3, locale = locale(encoding = "latin1")) %>%
         janitor::clean_names() %>%
         add_column(
             location = row$short,
