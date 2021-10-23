@@ -35,10 +35,15 @@ data_meta <- readr::read_tsv("data/AB332metadata_v3.txt") %>%
     glimpse()
 data_taxa <- readr::read_tsv("data/AB332_2021_taxtab.txt") %>%
     glimpse()
-data_otu <- readr::read_tsv("data/AB332_otutab_reduc3.txt") %>%
+data_otu_t <- readr::read_tsv("data/AB332_otutab_reduc3.txt") %>%
     column_to_rownames(var = "OTUNumber") %>%
     # for vegan package
     t()
+data_otu <- readr::read_tsv("data/AB332_otutab_reduc3.txt") %>%
+    glimpse() %>%
+    # Remove empty OTUs
+    filter(!if_all(-OTUNumber, ~ .x == 0)) %>%
+    glimpse()
 ```
 
 ## Normalize counts
@@ -46,14 +51,14 @@ data_otu <- readr::read_tsv("data/AB332_otutab_reduc3.txt") %>%
 We have different sample reads:
 
 ```{r}
-rarecurve(data_otu, step = 100, xlab = "Number of reads", ylab = "Richness", col = "blue")
+vegan::rarecurve(data_otu_t, step = 100, xlab = "Number of reads", ylab = "Richness", col = "blue")
 ```
 
-This is to make our reads comparable between sample dates. We could use the standard rarefaction method, because our MALV will not be lost as they are in higher abundance.
+This is to make our reads comparable between sample dates. We could use the standard rarefaction method, because our MALV will not be lost as they are in higher abundance. Currently I don't use the rarefied table at all, as for the relative abundance plots I simply use the relative of the total reads. If we do statistics we would need to use the rarefied or CLR converted one to make it comparable. For the compositional data plots I tried both variants, the overall pattern is the same but if we look in detail at the MALV groups we loose some with the rarefied function, therefore I use mostly the afore mentioned full dataset, but as I said it makes not difference in the conclusion as the pattern is the same.
 
 ```{r}
 minimum_reads <- min(rowSums(data_otu))
-data_otu_raref <- rrarefy(data_otu, minimum_reads)
+data_otu_raref <- vegan::rrarefy(data_otu, minimum_reads)
 data_otu_raref <- data_otu_raref[, -(which(colSums(data_otu_raref) == 0))]
 ```
 
@@ -78,9 +83,10 @@ data_meta <- data_meta %>%
 Generating a nice tibble which contains all the information and the normalized counts.
 
 ```{r}
-data_df <- as_tibble(data_otu_raref, rownames = NA) %>%
-    rownames_to_column(var = "Sample_Name") %>%
-    pivot_longer(-Sample_Name, names_to = "OTUname") %>%
+data_df <- as_tibble(data_otu, rownames = NA) %>%
+    # rownames_to_column(var = "Sample_Name") %>%
+    dplyr::rename("OTUname" = "OTUNumber") %>%
+    pivot_longer(-OTUname, names_to = "Sample_Name") %>%
     left_join(data_taxa, by = c("OTUname")) %>%
     left_join(data_meta %>% dplyr::select(-date), by = c("Sample_Name")) %>%
     glimpse()
