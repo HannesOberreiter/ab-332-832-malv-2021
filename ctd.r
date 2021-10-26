@@ -51,12 +51,12 @@ ctd <- data %>%
     ) %>%
     arrange(press) %>%
     glimpse() %>%
-    select(sal:press, location:depth)
+    dplyr::select(sal:press, location:depth)
 
 
 # Long Format Plotting all Variables
 ctd_long <- ctd %>%
-    select(-direction) %>%
+    dplyr::select(-direction) %>%
     pivot_longer(-c("press", "location", "deep", "depth"))
 
 # for (i in seq_len(nrow(files))) {
@@ -217,8 +217,8 @@ watermasses <- tribble(
     ~ext, ~long, ~short, ~temp_low, ~temp_high, ~salinity_low, ~salinity_high,
     "External", "Atlantic Water", "AW", 3, 5, 34.9, 35,
     "External", "Arctic Water", "ArW", -2, 0, 34.3, 34.8,
-    "Local", "Surface Water", "SW", 1, 5, 30, 34,
-    "Local", "Local Water", "LW", -2, 1, 32, 35,
+    "Local", "Surface Water", "SW", 1, 5, 32.5, 34,
+    "Local", "Local Water", "LW", -2, 1, 32.5, 35,
     "Local", "Winter-Cooled Water", "WCW", -2, -0.50, 34.4, 35,
     "Mixed", "Intermediate Water", "IW", 1.0, 5, 34, 34.7,
     "Mixed", "Transformed Atlantic Water", "TAW", 1, 3, 34.7, 34.9
