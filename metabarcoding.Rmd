@@ -18,6 +18,9 @@ library(zCompositions)
 # Plot Helper
 library(ggforce)
 library(patchwork)
+library(ggrepel)
+# Misc
+library(imputeTS) # Impute missing data
 
 source("functions/functions.R")
 ```
@@ -25,13 +28,13 @@ source("functions/functions.R")
 ## Data Informations
 
 The data is 3 year from the Isa time series (2011-2014) processed through USearch with clustering at 99%,
-arbitrarily removing any OTU with less than 50 reads in the total dataset and removing OTUs assigned to Streptophyta, Metazoa and Fungi.
-Rarefied to 5398 reads per sample. Taxonomic assignment with PR2 using blast. Only DNA from 25m is included.
+arbitrarily removing any OTU with less than 50 reads in the total dataset and removing OTUs assigned to Streptophyta, Metazoa and Fungi. Taxonomic assignment with PR2 using blast. Only DNA from 25m is included.
 
 ## Loading data
 
 ```{r}
 data_meta <- readr::read_tsv("data/AB332metadata_v3.txt") %>%
+    dplyr::select(-date) %>%
     glimpse()
 data_taxa <- readr::read_tsv("data/AB332_2021_taxtab.txt") %>%
     glimpse()
@@ -39,6 +42,8 @@ data_otu_t <- readr::read_tsv("data/AB332_otutab_reduc3.txt") %>%
     column_to_rownames(var = "OTUNumber") %>%
     # for vegan package
     t()
+data_otu_t <- data_otu_t[, -(which(colSums(data_otu_t) == 0))]
+
 data_otu <- readr::read_tsv("data/AB332_otutab_reduc3.txt") %>%
     glimpse() %>%
     # Remove empty OTUs
@@ -54,23 +59,32 @@ We have different sample reads:
 vegan::rarecurve(data_otu_t, step = 100, xlab = "Number of reads", ylab = "Richness", col = "blue")
 ```
 
-This is to make our reads comparable between sample dates. We could use the standard rarefaction method, because our MALV will not be lost as they are in higher abundance. Currently I don't use the rarefied table at all, as for the relative abundance plots I simply use the relative of the total reads. If we do statistics we would need to use the rarefied or CLR converted one to make it comparable. For the compositional data plots I tried both variants, the overall pattern is the same but if we look in detail at the MALV groups we loose some with the rarefied function, therefore I use mostly the afore mentioned full dataset, but as I said it makes not difference in the conclusion as the pattern is the same.
+For statistical reasons we need to normalize our reads. We could use the standard rarefaction method or the CLR method. For the compositional data plots I tried both variants, the overall pattern is the same but if we look in detail at the MALV groups we loose some with the rarefying function. The compositional bar plots are relative and without read normalizing because you do not test them.
 
+Rarefying:
 ```{r}
-minimum_reads <- min(rowSums(data_otu))
-data_otu_raref <- vegan::rrarefy(data_otu, minimum_reads)
-data_otu_raref <- data_otu_raref[, -(which(colSums(data_otu_raref) == 0))]
+# minimum_reads <- min(rowSums(data_otu_t))
+# data_otu_raref <- vegan::rrarefy(data_otu_t, minimum_reads)
+# data_otu_raref <- data_otu_raref[, -(which(colSums(data_otu_raref) == 0))]
+```
+
+CLR:
+```{r}
+data_otu_clr_imp <- zCompositions::cmultRepl(t(data_otu_t), output = "p-counts")
+data_otu_clr_raw <- compositions::clr(data_otu_clr_imp)
+
+data_otu_clr <- bind_cols(data_otu[, 1], as_tibble(data_otu_clr_raw)) %>% glimpse()
 ```
 
 ## Impute Missing values
 
+There are some missing data, we could drop them or impute them based on a spline function. Both would be fine, I decided to do a imputation, as we would otherwise loose 15 rows.
+
 ```{r}
-library(imputeTS)
-data_meta <- data_meta %>%
+data_meta_imp <- data_meta %>%
     mutate(
         season_nr = as_factor(season_nr),
-        watermass = as_factor(watermass),
-        data = lubridate::as_date(date)
+        watermass = as_factor(watermass)
     ) %>%
     mutate(
         across(where(is.numeric), imputeTS::na_interpolation, option = "spline")
@@ -83,18 +97,32 @@ data_meta <- data_meta %>%
 Generating a nice tibble which contains all the information and the normalized counts.
 
 ```{r}
-data_df_raref <- as_tibble(data_otu_raref, rownames = NA) %>%
-    rownames_to_column(var = "Sample_Name") %>%
-    pivot_longer(-Sample_Name, names_to = "OTUname") %>%
+# data_df_raref <- as_tibble(data_otu_raref, rownames = NA) %>%
+#    rownames_to_column(var = "Sample_Name") %>%
+#    pivot_longer(-Sample_Name, names_to = "OTUname") %>%
+#    left_join(data_taxa, by = c("OTUname")) %>%
+#    left_join(data_meta %>% dplyr::select(-date), by = c("Sample_Name")) %>%
+#    glimpse()
+
+data_df_clr <- as_tibble(data_otu_clr, rownames = NA) %>%
+    dplyr::rename("OTUname" = "OTUNumber") %>%
+    pivot_longer(-OTUname, names_to = "Sample_Name") %>%
     left_join(data_taxa, by = c("OTUname")) %>%
-    left_join(data_meta %>% dplyr::select(-date), by = c("Sample_Name")) %>%
+    left_join(data_meta_imp, by = c("Sample_Name")) %>%
+    glimpse()
+
+data_df_clr <- data_df_clr %>%
+    separate(Sample_Name, into = c("Station", "Date"), sep = "_", remove = FALSE) %>%
+    mutate(
+        date = lubridate::as_date(Date)
+    ) %>%
     glimpse()
 
 data_df <- as_tibble(data_otu, rownames = NA) %>%
     dplyr::rename("OTUname" = "OTUNumber") %>%
     pivot_longer(-OTUname, names_to = "Sample_Name") %>%
     left_join(data_taxa, by = c("OTUname")) %>%
-    left_join(data_meta %>% dplyr::select(-date), by = c("Sample_Name")) %>%
+    left_join(data_meta_imp, by = c("Sample_Name")) %>%
     glimpse()
 
 data_df <- data_df %>%
@@ -107,13 +135,15 @@ data_df <- data_df %>%
 
 ## Exploration
 
-We are only interested in Phylum? As this is were MALVs are in this dataset.
+First plot compositional data with OTU based on Phylum because it is still "good enough" with our metabarcoding data.
 
 ```{r}
 data_grouped <- data_df %>%
     filter(value != 0) %>%
     group_by(Sample_Name, date, Phylum) %>%
     summarise(
+        temp_25 = first(temp_25),
+        sal_25 = first(sal_25),
         watermass = first(watermass),
         seasons = first(seasons),
         value = sum(value),
@@ -122,7 +152,7 @@ data_grouped <- data_df %>%
     glimpse()
 ```
 
-Generate relative counts and group everything under 5% relative abundance for better visibility except for our MALVs.
+Generate relative counts and group everything below 5% relative abundance for better visibility except for our MALVs.
 
 ```{r}
 data_filtered <- data_grouped %>%
@@ -143,6 +173,7 @@ data_filtered <- data_grouped %>%
 ```
 
 Plotting the total composition:
+
 ```{r}
 # Custom Colors for MALVs
 n <- unique(data_filtered$label)
@@ -159,10 +190,15 @@ color_seasons <- c("Winter" = "#0072B2", "Spring" = "#E69F00", "Summer" = "#D55E
 data_filtered <- data_filtered %>%
     mutate(
         label = forcats::fct_relevel(label, "< 5%", "Unknown", after = 0L),
-        label = forcats::fct_relevel(label, "MALVs", after = Inf)
-    )
+        label = forcats::fct_relevel(label, "MALVs", after = Inf),
+        label_seasons = case_when(
+            seasons != lag(seasons, default = "x") ~ seasons,
+            TRUE ~ "--"
+        )
+    ) %>%
+    glimpse()
 
-p <- data_filtered %>%
+p_meta <- data_filtered %>%
     mutate(
         year = year(date),
         year = ifelse(year %in% c("2011", "2012"), "2011-2012", year),
@@ -172,15 +208,15 @@ p <- data_filtered %>%
     geom_text(
         aes(y = 1, label = watermass, color = seasons),
         check_overlap = TRUE,
-        nudge_y = 0.1,
+        nudge_y = 0.05,
         show.legend = FALSE
     ) +
-    geom_text(
-        aes(y = 1, label = substring(seasons, 1, 2), color = seasons),
-        check_overlap = TRUE,
-        nudge_y = 0.15,
-        show.legend = FALSE
-    ) +
+    # geom_text(
+    #    aes(y = 1, label = substring(seasons, 1, 2), color = seasons),
+    #    check_overlap = TRUE,
+    #    nudge_y = 0.15,
+    #    show.legend = FALSE
+    # ) +
     # ggplot2::annotate(
     #     "text",
     #     y = 1.1,
@@ -203,9 +239,9 @@ p <- data_filtered %>%
     ) +
     scale_y_continuous(
         breaks = scales::pretty_breaks(),
+        limits = c(0, 1.1),
         label = scales::label_percent()
     ) +
-    facet_wrap(~year, scales = "free_x", ncol = 1) +
     labs(
         y = "Relative abundance [%]",
         x = "Month",
@@ -213,13 +249,26 @@ p <- data_filtered %>%
     ) +
     theme(
         legend.position = "right",
+    )
+
+p_meta_full <- p_meta +
+    geom_text(
+        aes(y = 1, label = substring(label_seasons, 1, 2), color = seasons),
+        size = 5,
+        check_overlap = TRUE,
+        nudge_y = 0.10,
+        show.legend = FALSE
+    ) +
+    facet_wrap(~year, scales = "free_x", ncol = 1) +
+    theme(
         axis.text.x = element_text(
             angle = 40,
             hjust = 1,
             size = 8
         )
     )
-fSaveImages(p, "abundance", h = 18, w = 13)
+
+fSaveImages(p_meta_full, "abundance", h = 18, w = 13)
 ```
 
 ### MALVs Detail
@@ -235,26 +284,39 @@ Types of MALVs
 ```{r}
 data_malvs_tax <- data_df %>%
     filter(value != 0 & Phylum == "MALVs") %>%
-    group_by(data) %>%
+    group_by(date) %>%
     mutate(value_sum = sum(value)) %>%
     ungroup() %>%
     group_by(date, Tax1) %>%
     summarise(
+        watermass = first(watermass),
+        temp_25 = first(temp_25),
+        sal_25 = first(sal_25),
         seasons = first(seasons) %>% stringr::str_to_title(),
         value_p = sum(value) / first(value_sum),
         Tax1 = stringr::str_replace_all(first(Tax1), "_", " ") %>% stringr::str_remove_all("group")
     ) %>%
     glimpse()
 
-p <- data_malvs_tax %>%
+data_malvs_tax <- data_malvs_tax %>%
+    mutate(
+        year = year(date),
+        year = ifelse(year %in% c("2011", "2012"), "2011-2012", as.character(year))
+    ) %>%
+    glimpse()
+
+p_malvs <- data_malvs_tax %>%
     ggplot(aes(x = as.character(date), y = value_p, fill = Tax1)) +
     geom_col(color = "black") +
-    geom_text(
-        aes(y = 1, label = substring(seasons, 1, 2), color = seasons),
-        check_overlap = FALSE,
-        nudge_y = 0.1,
-        show.legend = FALSE,
-        size = 1.5
+    # geom_text(
+    #    aes(y = 0.95, label = round(temp_25)),
+    #    check_overlap = FALSE,
+    #    nudge_y = 0.1,
+    #    show.legend = FALSE,
+    #    size = 1
+    # ) +
+    scale_color_manual(
+        values = color_seasons
     ) +
     scale_fill_manual(
         values = colorBlindBlack8,
@@ -264,20 +326,95 @@ p <- data_malvs_tax %>%
         labels = scales::label_percent()
     ) +
     scale_x_discrete(
-        # label = ~ substring(.x, first = 6)
+        label = ~ substring(.x, first = 6)
     ) +
     labs(
         y = "Relative Abundance MALV [%]",
         x = "Dates",
-        fill = "Taxa"
-    ) +
-    theme(
-        legend.position = "bottom",
-        axis.text.x = element_text(angle = 40, hjust = 1, size = 5)
+        fill = "Taxa MALVs"
     )
 
-fSaveImages(p, "malvs_taxa", w = 10)
+p_malvs_long <- p_malvs +
+    geom_text(
+        data = data_malvs_tax %>%
+            group_by(date) %>%
+            filter(row_number() == 1) %>%
+            ungroup() %>%
+            mutate(
+                label_seasons = case_when(
+                    seasons != lag(seasons, default = "x") ~ seasons,
+                    TRUE ~ "--"
+                )
+            ),
+        aes(y = 1, label = substring(label_seasons, 1, 2), color = seasons),
+        check_overlap = TRUE,
+        nudge_y = 0.05,
+        size = 2,
+        show.legend = FALSE
+    ) +
+    facet_wrap(~year, scales = "free_x", nrow = 1) +
+    theme(
+        strip.background = element_blank(),
+        strip.text = element_blank(),
+        axis.text.x = element_text(angle = 40, hjust = 1, size = 5),
+        panel.spacing.x = unit(0, "lines")
+    )
+
+p_meta_long <- p_meta +
+    geom_text(
+        aes(y = 1, label = substring(label_seasons, 1, 2), color = seasons),
+        size = 2,
+        check_overlap = TRUE,
+        nudge_y = 0.10,
+        show.legend = FALSE
+    ) +
+    xlab("") +
+    facet_wrap(~year, scales = "free_x", nrow = 1) +
+    theme(
+        panel.spacing.x = unit(0, "lines"),
+        axis.text.x = element_text(angle = 40, hjust = 1, size = 5),
+    )
+
+p_malvs_high <- p_malvs +
+    geom_text(
+        data = data_malvs_tax %>%
+            group_by(date) %>%
+            filter(row_number() == 1) %>%
+            ungroup() %>%
+            mutate(
+                label_seasons = case_when(
+                    seasons != lag(seasons, default = "x") ~ seasons,
+                    TRUE ~ "--"
+                )
+            ),
+        aes(y = 1, label = substring(label_seasons, 1, 2), color = seasons),
+        check_overlap = TRUE,
+        nudge_y = 0.12,
+        size = 5,
+        show.legend = FALSE
+    ) +
+    geom_text(
+        aes(y = 1, label = watermass, color = seasons),
+        check_overlap = TRUE,
+        nudge_y = 0.05,
+        show.legend = FALSE
+    ) +
+    facet_wrap(~year, scales = "free_x", ncol = 1) +
+    theme(
+        axis.text.x = element_text(
+            angle = 40,
+            hjust = 1,
+            size = 8
+        )
+    )
+
+
+fSaveImages(p_meta_long / p_malvs_long + patchwork::plot_annotation(tag_levels = "A"), "malvs_abundance", h = 10, w = 18)
+fSaveImages(p_malvs_high, "malvs_taxa", h = 18, w = 13)
 ```
+
+
+### Season and Temperature / Salinity
 
 ```{r}
 p1 <- data_malvs %>%
@@ -340,44 +477,181 @@ p2 <- data_malvs %>%
         panel.grid.major.y = element_line()
     )
 
+p3 <- data_malvs %>%
+    arrange(desc(value_p)) %>%
+    ggplot(aes(x = temp_25, y = sal_25, color = value_p * 100, size = value_p * 100)) +
+    geom_point() +
+    scale_y_continuous(
+        breaks = scales::pretty_breaks(6)
+    ) +
+    scale_x_continuous(
+        breaks = scales::pretty_breaks(6),
+    ) +
+    scale_color_viridis_c(limits = c(0, 40), breaks = seq(0, 40, by = 5)) +
+    scale_size_continuous(limits = c(0, 40), breaks = seq(0, 40, by = 5)) +
+    labs(
+        y = "Practical Salinity",
+        x = "Temperature [°C]",
+        color = "Relative\nabundance [%]",
+        size = "Relative\nabundance [%]"
+    ) +
+    guides(color = guide_legend(), size = guide_legend()) +
+    theme(
+        panel.grid.major = element_line()
+    )
+
 fSaveImages(p1 + p2 + patchwork::plot_annotation(tag_levels = "A"), "malv_season_watermasses", w = 10)
+fSaveImages(p1 + p3 + patchwork::plot_annotation(tag_levels = "A"), "malv_season_saltemp", w = 10)
 ```
 
-#### PermANOVA
 
-Using bray curtis distance on rarefied OTU table.
+
+mMDS on MALVs
+```{r}
+data_otu_clr_malv <- data_otu_clr %>%
+    left_join(data_taxa, by = c("OTUNumber" = "OTUname")) %>%
+    filter(Phylum == "MALVs") %>%
+    dplyr::select(OTUNumber:Isa_141024) %>%
+    glimpse()
+
+m_clr <- vegan::metaMDS(t(data_otu_clr_malv[, -1]), k = 2, trymax = 100, trace = FALSE, autotransform = FALSE, distance = "euclidean")
+m_clr_scores <- as_tibble(scores(m_clr), rownames = "Sample_Name") %>%
+    left_join(data_meta_imp, by = c("Sample_Name")) %>%
+    mutate(seasons = stringr::str_to_title(seasons))
+data_meta_scaled <- data_meta_imp %>%
+    dplyr::select(daylength:N_P, temp_25:virus) %>%
+    mutate(
+        across(-c("daylength"), ~ as.numeric(scale(., center = TRUE, scale = TRUE)))
+    ) %>%
+    glimpse()
+
+m_clr_envfit <- envfit(m_clr, data_meta_scaled)
+# plot(m_clr, type = "t", display = "sites")
+# plot(m_clr_envfit)
+
+# Create Contour
+m_clr_ordi_fluor <- ordisurf(m_clr ~ F_25, data_meta, plot = FALSE)
+ordi_grid <- m_clr_ordi_fluor$grid
+ordi_data <- expand.grid(x = ordi_grid$x, y = ordi_grid$y)
+ordi_data$z <- as.vector(ordi_grid$z)
+df_surf <- as_tibble(ordi_data) %>% drop_na()
+
+env_names <- tibble(
+    env = c("daylength", "nitrate", "phosphate", "silicate", "N_P", "temp_25", "sal_25", "F_25", "chla_GFF", "chla_10", "chl_small"),
+    long = c("DayLength", "Nitrate", "Phosphate", "Silicate", "N/P", "Temperature", "Salinity", "Fluoresence", "GFF", "Chlorophyll10", "ChlorophyllSmall")
+)
+
+m_clr_envfit_vectors <- as_tibble(m_clr_envfit$vectors$arrows, rownames = "env") %>%
+    add_column(p_value = m_clr_envfit$vectors$pvals) %>%
+    left_join(env_names) %>%
+    mutate(
+        p_rank = rank(desc(p_value), ties.method = "min") * 8,
+        label_pos_nmds1 = NMDS1 * 1.15,
+        label_pos_nmds2 = NMDS2 * 1.15,
+    ) %>%
+    glimpse() %>%
+    filter(p_value <= 0.05 & !(env %in% c("F_25")))
+
+p <- m_clr_scores %>%
+    ggplot(aes(x = NMDS1, y = NMDS2, color = seasons)) +
+    geom_contour_filled(
+        data = df_surf, aes(x = x, y = y, z = z, fill = as.numeric(..level..)),
+        bins = 20,
+        inherit.aes = FALSE,
+        alpha = 0.3
+    ) +
+    geom_point() +
+    geom_segment(
+        data = m_clr_envfit_vectors,
+        aes(y = 0, x = 0, xend = NMDS1 * p_rank, yend = NMDS2 * p_rank),
+        inherit.aes = FALSE,
+        color = "gray",
+        alpha = 0.5,
+        arrow = arrow(length = unit(2, "mm")),
+        lwd = 0.5,
+    ) +
+    scale_fill_viridis_c() +
+    scale_color_manual(values = color_seasons) +
+    labs(color = "Seasons", fill = "Fluorescence") +
+    ggrepel::geom_text_repel(
+        data = m_clr_envfit_vectors,
+        aes(label = long, x = label_pos_nmds1 * p_rank, y = label_pos_nmds2 * p_rank),
+        min.segment.length = 100,
+        size = 3,
+        # force = 5,
+        force_pull      = 20,
+        inherit.aes = FALSE,
+    ) +
+    coord_fixed(ratio = 1)
+fSaveImages(p, "nmds", w = 6.5, h = 6)
+```
+
+
+
+#### Statistical Models
+
+Here on out are just playground and lots of junk code for playing around with models and our data.
 
 ```{r}
-data_meta %>% glimpse()
-nrow(data_meta)
-nrow(data_otu_raref)
-nrow(data_otu_raref[which(is.na(data_meta$watermass)), ])
-# Thats for the whole composition
-(r <-
-    vegan::adonis2(
-        data_otu_raref[which(!is.na(data_meta$watermass)), ] ~ seasons * watermass + year,
-        data = data_meta %>% drop_na(watermass),
-        method = "bray",
-        perm = 100
-    )
+# library(nlme)
+# r_m <- data_malvs %>%
+#    mutate(
+#        year = lubridate::year(date)
+#    ) %>%
+#    nlme::lme(
+#        fixed = value_p ~ seasons + temp_25 + sal_25,
+#        random = ~ 1 | year,
+#        data = .,
+#    )
+# summary(r_m)
+
+library(ggh4x)
+
+ggplot(data_malvs, aes(value_p, fill = seasons)) +
+    geom_histogram()
+
+r_m_a <- lm(value_p ~ seasons, data = data_malvs)
+r_m_b <- lm(value_p ~ seasons + temp_25, data = data_malvs)
+r_m_c <- lm(value_p ~ seasons + temp_25 + sal_25, data = data_malvs)
+
+r_m <- r_m_b
+anova(r_m_b, r_m)
+
+sec_temp <- ggh4x::help_secondary(
+    data_malvs,
+    primary = value_p,
+    secondary = temp_25,
+    name = "Temperature [°C]",
+    method = "range",
+    breaks = c(-1, 0, 1, 2, 3, 4, 5)
 )
 
-data_malvs_drop <- data_malvs %>%
-    drop_na(watermass) %>%
-    mutate(
-        year = year(date),
+p <- data_malvs %>%
+    add_column(fitted = fitted(r_m)) %>%
+    ggplot(aes(x = as.character(date))) +
+    geom_path(aes(y = sec_temp$proj(temp_25), color = "Temperature", group = 1), linetype = "dashed") +
+    geom_path(aes(x = as.character(date), y = fitted, color = "Linear Model", group = 1), size = 3) +
+    geom_path(aes(x = as.character(date), y = value_p, color = "Original", group = 1), size = 3) +
+    scale_y_continuous(
+        breaks = scales::pretty_breaks(),
+        labels = scales::label_percent(),
+        sec.axis = sec_temp
+    ) +
+    scale_color_manual(
+        values = c("Temperature" = "#D55E00", "Linear Model" = "#E69F00", "Original" = "#009E73")
+    ) +
+    labs(
+        x = "Date",
+        y = "MALV relative abundance [%]",
+        color = ""
+    ) +
+    theme(
+        legend.position = "bottom",
+        axis.text.x = element_text(angle = 40, hjust = 1, size = 5)
     )
 
-# Thats for only MALV
-(r_m <-
-    vegan::adonis2(
-        data_malvs_drop$value_p ~ seasons * watermass + year,
-        data = data_malvs_drop,
-        perm = 1000
-    )
-)
-
-broom::tidy(r_m) %>% knitr::kable()
+fSaveImages(p, "LM", h = 6, w = 10)
 ```
+
 
 
