@@ -51,6 +51,24 @@ data_otu <- readr::read_tsv("data/AB332_otutab_reduc3.txt") %>%
     glimpse()
 ```
 
+## Redefine Seasons
+
+winter = daylength == 0
+summer = daylength == 24
+spring and autumn the betweens
+```{r}
+data_meta <- data_meta %>%
+    mutate(
+        seasons_old = seasons,
+        seasons = case_when(
+            daylength == 0 ~ "winter",
+            daylength == 24 ~ "summer",
+            between(month, 0, 6) ~ "spring",
+            between(month, 7, 12) ~ "autumn"
+        )
+    )
+```
+
 ## Normalize counts
 
 We have different sample reads:
@@ -72,7 +90,6 @@ CLR:
 ```{r}
 data_otu_clr_imp <- zCompositions::cmultRepl(t(data_otu_t), output = "p-counts")
 data_otu_clr_raw <- compositions::clr(data_otu_clr_imp)
-
 data_otu_clr <- bind_cols(data_otu[, 1], as_tibble(data_otu_clr_raw)) %>% glimpse()
 ```
 
@@ -91,6 +108,82 @@ data_meta_imp <- data_meta %>%
     ) %>%
     glimpse()
 ```
+
+Missing water masses were (visually) assigned based on the water masses definitions from Skogseth et al. 2020. 
+
+```{r}
+watermasses <- tribble(
+    ~ext, ~long, ~watermass, ~short, ~temp_low, ~temp_high, ~salinity_low, ~salinity_high,
+    "External", "Atlantic Water", 1, "AW", 3, 8, 34.9, 35.5,
+    "External", "Arctic Water", 0, "ArW", -2, 0, 34.3, 34.8,
+    "Local", "Surface Water", 4, "SW", 1, 8, 33, 34,
+    "Local", "Local Water", 5, "LW", -2, 1, 33, 35.5,
+    "Local", "Winter-Cooled Water", 6, "WCW", -2, -0.50, 34.4, 35.5,
+    "Mixed", "Intermediate Water", 3, "IW", 1.0, 8, 34, 34.7,
+    "Mixed", "Transformed Atlantic Water", 2, "TAW", 1, 3, 34.7, 34.9
+) %>%
+    mutate(
+        long = forcats::fct_relevel(long, "Arctic Water", "Atlantic Water", "Surface Water", "Local Water", "Winter-Cooled Water", "Intermediate Water", "Transformed Atlantic Water")
+    )
+p <- data_meta_imp %>%
+    mutate(
+        watermass = stringr::str_replace_na(watermass, "Not defined")
+    ) %>%
+    ggplot(aes(y = temp_25, x = sal_25)) +
+    geom_rect(
+        data = watermasses %>% filter(ext != "External"),
+        mapping = aes(ymin = temp_low, ymax = temp_high, xmin = salinity_low, xmax = salinity_high, fill = long),
+        inherit.aes = FALSE,
+        alpha = 1
+    ) +
+    geom_rect(
+        data = watermasses %>% filter(ext == "External" | short %in% c("WCW", "TAW")),
+        mapping = aes(ymin = temp_low, ymax = temp_high, xmin = salinity_low, xmax = salinity_high, fill = long),
+        inherit.aes = FALSE,
+        alpha = 1
+    ) +
+    geom_point(
+        color = "black",
+        size = 3.5
+    ) +
+    geom_point(
+        aes(color = watermass),
+        # color = "black",
+        size = 3
+    ) +
+    ggrepel::geom_label_repel(
+        data = data_meta_imp %>% filter(is.na(watermass)),
+        aes(label = Sample_Name)
+    ) +
+    scale_fill_manual(
+        values = colorBlindBlack8,
+        name = "Water masses\ndefinition"
+    ) +
+    scale_shape_discrete() +
+    scale_y_continuous() +
+    scale_x_continuous() +
+    # ggrepel::geom_label_repel(
+    #    aes(label = paste0(Sample_Name)),
+    #    color = "black"
+    # ) +
+    labs(
+        color = "Metadata",
+        x = "Salinity [psu]",
+        y = "Temperature [°C]"
+    )
+fSaveImages(p, "water_masses_metadata", w = 8, h = 6)
+
+# Assign Integer for Water masses based on our plot
+data_meta_imp <- data_meta_imp %>%
+    mutate(
+        watermass = case_when(
+            Sample_Name == "Isa_120308" ~ 3,
+            Sample_Name == "Isa_120419" ~ 2,
+            TRUE ~ as.numeric(watermass)
+        )
+    )
+```
+
 
 ## Data wrangling
 
@@ -504,8 +597,6 @@ fSaveImages(p1 + p2 + patchwork::plot_annotation(tag_levels = "A"), "malv_season
 fSaveImages(p1 + p3 + patchwork::plot_annotation(tag_levels = "A"), "malv_season_saltemp", w = 10)
 ```
 
-
-
 mMDS on MALVs
 ```{r}
 data_otu_clr_malv <- data_otu_clr %>%
@@ -565,8 +656,8 @@ p <- m_clr_scores %>%
         data = m_clr_envfit_vectors,
         aes(y = 0, x = 0, xend = NMDS1 * p_rank, yend = NMDS2 * p_rank),
         inherit.aes = FALSE,
-        color = "gray",
-        alpha = 0.5,
+        color = "gray70",
+        # alpha = 0.7,
         arrow = arrow(length = unit(2, "mm")),
         lwd = 0.5,
     ) +
@@ -590,7 +681,7 @@ fSaveImages(p, "nmds", w = 6.5, h = 6)
 
 #### Statistical Models
 
-Here on out are just playground and lots of junk code for playing around with models and our data.
+Linear Model on MALVs Community.
 
 ```{r}
 # library(nlme)
@@ -613,9 +704,8 @@ ggplot(data_malvs, aes(value_p, fill = seasons)) +
 r_m_a <- lm(value_p ~ seasons, data = data_malvs)
 r_m_b <- lm(value_p ~ seasons + temp_25, data = data_malvs)
 r_m_c <- lm(value_p ~ seasons + temp_25 + sal_25, data = data_malvs)
-
+anova(r_m_b, r_m_a)
 r_m <- r_m_b
-anova(r_m_b, r_m)
 
 sec_temp <- ggh4x::help_secondary(
     data_malvs,
