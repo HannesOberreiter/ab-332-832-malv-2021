@@ -104,7 +104,7 @@ data_meta_imp <- data_meta %>%
         watermass = as_factor(watermass)
     ) %>%
     mutate(
-        across(where(is.numeric), imputeTS::na_interpolation, option = "spline")
+        across(where(is.numeric), imputeTS::na_interpolation)
     ) %>%
     glimpse()
 ```
@@ -182,7 +182,92 @@ data_meta_imp <- data_meta_imp %>%
             TRUE ~ as.numeric(watermass)
         )
     )
+
+# Plot for showcasing the seasonal pattern of our metabarcoding data based on water masses.
+p <- data_meta_imp %>%
+    mutate(
+        seasons = stringr::str_to_title(seasons)
+    ) %>%
+    ggplot(aes(y = temp_25, x = sal_25)) +
+    geom_rect(
+        data = watermasses %>% filter(ext != "External"),
+        mapping = aes(ymin = temp_low, ymax = temp_high, xmin = salinity_low, xmax = salinity_high, fill = long),
+        inherit.aes = FALSE,
+        alpha = 1
+    ) +
+    geom_rect(
+        data = watermasses %>% filter(ext == "External" | short %in% c("WCW", "TAW")),
+        mapping = aes(ymin = temp_low, ymax = temp_high, xmin = salinity_low, xmax = salinity_high, fill = long),
+        inherit.aes = FALSE,
+        alpha = 1
+    ) +
+    # geom_point(
+    #    color = "black",
+    #    size = 3.5
+    # ) +
+    geom_point(
+        aes(shape = seasons),
+        # color = "black",
+        size = 3
+    ) +
+    scale_fill_manual(
+        values = colorBlindBlack8,
+        name = "Water masses\ndefinition"
+    ) +
+    scale_shape_discrete() +
+    scale_y_continuous() +
+    scale_x_continuous() +
+    # ggrepel::geom_label_repel(
+    #    aes(label = paste0(Sample_Name)),
+    #    color = "black"
+    # ) +
+    labs(
+        color = "Seasons",
+        shape = "Seasons",
+        x = "Salinity [psu]",
+        y = "Temperature [°C]"
+    )
+fSaveImages(p, "water_masses_seasons_metadata", w = 8, h = 6)
 ```
+
+
+## Seasonal Trends of Parameters
+
+
+```{r}
+p <- data_meta_imp %>%
+    mutate(
+        fake_year = lubridate::as_date(glue("{2010}-{month}-{day}")),
+        year = as.factor(year)
+    ) %>%
+    dplyr::select(year, fake_year, daylength, nitrate, phosphate, silicate, temp_25:virus) %>%
+    pivot_longer(-c("year", "fake_year")) %>%
+    filter(year != "2011") %>%
+    glimpse() %>%
+    ggplot(aes(x = fake_year, y = value, color = year, group = year)) +
+    geom_line() +
+    geom_point() +
+    scale_y_continuous(
+        labels = scales::label_number_si()
+    ) +
+    scale_x_date(
+        date_breaks = "1 month",
+        labels = scales::date_format(format = "%b")
+    ) +
+    scale_color_grey() +
+    labs(
+        x = "",
+        y = "",
+        color = "Years"
+    ) +
+    facet_wrap(~name, scales = "free_y") +
+    theme(
+        legend.position = "bottom"
+    )
+
+fSaveImages(p, "meta_years", w = 15, h = 10)
+```
+
 
 
 ## Data wrangling
@@ -593,8 +678,33 @@ p3 <- data_malvs %>%
         panel.grid.major = element_line()
     )
 
+
+p4 <- data_malvs %>%
+    arrange(desc(value_p)) %>%
+    ggplot(aes(x = temp_25, y = sal_25, color = seasons, size = value_p * 100)) +
+    geom_point() +
+    scale_y_continuous(
+        breaks = scales::pretty_breaks(6)
+    ) +
+    scale_x_continuous(
+        breaks = scales::pretty_breaks(6),
+    ) +
+    scale_color_manual(values = color_seasons) +
+    scale_size_continuous(limits = c(0, 40), breaks = seq(0, 40, by = 10)) +
+    labs(
+        y = "Practical Salinity",
+        x = "Temperature [°C]",
+        color = "Seasons",
+        size = "Relative\nabundance [%]"
+    ) +
+    guides(color = guide_legend(override.aes = list(size = 5))) +
+    theme(
+        panel.grid.major = element_line()
+    )
+
 fSaveImages(p1 + p2 + patchwork::plot_annotation(tag_levels = "A"), "malv_season_watermasses", w = 10)
 fSaveImages(p1 + p3 + patchwork::plot_annotation(tag_levels = "A"), "malv_season_saltemp", w = 10)
+fSaveImages(p1 + p4 + patchwork::plot_annotation(tag_levels = "A"), "malv_season_saltemp_seasons", w = 10)
 ```
 
 mMDS on MALVs
@@ -643,8 +753,14 @@ m_clr_envfit_vectors <- as_tibble(m_clr_envfit$vectors$arrows, rownames = "env")
     glimpse() %>%
     filter(p_value <= 0.05 & !(env %in% c("F_25")))
 
+glimpse(m_clr_scores)
+watermasses
+
+
+
 p <- m_clr_scores %>%
-    ggplot(aes(x = NMDS1, y = NMDS2, color = seasons)) +
+    left_join(watermasses, by = ("watermass" <- "watermass")) %>%
+    ggplot(aes(x = NMDS1, y = NMDS2, color = as.factor(short))) +
     geom_contour_filled(
         data = df_surf, aes(x = x, y = y, z = z, fill = as.numeric(..level..)),
         bins = 20,
@@ -662,8 +778,10 @@ p <- m_clr_scores %>%
         lwd = 0.5,
     ) +
     scale_fill_viridis_c() +
-    scale_color_manual(values = color_seasons) +
-    labs(color = "Seasons", fill = "Fluorescence") +
+    # scale_color_manual(values = color_seasons) +
+    scale_color_manual(values = colorBlindBlack8) +
+    labs(color = "Water\nmasses", fill = "Fluorescence") +
+    guides(color = guide_legend(override.aes = list(size = 3))) +
     ggrepel::geom_text_repel(
         data = m_clr_envfit_vectors,
         aes(label = long, x = label_pos_nmds1 * p_rank, y = label_pos_nmds2 * p_rank),
@@ -673,10 +791,48 @@ p <- m_clr_scores %>%
         force_pull      = 20,
         inherit.aes = FALSE,
     ) +
-    coord_fixed(ratio = 1)
-fSaveImages(p, "nmds", w = 6.5, h = 6)
-```
+    coord_fixed(ratio = 1) +
+    theme(legend.position = "bottom")
 
+
+p_seasons <- m_clr_scores %>%
+    ggplot(aes(x = NMDS1, y = NMDS2, shape = seasons)) +
+    geom_contour_filled(
+        data = df_surf, aes(x = x, y = y, z = z, fill = as.numeric(..level..)),
+        bins = 20,
+        inherit.aes = FALSE,
+        alpha = 0.3,
+        show.legend = FALSE
+    ) +
+    geom_point() +
+    geom_segment(
+        data = m_clr_envfit_vectors,
+        aes(y = 0, x = 0, xend = NMDS1 * p_rank, yend = NMDS2 * p_rank),
+        inherit.aes = FALSE,
+        color = "gray70",
+        # alpha = 0.7,
+        arrow = arrow(length = unit(2, "mm")),
+        lwd = 0.5,
+    ) +
+    scale_fill_viridis_c() +
+    scale_color_manual(values = color_seasons) +
+    # scale_color_manual(values = colorBlindBlack8) +
+    labs(shape = "Seasons", color = "Seasons", fill = "Fluorescence") +
+    guides(shape = guide_legend(override.aes = list(size = 5))) +
+    ggrepel::geom_text_repel(
+        data = m_clr_envfit_vectors,
+        aes(label = long, x = label_pos_nmds1 * p_rank, y = label_pos_nmds2 * p_rank),
+        min.segment.length = 100,
+        size = 3,
+        # force = 5,
+        force_pull      = 20,
+        inherit.aes = FALSE,
+    ) +
+    coord_fixed(ratio = 1) +
+    theme(legend.position = "bottom")
+
+fSaveImages(p + p_seasons + patchwork::plot_annotation(tag_levels = "A"), "nmds_watermass", w = 12, h = 8)
+```
 
 
 #### Statistical Models
@@ -701,11 +857,24 @@ library(ggh4x)
 ggplot(data_malvs, aes(value_p, fill = seasons)) +
     geom_histogram()
 
+ggplot(data_malvs, aes(sample = value_p)) +
+    geom_qq_line() +
+    geom_qq() +
+    facet_wrap(~seasons)
+
 r_m_a <- lm(value_p ~ seasons, data = data_malvs)
 r_m_b <- lm(value_p ~ seasons + temp_25, data = data_malvs)
 r_m_c <- lm(value_p ~ seasons + temp_25 + sal_25, data = data_malvs)
-anova(r_m_b, r_m_a)
-r_m <- r_m_b
+anova(r_m_b, r_m_c)
+
+# df_future = data_malvs %>%
+#    mutate(
+#        year = year(date)
+#    ) %>%
+#    filter(year == "2012") %>%
+#    mutate(
+#        temp_25 = temp_25 + 2,
+#    )
 
 sec_temp <- ggh4x::help_secondary(
     data_malvs,
