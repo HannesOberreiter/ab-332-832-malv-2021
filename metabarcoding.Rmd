@@ -107,6 +107,9 @@ data_meta_imp <- data_meta %>%
         across(where(is.numeric), imputeTS::na_interpolation)
     ) %>%
     glimpse()
+# Missing Data Points
+data_meta %>%
+    dplyr::filter(if_any(where(is.numeric), ~ is.na(.x)))
 ```
 
 Missing water masses were (visually) assigned based on the water masses definitions from Skogseth et al. 2020. 
@@ -754,12 +757,9 @@ m_clr_envfit_vectors <- as_tibble(m_clr_envfit$vectors$arrows, rownames = "env")
     filter(p_value <= 0.05 & !(env %in% c("F_25")))
 
 glimpse(m_clr_scores)
-watermasses
-
-
 
 p <- m_clr_scores %>%
-    left_join(watermasses, by = ("watermass" <- "watermass")) %>%
+    left_join(watermasses %>% mutate(watermass = as.factor(watermass)), by = ("watermass" <- "watermass")) %>%
     ggplot(aes(x = NMDS1, y = NMDS2, color = as.factor(short))) +
     geom_contour_filled(
         data = df_surf, aes(x = x, y = y, z = z, fill = as.numeric(..level..)),
