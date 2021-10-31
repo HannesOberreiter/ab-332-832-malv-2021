@@ -36,6 +36,7 @@ arbitrarily removing any OTU with less than 50 reads in the total dataset and re
 data_meta <- readr::read_tsv("data/AB332metadata_v3.txt") %>%
     dplyr::select(-date) %>%
     glimpse()
+
 data_taxa <- readr::read_tsv("data/AB332_2021_taxtab.txt") %>%
     glimpse()
 data_otu_t <- readr::read_tsv("data/AB332_otutab_reduc3.txt") %>%
@@ -68,6 +69,7 @@ data_meta <- data_meta %>%
         )
     )
 ```
+
 
 ## Normalize counts
 
@@ -238,6 +240,21 @@ fSaveImages(p, "water_masses_seasons_metadata", w = 8, h = 6)
 
 
 ```{r}
+meta_naming <- c(
+    "daylength" = "Day-length [h]",
+    "chl_small" = "Chlorophyll small [μg/l]",
+    "chla_10" = "Chlorophyll a total [μg/l]",
+    "chla_GFF" = "Chlorophyll a GF/F [μg/l]",
+    "F_25" = "Fluorescence [μg/l]",
+    "temp_25" = "Temperature [°C]",
+    "sal_25" = "Salinity [psu]",
+    "nitrate" = "Nitrate [μM]",
+    "phosphate" = "Phosphate [μM]",
+    "silicate" = "Silicate [μM]",
+    "virus" = "Virus [cells/ml]",
+    "bacteria" = "Bacteria [cells/ml]"
+)
+
 p <- data_meta_imp %>%
     mutate(
         fake_year = lubridate::as_date(glue("{2010}-{month}-{day}")),
@@ -246,6 +263,9 @@ p <- data_meta_imp %>%
     dplyr::select(year, fake_year, daylength, nitrate, phosphate, silicate, temp_25:virus) %>%
     pivot_longer(-c("year", "fake_year")) %>%
     filter(year != "2011") %>%
+    mutate(
+        label = stringr::str_replace_all(name, meta_naming)
+    ) %>%
     glimpse() %>%
     ggplot(aes(x = fake_year, y = value, color = year, group = year)) +
     geom_line() +
@@ -263,7 +283,7 @@ p <- data_meta_imp %>%
         y = "",
         color = "Years"
     ) +
-    facet_wrap(~name, scales = "free_y") +
+    facet_wrap(~label, scales = "free_y") +
     theme(
         legend.position = "bottom"
     )
@@ -272,6 +292,41 @@ fSaveImages(p, "meta_years", w = 15, h = 10)
 ```
 
 
+## Helper Plots for Presentation
+
+```{r}
+p <- data_meta %>%
+    filter(year %in% c(2011, 2012)) %>%
+    ggplot(aes(x = Sample_Name, y = daylength, group = 1)) +
+    geom_line(color = "#D55E00", size = 8) +
+    geom_point(color = "#D55E00") +
+    theme_void() +
+    theme(panel.background = element_blank())
+fSaveImages(p, "daylight")
+
+
+
+p <- tibble(
+    cycles = c(seq(1, 60, 1), seq(1, 60, 1), seq(1, 60, 1)),
+    run = runif(180, 0, 100),
+    name = c(rep("A", 60), rep("B", 60), rep("C", 60))
+) %>%
+    ggplot(aes(x = cycles, y = run, color = name)) +
+    geom_line(show.legend = FALSE) +
+    scale_y_continuous(
+        limits = c(0, 100),
+        breaks = scales::pretty_breaks(),
+        labels = scales::label_number_si()
+    ) +
+    scale_x_continuous(
+        limits = c(0, 60)
+    ) +
+    labs(
+        y = "RFU",
+        x = "Cycles"
+    )
+fSaveImages(p, "qPCR")
+```
 
 ## Data wrangling
 
@@ -724,10 +779,14 @@ m_clr_scores <- as_tibble(scores(m_clr), rownames = "Sample_Name") %>%
     mutate(seasons = stringr::str_to_title(seasons))
 data_meta_scaled <- data_meta_imp %>%
     dplyr::select(daylength:N_P, temp_25:virus) %>%
+    dplyr::select(-chla_10) %>%
+    # remove total chlorophyll as it is small and GFF?
     mutate(
         across(-c("daylength"), ~ as.numeric(scale(., center = TRUE, scale = TRUE)))
     ) %>%
     glimpse()
+
+data_meta_imp %>% filter(is.na(watermass))
 
 m_clr_envfit <- envfit(m_clr, data_meta_scaled)
 # plot(m_clr, type = "t", display = "sites")
@@ -742,7 +801,7 @@ df_surf <- as_tibble(ordi_data) %>% drop_na()
 
 env_names <- tibble(
     env = c("daylength", "nitrate", "phosphate", "silicate", "N_P", "temp_25", "sal_25", "F_25", "chla_GFF", "chla_10", "chl_small"),
-    long = c("DayLength", "Nitrate", "Phosphate", "Silicate", "N/P", "Temperature", "Salinity", "Fluoresence", "GFF", "Chlorophyll10", "ChlorophyllSmall")
+    long = c("DayLength", "Nitrate", "Phosphate", "Silicate", "N/P", "Temperature", "Salinity", "Fluoresence", "Chloroph. GF/F", "Chloroph. total", "Chloroph. Small")
 )
 
 m_clr_envfit_vectors <- as_tibble(m_clr_envfit$vectors$arrows, rownames = "env") %>%
@@ -756,44 +815,43 @@ m_clr_envfit_vectors <- as_tibble(m_clr_envfit$vectors$arrows, rownames = "env")
     glimpse() %>%
     filter(p_value <= 0.05 & !(env %in% c("F_25")))
 
-glimpse(m_clr_scores)
-
 p <- m_clr_scores %>%
+    mutate(watermass = as.factor(watermass)) %>%
     left_join(watermasses %>% mutate(watermass = as.factor(watermass)), by = ("watermass" <- "watermass")) %>%
     ggplot(aes(x = NMDS1, y = NMDS2, color = as.factor(short))) +
-    geom_contour_filled(
-        data = df_surf, aes(x = x, y = y, z = z, fill = as.numeric(..level..)),
-        bins = 20,
-        inherit.aes = FALSE,
-        alpha = 0.3
-    ) +
+    # geom_contour_filled(
+    #    data = df_surf, aes(x = x, y = y, z = z, fill = as.numeric(..level..)),
+    #    bins = 20,
+    #    inherit.aes = FALSE,
+    #    alpha = 0.3
+    # ) +
+    # geom_point(color = "black") +
     geom_point() +
-    geom_segment(
-        data = m_clr_envfit_vectors,
-        aes(y = 0, x = 0, xend = NMDS1 * p_rank, yend = NMDS2 * p_rank),
-        inherit.aes = FALSE,
-        color = "gray70",
-        # alpha = 0.7,
-        arrow = arrow(length = unit(2, "mm")),
-        lwd = 0.5,
-    ) +
+    # geom_segment(
+    #    data = m_clr_envfit_vectors,
+    #    aes(y = 0, x = 0, xend = NMDS1 * p_rank, yend = NMDS2 * p_rank),
+    #    inherit.aes = FALSE,
+    #    color = "gray70",
+    #    # alpha = 0.7,
+    #    arrow = arrow(length = unit(2, "mm")),
+    #    lwd = 0.5,
+    # ) +
     scale_fill_viridis_c() +
     # scale_color_manual(values = color_seasons) +
     scale_color_manual(values = colorBlindBlack8) +
     labs(color = "Water\nmasses", fill = "Fluorescence") +
     guides(color = guide_legend(override.aes = list(size = 3))) +
-    ggrepel::geom_text_repel(
-        data = m_clr_envfit_vectors,
-        aes(label = long, x = label_pos_nmds1 * p_rank, y = label_pos_nmds2 * p_rank),
-        min.segment.length = 100,
-        size = 3,
-        # force = 5,
-        force_pull      = 20,
-        inherit.aes = FALSE,
-    ) +
+    # ggrepel::geom_text_repel(
+    #    data = m_clr_envfit_vectors,
+    #    aes(label = long, x = label_pos_nmds1 * p_rank, y = label_pos_nmds2 * p_rank),
+    #    min.segment.length = 100,
+    #    size = 3,
+    #    # force = 5,
+    #    force_pull      = 20,
+    #    inherit.aes = FALSE,
+    # ) +
     coord_fixed(ratio = 1) +
     theme(legend.position = "bottom")
-
 
 p_seasons <- m_clr_scores %>%
     ggplot(aes(x = NMDS1, y = NMDS2, shape = seasons)) +
@@ -831,7 +889,7 @@ p_seasons <- m_clr_scores %>%
     coord_fixed(ratio = 1) +
     theme(legend.position = "bottom")
 
-fSaveImages(p + p_seasons + patchwork::plot_annotation(tag_levels = "A"), "nmds_watermass", w = 12, h = 8)
+fSaveImages(p + p_seasons + patchwork::plot_annotation(tag_levels = "A"), "nmds_watermass_color", w = 12, h = 8)
 ```
 
 
@@ -866,6 +924,13 @@ r_m_a <- lm(value_p ~ seasons, data = data_malvs)
 r_m_b <- lm(value_p ~ seasons + temp_25, data = data_malvs)
 r_m_c <- lm(value_p ~ seasons + temp_25 + sal_25, data = data_malvs)
 anova(r_m_b, r_m_c)
+
+performance::check_autocorrelation(r_m_b) # Bad: We have autocorrelation in residuals
+performance::check_heteroscedasticity(r_m_b) # Bad: Error is non constant and differs
+performance::check_collinearity(r_m_b) # Good: low correlation
+performance::check_normality(r_m_b) # Bad: non normal residuals
+performance::check_outliers(r_m_b) # Good: No outliers
+performance::compare_performance(r_m_a, r_m_b, r_m_c)
 
 # df_future = data_malvs %>%
 #    mutate(
@@ -913,4 +978,54 @@ fSaveImages(p, "LM", h = 6, w = 10)
 ```
 
 
+```{r}
+# join backup env
+data_model <- data_malvs %>%
+    left_join(data_meta_imp %>% dplyr::select(-sal_25, -temp_25, -watermass, -seasons), by = "Sample_Name") %>%
+    glimpse()
+
+# Autocorrelation, fixing with nlme models
+res_0 <- nlme::gls(value_p ~ 1, correlation = nlme::corARMA(p = 1, q = 1), data = data_model)
+res <- nlme::gls(value_p ~ seasons, correlation = nlme::corARMA(p = 1, q = 1), data = data_model)
+res2 <- nlme::gls(value_p ~ seasons + temp_25, correlation = nlme::corARMA(p = 1, q = 1), data = data_model)
+res3 <- nlme::gls(value_p ~ seasons + temp_25 + sal_25, correlation = nlme::corARMA(p = 1, q = 1), data = data_model)
+res4 <- nlme::gls(value_p ~ seasons + temp_25 + sal_25 + nitrate, correlation = nlme::corARMA(p = 1, q = 1), data = data_model)
+
+summary(res4)
+
+res2_o <- nlme::gls(value_p ~ seasons + temp_25, data = data_model)
+
+performance::compare_performance(res_0, res, res2, res3, res4, res2_o)
+
+summary(res2)
+summary(res2_o)
+
+anova(res, res2)
+anova(res2, res3)
+
+p <- data_malvs %>%
+    add_column(fitted = fitted(res2)) %>%
+    ggplot(aes(x = as.character(date))) +
+    geom_path(aes(y = sec_temp$proj(temp_25), color = "Temperature", group = 1), linetype = "dashed") +
+    geom_path(aes(x = as.character(date), y = fitted, color = "Linear Model", group = 1), size = 3) +
+    geom_path(aes(x = as.character(date), y = value_p, color = "Original", group = 1), size = 3) +
+    scale_y_continuous(
+        breaks = scales::pretty_breaks(),
+        labels = scales::label_percent(),
+        sec.axis = sec_temp
+    ) +
+    scale_color_manual(
+        values = c("Temperature" = "#D55E00", "Linear Model" = "#E69F00", "Original" = "#009E73")
+    ) +
+    labs(
+        x = "Date",
+        y = "MALV relative abundance [%]",
+        color = ""
+    ) +
+    theme(
+        legend.position = "bottom",
+        axis.text.x = element_text(angle = 40, hjust = 1, size = 5)
+    )
+fSaveImages(p, "LM_Autocorr")
+```
 
