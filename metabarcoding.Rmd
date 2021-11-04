@@ -70,7 +70,6 @@ data_meta <- data_meta %>%
     )
 ```
 
-
 ## Normalize counts
 
 We have different sample reads:
@@ -741,6 +740,7 @@ p4 <- data_malvs %>%
     arrange(desc(value_p)) %>%
     ggplot(aes(x = temp_25, y = sal_25, color = seasons, size = value_p * 100)) +
     geom_point() +
+    geom_point(fill = "black", color = "gray", pch = 21) +
     scale_y_continuous(
         breaks = scales::pretty_breaks(6)
     ) +
@@ -760,9 +760,10 @@ p4 <- data_malvs %>%
         panel.grid.major = element_line()
     )
 
+
 fSaveImages(p1 + p2 + patchwork::plot_annotation(tag_levels = "A"), "malv_season_watermasses", w = 10)
 fSaveImages(p1 + p3 + patchwork::plot_annotation(tag_levels = "A"), "malv_season_saltemp", w = 10)
-fSaveImages(p1 + p4 + patchwork::plot_annotation(tag_levels = "A"), "malv_season_saltemp_seasons", w = 10)
+fSaveImages(p1 + p4 + patchwork::plot_annotation(tag_levels = "A"), "malv_season_saltemp_seasons_black", w = 10)
 ```
 
 mMDS on MALVs
@@ -813,7 +814,8 @@ m_clr_envfit_vectors <- as_tibble(m_clr_envfit$vectors$arrows, rownames = "env")
         label_pos_nmds2 = NMDS2 * 1.15,
     ) %>%
     glimpse() %>%
-    filter(p_value <= 0.05 & !(env %in% c("F_25")))
+    # filter(p_value <= 0.05 & !(env %in% c("F_25")))
+    filter(p_value <= 0.05)
 
 p <- m_clr_scores %>%
     mutate(watermass = as.factor(watermass)) %>%
@@ -825,44 +827,45 @@ p <- m_clr_scores %>%
     #    inherit.aes = FALSE,
     #    alpha = 0.3
     # ) +
-    # geom_point(color = "black") +
-    geom_point() +
-    # geom_segment(
-    #    data = m_clr_envfit_vectors,
-    #    aes(y = 0, x = 0, xend = NMDS1 * p_rank, yend = NMDS2 * p_rank),
-    #    inherit.aes = FALSE,
-    #    color = "gray70",
-    #    # alpha = 0.7,
-    #    arrow = arrow(length = unit(2, "mm")),
-    #    lwd = 0.5,
-    # ) +
+    # geom_point(size = 3, color = "black") +
+    geom_point(size = 3) +
+    geom_segment(
+        data = m_clr_envfit_vectors,
+        aes(y = 0, x = 0, xend = NMDS1 * p_rank, yend = NMDS2 * p_rank),
+        inherit.aes = FALSE,
+        color = "gray70",
+        # alpha = 0.7,
+        arrow = arrow(length = unit(2, "mm")),
+        lwd = 0.5,
+    ) +
     scale_fill_viridis_c() +
     # scale_color_manual(values = color_seasons) +
     scale_color_manual(values = colorBlindBlack8) +
     labs(color = "Water\nmasses", fill = "Fluorescence") +
     guides(color = guide_legend(override.aes = list(size = 3))) +
-    # ggrepel::geom_text_repel(
-    #    data = m_clr_envfit_vectors,
-    #    aes(label = long, x = label_pos_nmds1 * p_rank, y = label_pos_nmds2 * p_rank),
-    #    min.segment.length = 100,
-    #    size = 3,
-    #    # force = 5,
-    #    force_pull      = 20,
-    #    inherit.aes = FALSE,
-    # ) +
+    ggrepel::geom_text_repel(
+        data = m_clr_envfit_vectors,
+        aes(label = long, x = label_pos_nmds1 * p_rank, y = label_pos_nmds2 * p_rank),
+        min.segment.length = 100,
+        size = 3,
+        # force = 5,
+        force_pull      = 20,
+        inherit.aes = FALSE,
+    ) +
     coord_fixed(ratio = 1) +
     theme(legend.position = "bottom")
 
 p_seasons <- m_clr_scores %>%
-    ggplot(aes(x = NMDS1, y = NMDS2, shape = seasons)) +
-    geom_contour_filled(
-        data = df_surf, aes(x = x, y = y, z = z, fill = as.numeric(..level..)),
-        bins = 20,
-        inherit.aes = FALSE,
-        alpha = 0.3,
-        show.legend = FALSE
-    ) +
-    geom_point() +
+    # ggplot(aes(x = NMDS1, y = NMDS2, color = seasons)) +
+    ggplot(aes(x = NMDS1, y = NMDS2, color = seasons)) +
+    # geom_contour_filled(
+    #    data = df_surf, aes(x = x, y = y, z = z, fill = as.numeric(..level..)),
+    #    bins = 20,
+    #    inherit.aes = FALSE,
+    #    alpha = 0.3,
+    #    show.legend = FALSE
+    # ) +
+    geom_point(size = 3) +
     geom_segment(
         data = m_clr_envfit_vectors,
         aes(y = 0, x = 0, xend = NMDS1 * p_rank, yend = NMDS2 * p_rank),
@@ -889,7 +892,7 @@ p_seasons <- m_clr_scores %>%
     coord_fixed(ratio = 1) +
     theme(legend.position = "bottom")
 
-fSaveImages(p + p_seasons + patchwork::plot_annotation(tag_levels = "A"), "nmds_watermass_color", w = 12, h = 8)
+fSaveImages(p + p_seasons + patchwork::plot_annotation(tag_levels = "A"), "nmds_watermass", w = 12, h = 8)
 ```
 
 
